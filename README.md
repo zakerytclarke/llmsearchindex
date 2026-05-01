@@ -43,7 +43,7 @@ for result in results:
 
 
 ## Architecture 
-```
+```mermaid
 flowchart LR
     A[User Query] --> B(Embed Sentence Transformers all-MiniLM-L6)
     B --> C(PCA: 384d → 64d)
