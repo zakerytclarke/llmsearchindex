@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llmsearchindex"
+version = "1.0.1"
+authors = [
+  { name="Zak Clarke", email="zakerytclarke@gmail.com" },
+]
+description = "A high-performance static internet index for LLM RAG applications"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+    "torch",
+    "faiss-cpu",
+    "numpy",
+    "httpx",
+    "requests",
+    "sentence-transformers",
+    "huggingface_hub",
+    "scikit-learn",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+# Ensure this matches the EXACT folder name where your __init__.py is
+packages = ["llmsearchindex"]
+
+[project.urls]
+"Homepage" = "https://github.com/zakerytclarke/llmsearchindex"

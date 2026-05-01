@@ -1,0 +1,2401 @@
+nohup: ignoring input
+🔧 Initializing model on cuda...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 29366.69it/s]
+⚡ Torch compile enabled
+⚠️  No PCA model found. Will train a new one on the fly...
+
+🚀 Starting training pipeline for full split...
+
+
+📚 Streaming dataset: wikimedia/wikipedia/20231101.en...
+[PCA TRAINING] 102,400 / 500,000 docs | RAM: 4.93GB
+[PCA TRAINING] 200,704 / 500,000 docs | RAM: 4.86GB
+[PCA TRAINING] 303,104 / 500,000 docs | RAM: 4.72GB
+[PCA TRAINING] 401,408 / 500,000 docs | RAM: 4.77GB
+[PCA TRAINING] 503,808 / 500,000 docs | RAM: 4.56GB
+
+🧠 PCA training complete! Locking model...
+✅ PCA model saved to models/pca_model_64.pkl
+⚡ Shifting to high-speed indexing phase...
+
+[INDEXING] 102,400 | Rate: 440 docs/sec | RAM: 4.58GB
+[INDEXING] 200,704 | Rate: 750 docs/sec | RAM: 4.57GB
+[INDEXING] 303,104 | Rate: 998 docs/sec | RAM: 4.50GB
+[INDEXING] 401,408 | Rate: 1199 docs/sec | RAM: 4.44GB
+[INDEXING] 503,808 | Rate: 1365 docs/sec | RAM: 4.39GB
+[INDEXING] 602,112 | Rate: 1496 docs/sec | RAM: 4.28GB
+[INDEXING] 700,416 | Rate: 1619 docs/sec | RAM: 4.41GB
+[INDEXING] 802,816 | Rate: 1719 docs/sec | RAM: 4.46GB
+[INDEXING] 901,120 | Rate: 1807 docs/sec | RAM: 4.46GB
+[INDEXING] 1,003,520 | Rate: 1883 docs/sec | RAM: 4.35GB
+[INDEXING] 1,101,824 | Rate: 1948 docs/sec | RAM: 4.43GB
+[INDEXING] 1,200,128 | Rate: 2010 docs/sec | RAM: 4.44GB
+[INDEXING] 1,302,528 | Rate: 2069 docs/sec | RAM: 4.40GB
+[INDEXING] 1,400,832 | Rate: 2114 docs/sec | RAM: 4.40GB
+[INDEXING] 1,503,232 | Rate: 2163 docs/sec | RAM: 4.41GB
+[INDEXING] 1,601,536 | Rate: 2200 docs/sec | RAM: 4.36GB
+[INDEXING] 1,703,936 | Rate: 2237 docs/sec | RAM: 4.43GB
+[INDEXING] 1,802,240 | Rate: 2273 docs/sec | RAM: 4.44GB
+[INDEXING] 1,900,544 | Rate: 2300 docs/sec | RAM: 4.45GB
+[INDEXING] 2,002,944 | Rate: 2325 docs/sec | RAM: 4.37GB
+[INDEXING] 2,101,248 | Rate: 2310 docs/sec | RAM: 5.65GB
+[INDEXING] 2,203,648 | Rate: 2331 docs/sec | RAM: 5.27GB
+[INDEXING] 2,301,952 | Rate: 2359 docs/sec | RAM: 4.93GB
+[INDEXING] 2,400,256 | Rate: 2382 docs/sec | RAM: 4.88GB
+[INDEXING] 2,502,656 | Rate: 2406 docs/sec | RAM: 4.55GB
+
+💾 Saving checkpoint: models/checkpoint_2502656.index
+✅ Checkpoint secured. RAM: 4.55GB
+
+[INDEXING] 2,600,960 | Rate: 2431 docs/sec | RAM: 4.56GB
+[INDEXING] 2,703,360 | Rate: 2450 docs/sec | RAM: 4.39GB
+[INDEXING] 2,801,664 | Rate: 2465 docs/sec | RAM: 4.38GB
+[INDEXING] 2,904,064 | Rate: 2477 docs/sec | RAM: 4.41GB
+[INDEXING] 3,002,368 | Rate: 2492 docs/sec | RAM: 4.52GB
+[INDEXING] 3,100,672 | Rate: 2509 docs/sec | RAM: 4.32GB
+[INDEXING] 3,203,072 | Rate: 2526 docs/sec | RAM: 4.44GB
+[INDEXING] 3,301,376 | Rate: 2539 docs/sec | RAM: 4.40GB
+[INDEXING] 3,403,776 | Rate: 2555 docs/sec | RAM: 4.41GB
+[INDEXING] 3,502,080 | Rate: 2567 docs/sec | RAM: 4.48GB
+[INDEXING] 3,600,384 | Rate: 2580 docs/sec | RAM: 4.52GB
+[INDEXING] 3,702,784 | Rate: 2594 docs/sec | RAM: 4.53GB
+[INDEXING] 3,801,088 | Rate: 2606 docs/sec | RAM: 4.54GB
+[INDEXING] 3,903,488 | Rate: 2615 docs/sec | RAM: 4.47GB
+[INDEXING] 4,001,792 | Rate: 2629 docs/sec | RAM: 4.47GB
+[INDEXING] 4,100,096 | Rate: 2641 docs/sec | RAM: 4.50GB
+[INDEXING] 4,202,496 | Rate: 2649 docs/sec | RAM: 4.49GB
+[INDEXING] 4,300,800 | Rate: 2662 docs/sec | RAM: 4.47GB
+[INDEXING] 4,403,200 | Rate: 2670 docs/sec | RAM: 4.45GB
+[INDEXING] 4,501,504 | Rate: 2678 docs/sec | RAM: 4.57GB
+[INDEXING] 4,603,904 | Rate: 2686 docs/sec | RAM: 4.57GB
+[INDEXING] 4,702,208 | Rate: 2693 docs/sec | RAM: 4.49GB
+[INDEXING] 4,800,512 | Rate: 2701 docs/sec | RAM: 4.56GB
+[INDEXING] 4,902,912 | Rate: 2707 docs/sec | RAM: 4.71GB
+[INDEXING] 5,001,216 | Rate: 2713 docs/sec | RAM: 4.65GB
+
+💾 Saving checkpoint: models/checkpoint_5001216.index
+✅ Checkpoint secured. RAM: 4.65GB
+
+[INDEXING] 5,103,616 | Rate: 2720 docs/sec | RAM: 4.66GB
+[INDEXING] 5,201,920 | Rate: 2725 docs/sec | RAM: 5.43GB
+[INDEXING] 5,300,224 | Rate: 2688 docs/sec | RAM: 5.70GB
+[INDEXING] 5,402,624 | Rate: 2670 docs/sec | RAM: 5.91GB
+[INDEXING] 5,500,928 | Rate: 2657 docs/sec | RAM: 5.83GB
+[INDEXING] 5,603,328 | Rate: 2649 docs/sec | RAM: 4.83GB
+[INDEXING] 5,701,632 | Rate: 2644 docs/sec | RAM: 5.70GB
+[INDEXING] 5,804,032 | Rate: 2639 docs/sec | RAM: 5.43GB
+[INDEXING] 5,902,336 | Rate: 2637 docs/sec | RAM: 5.44GB
+
+📚 Streaming dataset: HuggingFaceFW/fineweb/CC-MAIN-2025-26...
+[INDEXING] 6,000,640 | Rate: 2619 docs/sec | RAM: 6.44GB
+[INDEXING] 6,103,040 | Rate: 2620 docs/sec | RAM: 6.45GB
+[INDEXING] 6,201,344 | Rate: 2621 docs/sec | RAM: 6.70GB
+[INDEXING] 6,303,744 | Rate: 2621 docs/sec | RAM: 7.00GB
+[INDEXING] 6,402,048 | Rate: 2622 docs/sec | RAM: 7.01GB
+[INDEXING] 6,500,352 | Rate: 2621 docs/sec | RAM: 7.63GB
+[INDEXING] 6,602,752 | Rate: 2621 docs/sec | RAM: 7.64GB
+[INDEXING] 6,701,056 | Rate: 2621 docs/sec | RAM: 7.87GB
+[INDEXING] 6,803,456 | Rate: 2622 docs/sec | RAM: 7.82GB
+[INDEXING] 6,901,760 | Rate: 2620 docs/sec | RAM: 6.20GB
+[INDEXING] 7,000,064 | Rate: 2620 docs/sec | RAM: 6.40GB
+[INDEXING] 7,102,464 | Rate: 2621 docs/sec | RAM: 6.43GB
+[INDEXING] 7,200,768 | Rate: 2621 docs/sec | RAM: 7.04GB
+[INDEXING] 7,303,168 | Rate: 2621 docs/sec | RAM: 7.07GB
+[INDEXING] 7,401,472 | Rate: 2621 docs/sec | RAM: 7.10GB
+[INDEXING] 7,503,872 | Rate: 2620 docs/sec | RAM: 7.66GB
+
+💾 Saving checkpoint: models/checkpoint_7503872.index
+✅ Checkpoint secured. RAM: 7.66GB
+
+[INDEXING] 7,602,176 | Rate: 2620 docs/sec | RAM: 7.67GB
+[INDEXING] 7,700,480 | Rate: 2619 docs/sec | RAM: 7.89GB
+[INDEXING] 7,802,880 | Rate: 2620 docs/sec | RAM: 7.85GB
+[INDEXING] 7,901,184 | Rate: 2618 docs/sec | RAM: 6.55GB
+[INDEXING] 8,003,584 | Rate: 2619 docs/sec | RAM: 6.56GB
+[INDEXING] 8,101,888 | Rate: 2619 docs/sec | RAM: 6.60GB
+[INDEXING] 8,200,192 | Rate: 2619 docs/sec | RAM: 7.19GB
+[INDEXING] 8,302,592 | Rate: 2619 docs/sec | RAM: 7.20GB
+[INDEXING] 8,400,896 | Rate: 2619 docs/sec | RAM: 7.82GB
+[INDEXING] 8,503,296 | Rate: 2619 docs/sec | RAM: 7.85GB
+[INDEXING] 8,601,600 | Rate: 2620 docs/sec | RAM: 7.87GB
+[INDEXING] 8,704,000 | Rate: 2619 docs/sec | RAM: 8.02GB
+[INDEXING] 8,802,304 | Rate: 2616 docs/sec | RAM: 7.73GB
+[INDEXING] 8,900,608 | Rate: 2616 docs/sec | RAM: 7.77GB
+[INDEXING] 9,003,008 | Rate: 2616 docs/sec | RAM: 7.78GB
+[INDEXING] 9,101,312 | Rate: 2617 docs/sec | RAM: 7.79GB
+[INDEXING] 9,203,712 | Rate: 2616 docs/sec | RAM: 7.85GB
+[INDEXING] 9,302,016 | Rate: 2617 docs/sec | RAM: 7.81GB
+[INDEXING] 9,400,320 | Rate: 2617 docs/sec | RAM: 7.97GB
+[INDEXING] 9,502,720 | Rate: 2617 docs/sec | RAM: 7.98GB
+[INDEXING] 9,601,024 | Rate: 2617 docs/sec | RAM: 8.28GB
+[INDEXING] 9,703,424 | Rate: 2616 docs/sec | RAM: 8.29GB
+[INDEXING] 9,801,728 | Rate: 2615 docs/sec | RAM: 7.75GB
+[INDEXING] 9,900,032 | Rate: 2614 docs/sec | RAM: 7.76GB
+[INDEXING] 10,002,432 | Rate: 2615 docs/sec | RAM: 7.77GB
+
+💾 Saving checkpoint: models/checkpoint_10002432.index
+✅ Checkpoint secured. RAM: 7.77GB
+
+[INDEXING] 10,100,736 | Rate: 2613 docs/sec | RAM: 7.78GB
+[INDEXING] 10,203,136 | Rate: 2613 docs/sec | RAM: 7.80GB
+[INDEXING] 10,301,440 | Rate: 2613 docs/sec | RAM: 7.75GB
+[INDEXING] 10,403,840 | Rate: 2613 docs/sec | RAM: 8.17GB
+[INDEXING] 10,502,144 | Rate: 2613 docs/sec | RAM: 8.19GB
+[INDEXING] 10,600,448 | Rate: 2613 docs/sec | RAM: 8.27GB
+[INDEXING] 10,702,848 | Rate: 2612 docs/sec | RAM: 7.71GB
+[INDEXING] 10,801,152 | Rate: 2612 docs/sec | RAM: 7.80GB
+[INDEXING] 10,903,552 | Rate: 2612 docs/sec | RAM: 7.82GB
+[INDEXING] 11,001,856 | Rate: 2612 docs/sec | RAM: 7.80GB
+[INDEXING] 11,100,160 | Rate: 2612 docs/sec | RAM: 7.78GB
+[INDEXING] 11,202,560 | Rate: 2612 docs/sec | RAM: 7.79GB
+[INDEXING] 11,300,864 | Rate: 2611 docs/sec | RAM: 8.25GB
+[INDEXING] 11,403,264 | Rate: 2611 docs/sec | RAM: 8.32GB
+[INDEXING] 11,501,568 | Rate: 2611 docs/sec | RAM: 8.35GB
+[INDEXING] 11,603,968 | Rate: 2610 docs/sec | RAM: 8.32GB
+[INDEXING] 11,702,272 | Rate: 2609 docs/sec | RAM: 7.52GB
+[INDEXING] 11,800,576 | Rate: 2609 docs/sec | RAM: 7.50GB
+[INDEXING] 11,902,976 | Rate: 2610 docs/sec | RAM: 7.51GB
+[INDEXING] 12,001,280 | Rate: 2609 docs/sec | RAM: 7.72GB
+[INDEXING] 12,103,680 | Rate: 2609 docs/sec | RAM: 7.73GB
+[INDEXING] 12,201,984 | Rate: 2609 docs/sec | RAM: 8.22GB
+[INDEXING] 12,300,288 | Rate: 2608 docs/sec | RAM: 8.30GB
+[INDEXING] 12,402,688 | Rate: 2608 docs/sec | RAM: 8.31GB
+[INDEXING] 12,500,992 | Rate: 2608 docs/sec | RAM: 8.60GB
+
+💾 Saving checkpoint: models/checkpoint_12500992.index
+✅ Checkpoint secured. RAM: 8.60GB
+
+[INDEXING] 12,603,392 | Rate: 2606 docs/sec | RAM: 6.95GB
+[INDEXING] 12,701,696 | Rate: 2605 docs/sec | RAM: 7.20GB
+[INDEXING] 12,800,000 | Rate: 2606 docs/sec | RAM: 7.21GB
+[INDEXING] 12,902,400 | Rate: 2606 docs/sec | RAM: 7.80GB
+[INDEXING] 13,000,704 | Rate: 2605 docs/sec | RAM: 7.81GB
+[INDEXING] 13,103,104 | Rate: 2605 docs/sec | RAM: 7.82GB
+[INDEXING] 13,201,408 | Rate: 2605 docs/sec | RAM: 8.37GB
+[INDEXING] 13,303,808 | Rate: 2605 docs/sec | RAM: 8.38GB
+[INDEXING] 13,402,112 | Rate: 2605 docs/sec | RAM: 8.53GB
+[INDEXING] 13,500,416 | Rate: 2604 docs/sec | RAM: 8.53GB
+[INDEXING] 13,602,816 | Rate: 2604 docs/sec | RAM: 7.09GB
+[INDEXING] 13,701,120 | Rate: 2604 docs/sec | RAM: 7.22GB
+[INDEXING] 13,803,520 | Rate: 2604 docs/sec | RAM: 7.23GB
+[INDEXING] 13,901,824 | Rate: 2604 docs/sec | RAM: 7.87GB
+[INDEXING] 14,000,128 | Rate: 2604 docs/sec | RAM: 7.88GB
+[INDEXING] 14,102,528 | Rate: 2603 docs/sec | RAM: 8.05GB
+[INDEXING] 14,200,832 | Rate: 2603 docs/sec | RAM: 8.54GB
+[INDEXING] 14,303,232 | Rate: 2603 docs/sec | RAM: 8.55GB
+[INDEXING] 14,401,536 | Rate: 2603 docs/sec | RAM: 8.68GB
+[INDEXING] 14,503,936 | Rate: 2603 docs/sec | RAM: 8.69GB
+[INDEXING] 14,602,240 | Rate: 2601 docs/sec | RAM: 7.38GB
+[INDEXING] 14,700,544 | Rate: 2601 docs/sec | RAM: 7.33GB
+[INDEXING] 14,802,944 | Rate: 2601 docs/sec | RAM: 7.90GB
+[INDEXING] 14,901,248 | Rate: 2601 docs/sec | RAM: 7.94GB
+[INDEXING] 15,003,648 | Rate: 2600 docs/sec | RAM: 7.95GB
+
+💾 Saving checkpoint: models/checkpoint_15003648.index
+✅ Checkpoint secured. RAM: 7.95GB
+
+[INDEXING] 15,101,952 | Rate: 2599 docs/sec | RAM: 8.59GB
+[INDEXING] 15,200,256 | Rate: 2599 docs/sec | RAM: 8.61GB
+[INDEXING] 15,302,656 | Rate: 2598 docs/sec | RAM: 8.62GB
+[INDEXING] 15,400,960 | Rate: 2598 docs/sec | RAM: 8.81GB
+[INDEXING] 15,503,360 | Rate: 2598 docs/sec | RAM: 7.88GB
+[INDEXING] 15,601,664 | Rate: 2597 docs/sec | RAM: 7.89GB
+[INDEXING] 15,704,064 | Rate: 2597 docs/sec | RAM: 7.91GB
+[INDEXING] 15,802,368 | Rate: 2597 docs/sec | RAM: 8.14GB
+[INDEXING] 15,900,672 | Rate: 2597 docs/sec | RAM: 8.15GB
+[INDEXING] 16,003,072 | Rate: 2597 docs/sec | RAM: 8.28GB
+[INDEXING] 16,101,376 | Rate: 2596 docs/sec | RAM: 8.69GB
+[INDEXING] 16,203,776 | Rate: 2596 docs/sec | RAM: 8.70GB
+[INDEXING] 16,302,080 | Rate: 2596 docs/sec | RAM: 8.86GB
+[INDEXING] 16,400,384 | Rate: 2596 docs/sec | RAM: 8.88GB
+[INDEXING] 16,502,784 | Rate: 2595 docs/sec | RAM: 8.92GB
+[INDEXING] 16,601,088 | Rate: 2595 docs/sec | RAM: 8.93GB
+[INDEXING] 16,703,488 | Rate: 2595 docs/sec | RAM: 8.94GB
+[INDEXING] 16,801,792 | Rate: 2594 docs/sec | RAM: 8.81GB
+[INDEXING] 16,900,096 | Rate: 2594 docs/sec | RAM: 8.77GB
+[INDEXING] 17,002,496 | Rate: 2594 docs/sec | RAM: 8.95GB
+[INDEXING] 17,100,800 | Rate: 2593 docs/sec | RAM: 9.02GB
+[INDEXING] 17,203,200 | Rate: 2593 docs/sec | RAM: 9.03GB
+[INDEXING] 17,301,504 | Rate: 2593 docs/sec | RAM: 9.19GB
+[INDEXING] 17,403,904 | Rate: 2592 docs/sec | RAM: 8.31GB
+[INDEXING] 17,502,208 | Rate: 2592 docs/sec | RAM: 8.32GB
+
+💾 Saving checkpoint: models/checkpoint_17502208.index
+✅ Checkpoint secured. RAM: 8.32GB
+
+[INDEXING] 17,600,512 | Rate: 2591 docs/sec | RAM: 8.33GB
+[INDEXING] 17,702,912 | Rate: 2590 docs/sec | RAM: 8.34GB
+[INDEXING] 17,801,216 | Rate: 2590 docs/sec | RAM: 8.34GB
+[INDEXING] 17,903,616 | Rate: 2590 docs/sec | RAM: 8.48GB
+[INDEXING] 18,001,920 | Rate: 2590 docs/sec | RAM: 8.95GB
+[INDEXING] 18,100,224 | Rate: 2590 docs/sec | RAM: 8.96GB
+[INDEXING] 18,202,624 | Rate: 2590 docs/sec | RAM: 9.07GB
+[INDEXING] 18,300,928 | Rate: 2590 docs/sec | RAM: 9.08GB
+[INDEXING] 18,403,328 | Rate: 2589 docs/sec | RAM: 8.45GB
+[INDEXING] 18,501,632 | Rate: 2588 docs/sec | RAM: 8.46GB
+[INDEXING] 18,604,032 | Rate: 2588 docs/sec | RAM: 8.42GB
+[INDEXING] 18,702,336 | Rate: 2588 docs/sec | RAM: 8.56GB
+[INDEXING] 18,800,640 | Rate: 2588 docs/sec | RAM: 8.57GB
+[INDEXING] 18,903,040 | Rate: 2587 docs/sec | RAM: 9.22GB
+[INDEXING] 19,001,344 | Rate: 2587 docs/sec | RAM: 9.23GB
+[INDEXING] 19,103,744 | Rate: 2587 docs/sec | RAM: 9.33GB
+[INDEXING] 19,202,048 | Rate: 2587 docs/sec | RAM: 9.34GB
+[INDEXING] 19,300,352 | Rate: 2586 docs/sec | RAM: 8.57GB
+[INDEXING] 19,402,752 | Rate: 2586 docs/sec | RAM: 8.58GB
+[INDEXING] 19,501,056 | Rate: 2586 docs/sec | RAM: 8.59GB
+[INDEXING] 19,603,456 | Rate: 2585 docs/sec | RAM: 8.72GB
+[INDEXING] 19,701,760 | Rate: 2585 docs/sec | RAM: 8.73GB
+[INDEXING] 19,800,064 | Rate: 2585 docs/sec | RAM: 8.80GB
+[INDEXING] 19,902,464 | Rate: 2585 docs/sec | RAM: 9.26GB
+[INDEXING] 20,000,768 | Rate: 2584 docs/sec | RAM: 9.27GB
+
+💾 Saving checkpoint: models/checkpoint_20000768.index
+✅ Checkpoint secured. RAM: 9.27GB
+
+[INDEXING] 20,103,168 | Rate: 2583 docs/sec | RAM: 9.53GB
+[INDEXING] 20,201,472 | Rate: 2583 docs/sec | RAM: 9.53GB
+[INDEXING] 20,303,872 | Rate: 2582 docs/sec | RAM: 8.74GB
+[INDEXING] 20,402,176 | Rate: 2582 docs/sec | RAM: 8.75GB
+[INDEXING] 20,500,480 | Rate: 2582 docs/sec | RAM: 8.76GB
+[INDEXING] 20,602,880 | Rate: 2581 docs/sec | RAM: 8.77GB
+[INDEXING] 20,701,184 | Rate: 2581 docs/sec | RAM: 8.78GB
+[INDEXING] 20,803,584 | Rate: 2581 docs/sec | RAM: 9.00GB
+[INDEXING] 20,901,888 | Rate: 2581 docs/sec | RAM: 9.32GB
+[INDEXING] 21,000,192 | Rate: 2581 docs/sec | RAM: 9.35GB
+[INDEXING] 21,102,592 | Rate: 2580 docs/sec | RAM: 9.48GB
+[INDEXING] 21,200,896 | Rate: 2580 docs/sec | RAM: 8.68GB
+[INDEXING] 21,303,296 | Rate: 2580 docs/sec | RAM: 8.72GB
+[INDEXING] 21,401,600 | Rate: 2579 docs/sec | RAM: 8.73GB
+[INDEXING] 21,504,000 | Rate: 2579 docs/sec | RAM: 8.77GB
+[INDEXING] 21,602,304 | Rate: 2579 docs/sec | RAM: 8.78GB
+[INDEXING] 21,700,608 | Rate: 2578 docs/sec | RAM: 8.81GB
+[INDEXING] 21,803,008 | Rate: 2578 docs/sec | RAM: 9.35GB
+[INDEXING] 21,901,312 | Rate: 2578 docs/sec | RAM: 9.36GB
+[INDEXING] 22,003,712 | Rate: 2578 docs/sec | RAM: 9.51GB
+[INDEXING] 22,102,016 | Rate: 2578 docs/sec | RAM: 9.52GB
+[INDEXING] 22,200,320 | Rate: 2577 docs/sec | RAM: 8.81GB
+[INDEXING] 22,302,720 | Rate: 2576 docs/sec | RAM: 8.86GB
+[INDEXING] 22,401,024 | Rate: 2576 docs/sec | RAM: 8.87GB
+[INDEXING] 22,503,424 | Rate: 2576 docs/sec | RAM: 8.83GB
+
+💾 Saving checkpoint: models/checkpoint_22503424.index
+✅ Checkpoint secured. RAM: 8.83GB
+
+[INDEXING] 22,601,728 | Rate: 2574 docs/sec | RAM: 8.86GB
+[INDEXING] 22,700,032 | Rate: 2574 docs/sec | RAM: 9.21GB
+[INDEXING] 22,802,432 | Rate: 2574 docs/sec | RAM: 9.49GB
+[INDEXING] 22,900,736 | Rate: 2573 docs/sec | RAM: 9.49GB
+[INDEXING] 23,003,136 | Rate: 2573 docs/sec | RAM: 9.62GB
+[INDEXING] 23,101,440 | Rate: 2572 docs/sec | RAM: 8.91GB
+[INDEXING] 23,203,840 | Rate: 2572 docs/sec | RAM: 8.95GB
+[INDEXING] 23,302,144 | Rate: 2572 docs/sec | RAM: 8.96GB
+[INDEXING] 23,400,448 | Rate: 2572 docs/sec | RAM: 8.97GB
+[INDEXING] 23,502,848 | Rate: 2571 docs/sec | RAM: 8.98GB
+[INDEXING] 23,601,152 | Rate: 2571 docs/sec | RAM: 8.99GB
+[INDEXING] 23,703,552 | Rate: 2571 docs/sec | RAM: 9.49GB
+[INDEXING] 23,801,856 | Rate: 2571 docs/sec | RAM: 9.50GB
+[INDEXING] 23,900,160 | Rate: 2570 docs/sec | RAM: 9.75GB
+[INDEXING] 24,002,560 | Rate: 2570 docs/sec | RAM: 9.76GB
+[INDEXING] 24,100,864 | Rate: 2570 docs/sec | RAM: 9.01GB
+[INDEXING] 24,203,264 | Rate: 2569 docs/sec | RAM: 9.02GB
+[INDEXING] 24,301,568 | Rate: 2569 docs/sec | RAM: 9.03GB
+[INDEXING] 24,403,968 | Rate: 2569 docs/sec | RAM: 9.17GB
+[INDEXING] 24,502,272 | Rate: 2568 docs/sec | RAM: 9.18GB
+[INDEXING] 24,600,576 | Rate: 2568 docs/sec | RAM: 9.25GB
+[INDEXING] 24,702,976 | Rate: 2568 docs/sec | RAM: 9.76GB
+[INDEXING] 24,801,280 | Rate: 2567 docs/sec | RAM: 9.77GB
+[INDEXING] 24,903,680 | Rate: 2567 docs/sec | RAM: 9.90GB
+[INDEXING] 25,001,984 | Rate: 2567 docs/sec | RAM: 9.12GB
+
+💾 Saving checkpoint: models/checkpoint_25001984.index
+✅ Checkpoint secured. RAM: 9.12GB
+
+[INDEXING] 25,100,288 | Rate: 2565 docs/sec | RAM: 9.13GB
+[INDEXING] 25,202,688 | Rate: 2565 docs/sec | RAM: 9.14GB
+[INDEXING] 25,300,992 | Rate: 2565 docs/sec | RAM: 9.15GB
+[INDEXING] 25,403,392 | Rate: 2564 docs/sec | RAM: 9.25GB
+[INDEXING] 25,501,696 | Rate: 2564 docs/sec | RAM: 9.26GB
+[INDEXING] 25,600,000 | Rate: 2564 docs/sec | RAM: 9.76GB
+[INDEXING] 25,702,400 | Rate: 2564 docs/sec | RAM: 9.89GB
+[INDEXING] 25,800,704 | Rate: 2563 docs/sec | RAM: 9.90GB'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/HuggingFaceFW/fineweb/resolve/9bb295ddab0e05d785b879661af7260fed5140fc/data/CC-MAIN-2025-26/000_00029.parquet
+Retrying in 1s [Retry 1/5].
+
+[INDEXING] 25,903,104 | Rate: 2563 docs/sec | RAM: 10.00GB
+[INDEXING] 26,001,408 | Rate: 2562 docs/sec | RAM: 9.76GB
+[INDEXING] 26,103,808 | Rate: 2562 docs/sec | RAM: 9.77GB
+[INDEXING] 26,202,112 | Rate: 2562 docs/sec | RAM: 9.78GB
+[INDEXING] 26,300,416 | Rate: 2561 docs/sec | RAM: 9.79GB
+[INDEXING] 26,402,816 | Rate: 2561 docs/sec | RAM: 9.80GB
+[INDEXING] 26,501,120 | Rate: 2561 docs/sec | RAM: 9.81GB
+[INDEXING] 26,603,520 | Rate: 2561 docs/sec | RAM: 9.91GB
+[INDEXING] 26,701,824 | Rate: 2561 docs/sec | RAM: 9.92GB
+[INDEXING] 26,800,128 | Rate: 2560 docs/sec | RAM: 9.96GB
+[INDEXING] 26,902,528 | Rate: 2560 docs/sec | RAM: 9.97GB
+[INDEXING] 27,000,832 | Rate: 2559 docs/sec | RAM: 9.71GB
+[INDEXING] 27,103,232 | Rate: 2559 docs/sec | RAM: 9.72GB
+[INDEXING] 27,201,536 | Rate: 2559 docs/sec | RAM: 9.73GB
+[INDEXING] 27,303,936 | Rate: 2558 docs/sec | RAM: 9.74GB
+[INDEXING] 27,402,240 | Rate: 2558 docs/sec | RAM: 9.69GB
+[INDEXING] 27,500,544 | Rate: 2558 docs/sec | RAM: 9.73GB
+
+💾 Saving checkpoint: models/checkpoint_27500544.index
+✅ Checkpoint secured. RAM: 9.73GB
+
+[INDEXING] 27,602,944 | Rate: 2556 docs/sec | RAM: 10.04GB
+[INDEXING] 27,701,248 | Rate: 2556 docs/sec | RAM: 10.05GB
+[INDEXING] 27,803,648 | Rate: 2556 docs/sec | RAM: 10.06GB
+[INDEXING] 27,901,952 | Rate: 2555 docs/sec | RAM: 9.79GB
+[INDEXING] 28,000,256 | Rate: 2555 docs/sec | RAM: 9.80GB
+[INDEXING] 28,102,656 | Rate: 2555 docs/sec | RAM: 9.81GB
+[INDEXING] 28,200,960 | Rate: 2554 docs/sec | RAM: 9.82GB
+[INDEXING] 28,303,360 | Rate: 2554 docs/sec | RAM: 9.86GB
+[INDEXING] 28,401,664 | Rate: 2554 docs/sec | RAM: 9.87GB
+[INDEXING] 28,504,064 | Rate: 2553 docs/sec | RAM: 9.97GB
+[INDEXING] 28,602,368 | Rate: 2553 docs/sec | RAM: 10.19GB
+[INDEXING] 28,700,672 | Rate: 2553 docs/sec | RAM: 10.20GB
+[INDEXING] 28,803,072 | Rate: 2553 docs/sec | RAM: 10.21GB
+[INDEXING] 28,901,376 | Rate: 2552 docs/sec | RAM: 9.50GB
+[INDEXING] 29,003,776 | Rate: 2552 docs/sec | RAM: 9.51GB
+[INDEXING] 29,102,080 | Rate: 2552 docs/sec | RAM: 9.52GB
+[INDEXING] 29,200,384 | Rate: 2551 docs/sec | RAM: 9.62GB
+[INDEXING] 29,302,784 | Rate: 2551 docs/sec | RAM: 9.63GB
+[INDEXING] 29,401,088 | Rate: 2551 docs/sec | RAM: 9.64GB
+[INDEXING] 29,503,488 | Rate: 2550 docs/sec | RAM: 10.17GB
+[INDEXING] 29,601,792 | Rate: 2550 docs/sec | RAM: 10.18GB
+[INDEXING] 29,700,096 | Rate: 2550 docs/sec | RAM: 10.19GB
+[INDEXING] 29,802,496 | Rate: 2549 docs/sec | RAM: 9.55GB
+[INDEXING] 29,900,800 | Rate: 2549 docs/sec | RAM: 9.62GB
+[INDEXING] 30,003,200 | Rate: 2548 docs/sec | RAM: 9.58GB
+
+💾 Saving checkpoint: models/checkpoint_30003200.index
+✅ Checkpoint secured. RAM: 9.58GB
+
+[INDEXING] 30,101,504 | Rate: 2547 docs/sec | RAM: 9.62GB
+[INDEXING] 30,203,904 | Rate: 2547 docs/sec | RAM: 9.79GB
+[INDEXING] 30,302,208 | Rate: 2547 docs/sec | RAM: 9.80GB
+[INDEXING] 30,400,512 | Rate: 2546 docs/sec | RAM: 10.14GB
+[INDEXING] 30,502,912 | Rate: 2546 docs/sec | RAM: 10.43GB
+[INDEXING] 30,601,216 | Rate: 2546 docs/sec | RAM: 10.39GB
+[INDEXING] 30,703,616 | Rate: 2545 docs/sec | RAM: 10.44GB
+[INDEXING] 30,801,920 | Rate: 2545 docs/sec | RAM: 10.16GB
+[INDEXING] 30,900,224 | Rate: 2544 docs/sec | RAM: 10.17GB
+[INDEXING] 31,002,624 | Rate: 2544 docs/sec | RAM: 10.18GB
+[INDEXING] 31,100,928 | Rate: 2544 docs/sec | RAM: 10.14GB
+[INDEXING] 31,203,328 | Rate: 2544 docs/sec | RAM: 10.15GB
+[INDEXING] 31,301,632 | Rate: 2544 docs/sec | RAM: 10.16GB
+[INDEXING] 31,404,032 | Rate: 2543 docs/sec | RAM: 10.35GB
+[INDEXING] 31,502,336 | Rate: 2543 docs/sec | RAM: 10.38GB
+[INDEXING] 31,600,640 | Rate: 2543 docs/sec | RAM: 10.44GB
+[INDEXING] 31,703,040 | Rate: 2542 docs/sec | RAM: 9.76GB
+[INDEXING] 31,801,344 | Rate: 2542 docs/sec | RAM: 9.77GB
+[INDEXING] 31,903,744 | Rate: 2542 docs/sec | RAM: 9.78GB
+[INDEXING] 32,002,048 | Rate: 2541 docs/sec | RAM: 9.79GB
+[INDEXING] 32,100,352 | Rate: 2541 docs/sec | RAM: 9.83GB
+[INDEXING] 32,202,752 | Rate: 2541 docs/sec | RAM: 9.84GB
+[INDEXING] 32,301,056 | Rate: 2540 docs/sec | RAM: 10.52GB
+[INDEXING] 32,403,456 | Rate: 2540 docs/sec | RAM: 10.53GB
+[INDEXING] 32,501,760 | Rate: 2540 docs/sec | RAM: 10.54GB
+
+💾 Saving checkpoint: models/checkpoint_32501760.index
+✅ Checkpoint secured. RAM: 10.54GB
+
+[INDEXING] 32,600,064 | Rate: 2538 docs/sec | RAM: 10.55GB
+[INDEXING] 32,702,464 | Rate: 2537 docs/sec | RAM: 9.96GB
+[INDEXING] 32,800,768 | Rate: 2537 docs/sec | RAM: 9.92GB
+[INDEXING] 32,903,168 | Rate: 2537 docs/sec | RAM: 9.95GB
+[INDEXING] 33,001,472 | Rate: 2537 docs/sec | RAM: 10.02GB
+[INDEXING] 33,103,872 | Rate: 2537 docs/sec | RAM: 10.03GB
+[INDEXING] 33,202,176 | Rate: 2536 docs/sec | RAM: 10.08GB
+[INDEXING] 33,300,480 | Rate: 2536 docs/sec | RAM: 10.71GB
+[INDEXING] 33,402,880 | Rate: 2536 docs/sec | RAM: 10.72GB
+[INDEXING] 33,501,184 | Rate: 2535 docs/sec | RAM: 10.79GB
+[INDEXING] 33,603,584 | Rate: 2535 docs/sec | RAM: 10.57GB
+[INDEXING] 33,701,888 | Rate: 2535 docs/sec | RAM: 10.58GB
+[INDEXING] 33,800,192 | Rate: 2534 docs/sec | RAM: 10.59GB
+[INDEXING] 33,902,592 | Rate: 2534 docs/sec | RAM: 10.60GB
+[INDEXING] 34,000,896 | Rate: 2534 docs/sec | RAM: 10.61GB
+[INDEXING] 34,103,296 | Rate: 2533 docs/sec | RAM: 10.62GB
+[INDEXING] 34,201,600 | Rate: 2533 docs/sec | RAM: 10.63GB
+[INDEXING] 34,304,000 | Rate: 2533 docs/sec | RAM: 10.80GB
+[INDEXING] 34,402,304 | Rate: 2532 docs/sec | RAM: 10.86GB
+[INDEXING] 34,500,608 | Rate: 2532 docs/sec | RAM: 10.81GB
+[INDEXING] 34,603,008 | Rate: 2531 docs/sec | RAM: 9.80GB
+[INDEXING] 34,701,312 | Rate: 2531 docs/sec | RAM: 9.77GB
+[INDEXING] 34,803,712 | Rate: 2531 docs/sec | RAM: 9.79GB
+[INDEXING] 34,902,016 | Rate: 2531 docs/sec | RAM: 10.17GB
+[INDEXING] 35,000,320 | Rate: 2530 docs/sec | RAM: 10.18GB
+
+💾 Saving checkpoint: models/checkpoint_35000320.index
+✅ Checkpoint secured. RAM: 10.18GB
+
+[INDEXING] 35,102,720 | Rate: 2529 docs/sec | RAM: 10.19GB
+[INDEXING] 35,201,024 | Rate: 2529 docs/sec | RAM: 10.89GB
+[INDEXING] 35,303,424 | Rate: 2529 docs/sec | RAM: 10.90GB
+[INDEXING] 35,401,728 | Rate: 2528 docs/sec | RAM: 10.91GB
+[INDEXING] 35,500,032 | Rate: 2527 docs/sec | RAM: 9.33GB
+[INDEXING] 35,602,432 | Rate: 2527 docs/sec | RAM: 9.68GB
+[INDEXING] 35,700,736 | Rate: 2527 docs/sec | RAM: 9.69GB
+[INDEXING] 35,803,136 | Rate: 2526 docs/sec | RAM: 9.76GB
+[INDEXING] 35,901,440 | Rate: 2526 docs/sec | RAM: 10.37GB
+[INDEXING] 36,003,840 | Rate: 2526 docs/sec | RAM: 10.38GB
+[INDEXING] 36,102,144 | Rate: 2525 docs/sec | RAM: 10.61GB
+[INDEXING] 36,200,448 | Rate: 2525 docs/sec | RAM: 10.98GB
+[INDEXING] 36,302,848 | Rate: 2525 docs/sec | RAM: 10.99GB
+[INDEXING] 36,401,152 | Rate: 2525 docs/sec | RAM: 11.00GB
+[INDEXING] 36,503,552 | Rate: 2524 docs/sec | RAM: 9.97GB
+[INDEXING] 36,601,856 | Rate: 2524 docs/sec | RAM: 9.93GB
+[INDEXING] 36,700,160 | Rate: 2524 docs/sec | RAM: 9.95GB
+[INDEXING] 36,802,560 | Rate: 2523 docs/sec | RAM: 10.36GB
+[INDEXING] 36,900,864 | Rate: 2523 docs/sec | RAM: 10.37GB
+[INDEXING] 37,003,264 | Rate: 2523 docs/sec | RAM: 10.44GB
+[INDEXING] 37,101,568 | Rate: 2523 docs/sec | RAM: 10.99GB
+[INDEXING] 37,203,968 | Rate: 2522 docs/sec | RAM: 11.00GB
+[INDEXING] 37,302,272 | Rate: 2522 docs/sec | RAM: 11.04GB
+[INDEXING] 37,400,576 | Rate: 2521 docs/sec | RAM: 10.60GB
+[INDEXING] 37,502,976 | Rate: 2521 docs/sec | RAM: 10.62GB
+
+💾 Saving checkpoint: models/checkpoint_37502976.index
+✅ Checkpoint secured. RAM: 10.62GB
+
+[INDEXING] 37,601,280 | Rate: 2520 docs/sec | RAM: 10.59GB
+[INDEXING] 37,703,680 | Rate: 2519 docs/sec | RAM: 10.61GB
+[INDEXING] 37,801,984 | Rate: 2519 docs/sec | RAM: 10.65GB
+[INDEXING] 37,900,288 | Rate: 2519 docs/sec | RAM: 10.67GB
+[INDEXING] 38,002,688 | Rate: 2519 docs/sec | RAM: 10.78GB
+[INDEXING] 38,100,992 | Rate: 2519 docs/sec | RAM: 11.24GB
+[INDEXING] 38,203,392 | Rate: 2518 docs/sec | RAM: 11.25GB
+[INDEXING] 38,301,696 | Rate: 2518 docs/sec | RAM: 11.26GB
+[INDEXING] 38,400,000 | Rate: 2517 docs/sec | RAM: 10.71GB
+[INDEXING] 38,502,400 | Rate: 2517 docs/sec | RAM: 10.75GB
+[INDEXING] 38,600,704 | Rate: 2517 docs/sec | RAM: 10.75GB
+[INDEXING] 38,703,104 | Rate: 2517 docs/sec | RAM: 10.76GB
+[INDEXING] 38,801,408 | Rate: 2516 docs/sec | RAM: 10.77GB
+[INDEXING] 38,903,808 | Rate: 2516 docs/sec | RAM: 10.78GB
+[INDEXING] 39,002,112 | Rate: 2516 docs/sec | RAM: 11.22GB
+[INDEXING] 39,100,416 | Rate: 2516 docs/sec | RAM: 11.23GB
+[INDEXING] 39,202,816 | Rate: 2515 docs/sec | RAM: 11.28GB
+[INDEXING] 39,301,120 | Rate: 2515 docs/sec | RAM: 10.24GB
+[INDEXING] 39,403,520 | Rate: 2514 docs/sec | RAM: 10.28GB
+[INDEXING] 39,501,824 | Rate: 2514 docs/sec | RAM: 10.29GB
+[INDEXING] 39,600,128 | Rate: 2514 docs/sec | RAM: 10.48GB
+[INDEXING] 39,702,528 | Rate: 2514 docs/sec | RAM: 10.74GB
+[INDEXING] 39,800,832 | Rate: 2513 docs/sec | RAM: 10.69GB
+[INDEXING] 39,903,232 | Rate: 2513 docs/sec | RAM: 11.41GB
+[INDEXING] 40,001,536 | Rate: 2513 docs/sec | RAM: 11.44GB
+
+💾 Saving checkpoint: models/checkpoint_40001536.index
+✅ Checkpoint secured. RAM: 11.44GB
+
+[INDEXING] 40,103,936 | Rate: 2511 docs/sec | RAM: 11.45GB
+[INDEXING] 40,202,240 | Rate: 2511 docs/sec | RAM: 11.49GB
+[INDEXING] 40,300,544 | Rate: 2511 docs/sec | RAM: 10.24GB
+[INDEXING] 40,402,944 | Rate: 2510 docs/sec | RAM: 10.26GB
+[INDEXING] 40,501,248 | Rate: 2510 docs/sec | RAM: 10.27GB
+[INDEXING] 40,603,648 | Rate: 2510 docs/sec | RAM: 10.78GB
+[INDEXING] 40,701,952 | Rate: 2510 docs/sec | RAM: 10.83GB
+[INDEXING] 40,800,256 | Rate: 2509 docs/sec | RAM: 10.80GB
+[INDEXING] 40,902,656 | Rate: 2509 docs/sec | RAM: 11.38GB
+[INDEXING] 41,000,960 | Rate: 2509 docs/sec | RAM: 11.39GB
+[INDEXING] 41,103,360 | Rate: 2509 docs/sec | RAM: 11.40GB
+[INDEXING] 41,201,664 | Rate: 2508 docs/sec | RAM: 11.05GB
+[INDEXING] 41,304,064 | Rate: 2508 docs/sec | RAM: 11.06GB
+[INDEXING] 41,402,368 | Rate: 2508 docs/sec | RAM: 11.08GB
+[INDEXING] 41,500,672 | Rate: 2507 docs/sec | RAM: 11.08GB
+[INDEXING] 41,603,072 | Rate: 2507 docs/sec | RAM: 11.09GB
+[INDEXING] 41,701,376 | Rate: 2507 docs/sec | RAM: 11.10GB
+[INDEXING] 41,803,776 | Rate: 2507 docs/sec | RAM: 11.14GB
+[INDEXING] 41,902,080 | Rate: 2506 docs/sec | RAM: 11.55GB
+[INDEXING] 42,000,384 | Rate: 2506 docs/sec | RAM: 11.56GB
+[INDEXING] 42,102,784 | Rate: 2506 docs/sec | RAM: 11.57GB
+[INDEXING] 42,201,088 | Rate: 2505 docs/sec | RAM: 11.09GB
+[INDEXING] 42,303,488 | Rate: 2505 docs/sec | RAM: 11.10GB
+[INDEXING] 42,401,792 | Rate: 2505 docs/sec | RAM: 11.11GB
+[INDEXING] 42,500,096 | Rate: 2505 docs/sec | RAM: 11.12GB
+
+💾 Saving checkpoint: models/checkpoint_42500096.index
+✅ Checkpoint secured. RAM: 11.12GB
+
+[INDEXING] 42,602,496 | Rate: 2503 docs/sec | RAM: 11.13GB
+[INDEXING] 42,700,800 | Rate: 2503 docs/sec | RAM: 11.14GB
+[INDEXING] 42,803,200 | Rate: 2503 docs/sec | RAM: 11.69GB
+[INDEXING] 42,901,504 | Rate: 2503 docs/sec | RAM: 11.70GB
+[INDEXING] 43,003,904 | Rate: 2502 docs/sec | RAM: 11.73GB
+[INDEXING] 43,102,208 | Rate: 2502 docs/sec | RAM: 11.53GB
+[INDEXING] 43,200,512 | Rate: 2501 docs/sec | RAM: 11.53GB
+[INDEXING] 43,302,912 | Rate: 2501 docs/sec | RAM: 11.54GB
+[INDEXING] 43,401,216 | Rate: 2501 docs/sec | RAM: 10.88GB
+[INDEXING] 43,503,616 | Rate: 2501 docs/sec | RAM: 11.15GB
+[INDEXING] 43,601,920 | Rate: 2501 docs/sec | RAM: 11.18GB
+[INDEXING] 43,700,224 | Rate: 2500 docs/sec | RAM: 11.40GB
+[INDEXING] 43,802,624 | Rate: 2500 docs/sec | RAM: 11.83GB
+[INDEXING] 43,900,928 | Rate: 2500 docs/sec | RAM: 11.84GB
+[INDEXING] 44,003,328 | Rate: 2499 docs/sec | RAM: 11.85GB
+[INDEXING] 44,101,632 | Rate: 2499 docs/sec | RAM: 10.47GB
+[INDEXING] 44,204,032 | Rate: 2498 docs/sec | RAM: 10.63GB
+[INDEXING] 44,302,336 | Rate: 2498 docs/sec | RAM: 10.64GB
+[INDEXING] 44,400,640 | Rate: 2498 docs/sec | RAM: 11.11GB
+[INDEXING] 44,503,040 | Rate: 2498 docs/sec | RAM: 11.19GB
+[INDEXING] 44,601,344 | Rate: 2498 docs/sec | RAM: 11.19GB
+[INDEXING] 44,703,744 | Rate: 2498 docs/sec | RAM: 11.86GB
+[INDEXING] 44,802,048 | Rate: 2497 docs/sec | RAM: 11.87GB
+[INDEXING] 44,900,352 | Rate: 2497 docs/sec | RAM: 11.89GB
+[INDEXING] 45,002,752 | Rate: 2496 docs/sec | RAM: 11.21GB
+
+💾 Saving checkpoint: models/checkpoint_45002752.index
+✅ Checkpoint secured. RAM: 11.21GB
+
+[INDEXING] 45,101,056 | Rate: 2494 docs/sec | RAM: 11.28GB
+[INDEXING] 45,203,456 | Rate: 2494 docs/sec | RAM: 11.31GB
+[INDEXING] 45,301,760 | Rate: 2494 docs/sec | RAM: 11.35GB
+[INDEXING] 45,400,064 | Rate: 2494 docs/sec | RAM: 11.37GB
+[INDEXING] 45,502,464 | Rate: 2493 docs/sec | RAM: 11.32GB
+[INDEXING] 45,600,768 | Rate: 2493 docs/sec | RAM: 11.94GB
+[INDEXING] 45,703,168 | Rate: 2493 docs/sec | RAM: 11.92GB
+[INDEXING] 45,801,472 | Rate: 2493 docs/sec | RAM: 11.93GB
+[INDEXING] 45,903,872 | Rate: 2492 docs/sec | RAM: 11.97GB
+[INDEXING] 46,002,176 | Rate: 2492 docs/sec | RAM: 11.15GB
+[INDEXING] 46,100,480 | Rate: 2492 docs/sec | RAM: 11.22GB
+[INDEXING] 46,202,880 | Rate: 2491 docs/sec | RAM: 11.23GB
+[INDEXING] 46,301,184 | Rate: 2491 docs/sec | RAM: 11.27GB
+[INDEXING] 46,403,584 | Rate: 2491 docs/sec | RAM: 11.40GB
+[INDEXING] 46,501,888 | Rate: 2491 docs/sec | RAM: 11.41GB
+[INDEXING] 46,600,192 | Rate: 2491 docs/sec | RAM: 12.00GB
+[INDEXING] 46,702,592 | Rate: 2490 docs/sec | RAM: 12.01GB
+[INDEXING] 46,800,896 | Rate: 2490 docs/sec | RAM: 12.02GB
+[INDEXING] 46,903,296 | Rate: 2490 docs/sec | RAM: 11.49GB
+[INDEXING] 47,001,600 | Rate: 2489 docs/sec | RAM: 11.50GB
+[INDEXING] 47,104,000 | Rate: 2489 docs/sec | RAM: 11.55GB
+[INDEXING] 47,202,304 | Rate: 2489 docs/sec | RAM: 11.56GB
+[INDEXING] 47,300,608 | Rate: 2488 docs/sec | RAM: 11.60GB
+[INDEXING] 47,403,008 | Rate: 2488 docs/sec | RAM: 11.61GB
+[INDEXING] 47,501,312 | Rate: 2488 docs/sec | RAM: 11.96GB
+
+💾 Saving checkpoint: models/checkpoint_47501312.index
+✅ Checkpoint secured. RAM: 12.05GB
+
+[INDEXING] 47,603,712 | Rate: 2486 docs/sec | RAM: 12.18GB
+[INDEXING] 47,702,016 | Rate: 2486 docs/sec | RAM: 12.19GB
+[INDEXING] 47,800,320 | Rate: 2486 docs/sec | RAM: 12.15GB
+[INDEXING] 47,902,720 | Rate: 2485 docs/sec | RAM: 11.65GB
+[INDEXING] 48,001,024 | Rate: 2485 docs/sec | RAM: 11.66GB
+[INDEXING] 48,103,424 | Rate: 2485 docs/sec | RAM: 11.71GB
+[INDEXING] 48,201,728 | Rate: 2485 docs/sec | RAM: 11.72GB
+[INDEXING] 48,300,032 | Rate: 2484 docs/sec | RAM: 11.74GB
+[INDEXING] 48,402,432 | Rate: 2484 docs/sec | RAM: 11.75GB
+[INDEXING] 48,500,736 | Rate: 2484 docs/sec | RAM: 12.25GB
+[INDEXING] 48,603,136 | Rate: 2484 docs/sec | RAM: 12.26GB
+[INDEXING] 48,701,440 | Rate: 2483 docs/sec | RAM: 12.30GB
+[INDEXING] 48,803,840 | Rate: 2483 docs/sec | RAM: 11.74GB
+[INDEXING] 48,902,144 | Rate: 2483 docs/sec | RAM: 11.83GB
+[INDEXING] 49,000,448 | Rate: 2482 docs/sec | RAM: 11.84GB
+[INDEXING] 49,102,848 | Rate: 2482 docs/sec | RAM: 11.86GB
+[INDEXING] 49,201,152 | Rate: 2482 docs/sec | RAM: 11.87GB
+[INDEXING] 49,303,552 | Rate: 2482 docs/sec | RAM: 11.88GB
+[INDEXING] 49,401,856 | Rate: 2481 docs/sec | RAM: 12.28GB
+[INDEXING] 49,500,160 | Rate: 2481 docs/sec | RAM: 12.24GB
+[INDEXING] 49,602,560 | Rate: 2481 docs/sec | RAM: 12.37GB
+[INDEXING] 49,700,864 | Rate: 2481 docs/sec | RAM: 12.38GB
+[INDEXING] 49,803,264 | Rate: 2480 docs/sec | RAM: 11.87GB
+[INDEXING] 49,901,568 | Rate: 2480 docs/sec | RAM: 11.88GB
+[INDEXING] 50,003,968 | Rate: 2479 docs/sec | RAM: 11.89GB
+
+💾 Saving checkpoint: models/checkpoint_50003968.index
+✅ Checkpoint secured. RAM: 11.89GB
+
+[INDEXING] 50,102,272 | Rate: 2478 docs/sec | RAM: 11.90GB
+[INDEXING] 50,200,576 | Rate: 2477 docs/sec | RAM: 11.91GB
+[INDEXING] 50,302,976 | Rate: 2477 docs/sec | RAM: 11.92GB
+[INDEXING] 50,401,280 | Rate: 2477 docs/sec | RAM: 12.54GB
+[INDEXING] 50,503,680 | Rate: 2477 docs/sec | RAM: 12.55GB
+[INDEXING] 50,601,984 | Rate: 2476 docs/sec | RAM: 12.51GB
+[INDEXING] 50,700,288 | Rate: 2476 docs/sec | RAM: 12.03GB
+[INDEXING] 50,802,688 | Rate: 2476 docs/sec | RAM: 12.05GB
+[INDEXING] 50,900,992 | Rate: 2475 docs/sec | RAM: 12.07GB
+[INDEXING] 51,003,392 | Rate: 2475 docs/sec | RAM: 12.10GB
+[INDEXING] 51,101,696 | Rate: 2475 docs/sec | RAM: 12.11GB
+[INDEXING] 51,200,000 | Rate: 2475 docs/sec | RAM: 12.13GB
+[INDEXING] 51,302,400 | Rate: 2474 docs/sec | RAM: 12.19GB
+[INDEXING] 51,400,704 | Rate: 2474 docs/sec | RAM: 12.56GB
+[INDEXING] 51,503,104 | Rate: 2474 docs/sec | RAM: 12.57GB
+[INDEXING] 51,601,408 | Rate: 2474 docs/sec | RAM: 12.58GB
+[INDEXING] 51,703,808 | Rate: 2473 docs/sec | RAM: 12.32GB
+[INDEXING] 51,802,112 | Rate: 2473 docs/sec | RAM: 12.33GB
+[INDEXING] 51,900,416 | Rate: 2473 docs/sec | RAM: 12.39GB
+[INDEXING] 52,002,816 | Rate: 2472 docs/sec | RAM: 12.40GB
+[INDEXING] 52,101,120 | Rate: 2472 docs/sec | RAM: 12.41GB
+[INDEXING] 52,203,520 | Rate: 2472 docs/sec | RAM: 12.42GB
+[INDEXING] 52,301,824 | Rate: 2472 docs/sec | RAM: 12.70GB
+[INDEXING] 52,400,128 | Rate: 2472 docs/sec | RAM: 12.71GB
+[INDEXING] 52,502,528 | Rate: 2471 docs/sec | RAM: 12.71GB
+
+💾 Saving checkpoint: models/checkpoint_52502528.index
+✅ Checkpoint secured. RAM: 12.71GB
+
+[INDEXING] 52,600,832 | Rate: 2469 docs/sec | RAM: 12.08GB
+[INDEXING] 52,703,232 | Rate: 2469 docs/sec | RAM: 12.16GB
+[INDEXING] 52,801,536 | Rate: 2469 docs/sec | RAM: 12.18GB
+[INDEXING] 52,903,936 | Rate: 2469 docs/sec | RAM: 12.19GB
+[INDEXING] 53,002,240 | Rate: 2468 docs/sec | RAM: 12.19GB
+[INDEXING] 53,100,544 | Rate: 2468 docs/sec | RAM: 12.24GB
+[INDEXING] 53,202,944 | Rate: 2468 docs/sec | RAM: 12.50GB
+[INDEXING] 53,301,248 | Rate: 2468 docs/sec | RAM: 12.90GB
+[INDEXING] 53,403,648 | Rate: 2467 docs/sec | RAM: 12.88GB
+[INDEXING] 53,501,952 | Rate: 2467 docs/sec | RAM: 12.90GB
+[INDEXING] 53,600,256 | Rate: 2467 docs/sec | RAM: 12.36GB
+[INDEXING] 53,702,656 | Rate: 2466 docs/sec | RAM: 12.34GB
+[INDEXING] 53,800,960 | Rate: 2466 docs/sec | RAM: 12.35GB
+[INDEXING] 53,903,360 | Rate: 2466 docs/sec | RAM: 12.31GB
+[INDEXING] 54,001,664 | Rate: 2466 docs/sec | RAM: 12.33GB
+[INDEXING] 54,104,064 | Rate: 2466 docs/sec | RAM: 12.36GB
+[INDEXING] 54,202,368 | Rate: 2465 docs/sec | RAM: 12.77GB
+[INDEXING] 54,300,672 | Rate: 2465 docs/sec | RAM: 12.80GB
+[INDEXING] 54,403,072 | Rate: 2465 docs/sec | RAM: 12.81GB
+[INDEXING] 54,501,376 | Rate: 2464 docs/sec | RAM: 11.94GB
+[INDEXING] 54,603,776 | Rate: 2464 docs/sec | RAM: 11.99GB
+[INDEXING] 54,702,080 | Rate: 2464 docs/sec | RAM: 12.00GB
+[INDEXING] 54,800,384 | Rate: 2464 docs/sec | RAM: 11.98GB
+[INDEXING] 54,902,784 | Rate: 2463 docs/sec | RAM: 12.37GB
+[INDEXING] 55,001,088 | Rate: 2463 docs/sec | RAM: 12.38GB
+
+💾 Saving checkpoint: models/checkpoint_55001088.index
+✅ Checkpoint secured. RAM: 12.38GB
+
+[INDEXING] 55,103,488 | Rate: 2461 docs/sec | RAM: 13.00GB
+[INDEXING] 55,201,792 | Rate: 2461 docs/sec | RAM: 13.01GB
+[INDEXING] 55,300,096 | Rate: 2461 docs/sec | RAM: 13.02GB
+[INDEXING] 55,402,496 | Rate: 2461 docs/sec | RAM: 13.00GB
+[INDEXING] 55,500,800 | Rate: 2460 docs/sec | RAM: 12.84GB
+[INDEXING] 55,603,200 | Rate: 2460 docs/sec | RAM: 12.85GB
+[INDEXING] 55,701,504 | Rate: 2460 docs/sec | RAM: 12.86GB
+[INDEXING] 55,803,904 | Rate: 2460 docs/sec | RAM: 12.90GB
+[INDEXING] 55,902,208 | Rate: 2459 docs/sec | RAM: 12.91GB
+[INDEXING] 56,000,512 | Rate: 2459 docs/sec | RAM: 12.92GB
+[INDEXING] 56,102,912 | Rate: 2459 docs/sec | RAM: 12.96GB
+[INDEXING] 56,201,216 | Rate: 2458 docs/sec | RAM: 12.97GB
+[INDEXING] 56,303,616 | Rate: 2458 docs/sec | RAM: 13.01GB
+[INDEXING] 56,401,920 | Rate: 2458 docs/sec | RAM: 12.12GB
+[INDEXING] 56,500,224 | Rate: 2458 docs/sec | RAM: 12.13GB
+[INDEXING] 56,602,624 | Rate: 2457 docs/sec | RAM: 12.18GB
+[INDEXING] 56,700,928 | Rate: 2457 docs/sec | RAM: 12.42GB
+[INDEXING] 56,803,328 | Rate: 2457 docs/sec | RAM: 12.46GB
+[INDEXING] 56,901,632 | Rate: 2456 docs/sec | RAM: 12.42GB
+[INDEXING] 57,004,032 | Rate: 2456 docs/sec | RAM: 13.06GB
+[INDEXING] 57,102,336 | Rate: 2456 docs/sec | RAM: 13.11GB
+[INDEXING] 57,200,640 | Rate: 2456 docs/sec | RAM: 13.08GB
+[INDEXING] 57,303,040 | Rate: 2456 docs/sec | RAM: 13.09GB
+[INDEXING] 57,401,344 | Rate: 2455 docs/sec | RAM: 12.20GB
+[INDEXING] 57,503,744 | Rate: 2455 docs/sec | RAM: 12.21GB
+
+💾 Saving checkpoint: models/checkpoint_57503744.index
+✅ Checkpoint secured. RAM: 12.21GB
+
+[INDEXING] 57,602,048 | Rate: 2453 docs/sec | RAM: 12.22GB
+[INDEXING] 57,700,352 | Rate: 2453 docs/sec | RAM: 12.50GB
+[INDEXING] 57,802,752 | Rate: 2453 docs/sec | RAM: 12.53GB
+[INDEXING] 57,901,056 | Rate: 2453 docs/sec | RAM: 12.88GB
+[INDEXING] 58,003,456 | Rate: 2452 docs/sec | RAM: 13.23GB
+[INDEXING] 58,101,760 | Rate: 2452 docs/sec | RAM: 13.24GB
+[INDEXING] 58,200,064 | Rate: 2452 docs/sec | RAM: 13.25GB
+[INDEXING] 58,302,464 | Rate: 2452 docs/sec | RAM: 13.05GB
+[INDEXING] 58,400,768 | Rate: 2451 docs/sec | RAM: 13.06GB
+[INDEXING] 58,503,168 | Rate: 2451 docs/sec | RAM: 13.08GB
+[INDEXING] 58,601,472 | Rate: 2451 docs/sec | RAM: 13.09GB
+[INDEXING] 58,703,872 | Rate: 2450 docs/sec | RAM: 13.11GB
+[INDEXING] 58,802,176 | Rate: 2450 docs/sec | RAM: 13.12GB
+[INDEXING] 58,900,480 | Rate: 2450 docs/sec | RAM: 13.44GB
+[INDEXING] 59,002,880 | Rate: 2450 docs/sec | RAM: 13.39GB
+[INDEXING] 59,101,184 | Rate: 2450 docs/sec | RAM: 13.44GB
+[INDEXING] 59,203,584 | Rate: 2449 docs/sec | RAM: 13.16GB
+[INDEXING] 59,301,888 | Rate: 2449 docs/sec | RAM: 13.11GB
+[INDEXING] 59,400,192 | Rate: 2449 docs/sec | RAM: 13.12GB
+[INDEXING] 59,502,592 | Rate: 2449 docs/sec | RAM: 13.14GB
+[INDEXING] 59,600,896 | Rate: 2448 docs/sec | RAM: 13.15GB
+[INDEXING] 59,703,296 | Rate: 2448 docs/sec | RAM: 13.16GB
+[INDEXING] 59,801,600 | Rate: 2448 docs/sec | RAM: 13.29GB
+[INDEXING] 59,904,000 | Rate: 2448 docs/sec | RAM: 13.39GB
+[INDEXING] 60,002,304 | Rate: 2447 docs/sec | RAM: 13.40GB
+
+💾 Saving checkpoint: models/checkpoint_60002304.index
+✅ Checkpoint secured. RAM: 13.40GB
+
+[INDEXING] 60,100,608 | Rate: 2446 docs/sec | RAM: 13.41GB
+[INDEXING] 60,203,008 | Rate: 2445 docs/sec | RAM: 13.21GB
+[INDEXING] 60,301,312 | Rate: 2445 docs/sec | RAM: 13.22GB
+[INDEXING] 60,403,712 | Rate: 2445 docs/sec | RAM: 13.24GB
+[INDEXING] 60,502,016 | Rate: 2445 docs/sec | RAM: 13.29GB
+[INDEXING] 60,600,320 | Rate: 2445 docs/sec | RAM: 13.30GB
+[INDEXING] 60,702,720 | Rate: 2444 docs/sec | RAM: 13.31GB
+[INDEXING] 60,801,024 | Rate: 2444 docs/sec | RAM: 13.62GB
+[INDEXING] 60,903,424 | Rate: 2444 docs/sec | RAM: 13.58GB
+[INDEXING] 61,001,728 | Rate: 2444 docs/sec | RAM: 13.63GB
+[INDEXING] 61,100,032 | Rate: 2443 docs/sec | RAM: 13.38GB
+[INDEXING] 61,202,432 | Rate: 2443 docs/sec | RAM: 13.43GB
+[INDEXING] 61,300,736 | Rate: 2443 docs/sec | RAM: 13.38GB
+[INDEXING] 61,403,136 | Rate: 2442 docs/sec | RAM: 13.45GB
+[INDEXING] 61,501,440 | Rate: 2442 docs/sec | RAM: 13.41GB
+[INDEXING] 61,603,840 | Rate: 2442 docs/sec | RAM: 13.46GB
+[INDEXING] 61,702,144 | Rate: 2442 docs/sec | RAM: 13.53GB
+[INDEXING] 61,800,448 | Rate: 2441 docs/sec | RAM: 13.76GB
+[INDEXING] 61,902,848 | Rate: 2441 docs/sec | RAM: 13.77GB
+[INDEXING] 62,001,152 | Rate: 2441 docs/sec | RAM: 13.78GB
+[INDEXING] 62,103,552 | Rate: 2440 docs/sec | RAM: 13.49GB
+[INDEXING] 62,201,856 | Rate: 2440 docs/sec | RAM: 13.50GB
+[INDEXING] 62,300,160 | Rate: 2440 docs/sec | RAM: 13.46GB
+[INDEXING] 62,402,560 | Rate: 2440 docs/sec | RAM: 13.47GB
+[INDEXING] 62,500,864 | Rate: 2439 docs/sec | RAM: 13.51GB
+
+💾 Saving checkpoint: models/checkpoint_62500864.index
+✅ Checkpoint secured. RAM: 13.51GB
+
+[INDEXING] 62,603,264 | Rate: 2438 docs/sec | RAM: 13.55GB
+[INDEXING] 62,701,568 | Rate: 2437 docs/sec | RAM: 13.71GB
+[INDEXING] 62,803,968 | Rate: 2437 docs/sec | RAM: 13.76GB
+[INDEXING] 62,902,272 | Rate: 2437 docs/sec | RAM: 13.83GB
+[INDEXING] 63,000,576 | Rate: 2437 docs/sec | RAM: 13.55GB
+[INDEXING] 63,102,976 | Rate: 2436 docs/sec | RAM: 13.56GB
+[INDEXING] 63,201,280 | Rate: 2436 docs/sec | RAM: 13.57GB
+[INDEXING] 63,303,680 | Rate: 2436 docs/sec | RAM: 13.58GB
+[INDEXING] 63,401,984 | Rate: 2436 docs/sec | RAM: 13.59GB
+[INDEXING] 63,500,288 | Rate: 2435 docs/sec | RAM: 13.56GB
+[INDEXING] 63,602,688 | Rate: 2435 docs/sec | RAM: 13.76GB
+[INDEXING] 63,700,992 | Rate: 2435 docs/sec | RAM: 13.84GB
+[INDEXING] 63,803,392 | Rate: 2435 docs/sec | RAM: 13.86GB
+[INDEXING] 63,901,696 | Rate: 2434 docs/sec | RAM: 13.89GB
+[INDEXING] 64,000,000 | Rate: 2434 docs/sec | RAM: 13.61GB
+[INDEXING] 64,102,400 | Rate: 2434 docs/sec | RAM: 13.62GB
+[INDEXING] 64,200,704 | Rate: 2434 docs/sec | RAM: 13.63GB
+[INDEXING] 64,303,104 | Rate: 2433 docs/sec | RAM: 13.64GB
+[INDEXING] 64,401,408 | Rate: 2433 docs/sec | RAM: 13.65GB
+[INDEXING] 64,503,808 | Rate: 2433 docs/sec | RAM: 13.72GB
+[INDEXING] 64,602,112 | Rate: 2433 docs/sec | RAM: 13.93GB
+[INDEXING] 64,700,416 | Rate: 2432 docs/sec | RAM: 13.94GB
+[INDEXING] 64,802,816 | Rate: 2432 docs/sec | RAM: 14.04GB
+[INDEXING] 64,901,120 | Rate: 2432 docs/sec | RAM: 12.77GB
+[INDEXING] 65,003,520 | Rate: 2431 docs/sec | RAM: 12.84GB
+
+💾 Saving checkpoint: models/checkpoint_65003520.index
+✅ Checkpoint secured. RAM: 12.84GB
+
+[INDEXING] 65,101,824 | Rate: 2430 docs/sec | RAM: 12.85GB
+[INDEXING] 65,200,128 | Rate: 2430 docs/sec | RAM: 13.31GB
+[INDEXING] 65,302,528 | Rate: 2429 docs/sec | RAM: 13.50GB
+[INDEXING] 65,400,832 | Rate: 2429 docs/sec | RAM: 13.52GB
+[INDEXING] 65,503,232 | Rate: 2429 docs/sec | RAM: 14.07GB
+[INDEXING] 65,601,536 | Rate: 2429 docs/sec | RAM: 14.08GB
+[INDEXING] 65,703,936 | Rate: 2429 docs/sec | RAM: 14.09GB
+[INDEXING] 65,802,240 | Rate: 2428 docs/sec | RAM: 13.23GB
+[INDEXING] 65,900,544 | Rate: 2428 docs/sec | RAM: 13.15GB
+[INDEXING] 66,002,944 | Rate: 2428 docs/sec | RAM: 13.16GB
+[INDEXING] 66,101,248 | Rate: 2427 docs/sec | RAM: 13.17GB
+[INDEXING] 66,203,648 | Rate: 2427 docs/sec | RAM: 13.57GB
+[INDEXING] 66,301,952 | Rate: 2427 docs/sec | RAM: 13.58GB
+[INDEXING] 66,400,256 | Rate: 2427 docs/sec | RAM: 13.77GB
+[INDEXING] 66,502,656 | Rate: 2426 docs/sec | RAM: 14.07GB
+[INDEXING] 66,600,960 | Rate: 2426 docs/sec | RAM: 14.08GB
+[INDEXING] 66,703,360 | Rate: 2426 docs/sec | RAM: 14.13GB
+[INDEXING] 66,801,664 | Rate: 2426 docs/sec | RAM: 13.37GB
+[INDEXING] 66,904,064 | Rate: 2425 docs/sec | RAM: 13.38GB
+[INDEXING] 67,002,368 | Rate: 2425 docs/sec | RAM: 13.39GB
+[INDEXING] 67,100,672 | Rate: 2425 docs/sec | RAM: 13.67GB
+[INDEXING] 67,203,072 | Rate: 2425 docs/sec | RAM: 13.68GB
+[INDEXING] 67,301,376 | Rate: 2424 docs/sec | RAM: 13.69GB
+[INDEXING] 67,403,776 | Rate: 2424 docs/sec | RAM: 14.25GB
+[INDEXING] 67,502,080 | Rate: 2424 docs/sec | RAM: 14.26GB
+
+💾 Saving checkpoint: models/checkpoint_67502080.index
+✅ Checkpoint secured. RAM: 14.26GB
+
+[INDEXING] 67,600,384 | Rate: 2422 docs/sec | RAM: 14.33GB
+[INDEXING] 67,702,784 | Rate: 2422 docs/sec | RAM: 13.32GB
+[INDEXING] 67,801,088 | Rate: 2422 docs/sec | RAM: 13.33GB
+[INDEXING] 67,903,488 | Rate: 2421 docs/sec | RAM: 13.34GB
+[INDEXING] 68,001,792 | Rate: 2421 docs/sec | RAM: 13.35GB
+[INDEXING] 68,100,096 | Rate: 2421 docs/sec | RAM: 13.72GB
+[INDEXING] 68,202,496 | Rate: 2421 docs/sec | RAM: 13.67GB
+[INDEXING] 68,300,800 | Rate: 2420 docs/sec | RAM: 13.94GB
+[INDEXING] 68,403,200 | Rate: 2420 docs/sec | RAM: 14.23GB
+[INDEXING] 68,501,504 | Rate: 2420 docs/sec | RAM: 14.24GB
+[INDEXING] 68,603,904 | Rate: 2420 docs/sec | RAM: 14.28GB
+[INDEXING] 68,702,208 | Rate: 2419 docs/sec | RAM: 13.51GB
+[INDEXING] 68,800,512 | Rate: 2419 docs/sec | RAM: 13.57GB
+[INDEXING] 68,902,912 | Rate: 2419 docs/sec | RAM: 13.56GB
+[INDEXING] 69,001,216 | Rate: 2419 docs/sec | RAM: 13.74GB
+[INDEXING] 69,103,616 | Rate: 2418 docs/sec | RAM: 13.81GB
+[INDEXING] 69,201,920 | Rate: 2418 docs/sec | RAM: 13.82GB
+[INDEXING] 69,300,224 | Rate: 2418 docs/sec | RAM: 14.44GB
+[INDEXING] 69,402,624 | Rate: 2418 docs/sec | RAM: 14.45GB
+[INDEXING] 69,500,928 | Rate: 2417 docs/sec | RAM: 14.49GB
+[INDEXING] 69,603,328 | Rate: 2417 docs/sec | RAM: 14.16GB
+[INDEXING] 69,701,632 | Rate: 2417 docs/sec | RAM: 14.17GB
+[INDEXING] 69,804,032 | Rate: 2417 docs/sec | RAM: 14.19GB
+[INDEXING] 69,902,336 | Rate: 2416 docs/sec | RAM: 14.20GB
+[INDEXING] 70,000,640 | Rate: 2416 docs/sec | RAM: 14.20GB
+
+💾 Saving checkpoint: models/checkpoint_70000640.index
+✅ Checkpoint secured. RAM: 14.20GB
+
+[INDEXING] 70,103,040 | Rate: 2414 docs/sec | RAM: 14.22GB
+[INDEXING] 70,201,344 | Rate: 2414 docs/sec | RAM: 14.62GB
+[INDEXING] 70,303,744 | Rate: 2414 docs/sec | RAM: 14.69GB
+[INDEXING] 70,402,048 | Rate: 2414 docs/sec | RAM: 14.69GB
+[INDEXING] 70,500,352 | Rate: 2413 docs/sec | RAM: 14.71GB
+[INDEXING] 70,602,752 | Rate: 2413 docs/sec | RAM: 14.36GB
+[INDEXING] 70,701,056 | Rate: 2413 docs/sec | RAM: 14.37GB
+[INDEXING] 70,803,456 | Rate: 2412 docs/sec | RAM: 14.38GB
+[INDEXING] 70,901,760 | Rate: 2412 docs/sec | RAM: 14.31GB
+[INDEXING] 71,000,064 | Rate: 2412 docs/sec | RAM: 14.32GB
+[INDEXING] 71,102,464 | Rate: 2412 docs/sec | RAM: 14.36GB
+[INDEXING] 71,200,768 | Rate: 2412 docs/sec | RAM: 14.55GB
+[INDEXING] 71,303,168 | Rate: 2411 docs/sec | RAM: 14.53GB
+[INDEXING] 71,401,472 | Rate: 2411 docs/sec | RAM: 14.66GB
+[INDEXING] 71,503,872 | Rate: 2411 docs/sec | RAM: 14.36GB
+[INDEXING] 71,602,176 | Rate: 2410 docs/sec | RAM: 14.32GB
+[INDEXING] 71,700,480 | Rate: 2410 docs/sec | RAM: 14.33GB
+[INDEXING] 71,802,880 | Rate: 2410 docs/sec | RAM: 14.34GB
+[INDEXING] 71,901,184 | Rate: 2410 docs/sec | RAM: 14.39GB
+[INDEXING] 72,003,584 | Rate: 2410 docs/sec | RAM: 14.40GB
+[INDEXING] 72,101,888 | Rate: 2409 docs/sec | RAM: 14.83GB
+[INDEXING] 72,200,192 | Rate: 2409 docs/sec | RAM: 14.85GB
+[INDEXING] 72,302,592 | Rate: 2409 docs/sec | RAM: 14.86GB
+[INDEXING] 72,400,896 | Rate: 2408 docs/sec | RAM: 14.87GB
+[INDEXING] 72,503,296 | Rate: 2408 docs/sec | RAM: 14.15GB
+
+💾 Saving checkpoint: models/checkpoint_72503296.index
+✅ Checkpoint secured. RAM: 14.15GB
+
+[INDEXING] 72,601,600 | Rate: 2407 docs/sec | RAM: 14.16GB
+[INDEXING] 72,704,000 | Rate: 2406 docs/sec | RAM: 14.20GB
+[INDEXING] 72,802,304 | Rate: 2406 docs/sec | RAM: 14.18GB
+[INDEXING] 72,900,608 | Rate: 2406 docs/sec | RAM: 14.19GB
+[INDEXING] 73,003,008 | Rate: 2406 docs/sec | RAM: 14.53GB
+[INDEXING] 73,101,312 | Rate: 2405 docs/sec | RAM: 14.84GB
+[INDEXING] 73,203,712 | Rate: 2405 docs/sec | RAM: 14.85GB
+[INDEXING] 73,302,016 | Rate: 2405 docs/sec | RAM: 14.87GB
+[INDEXING] 73,400,320 | Rate: 2405 docs/sec | RAM: 14.60GB
+[INDEXING] 73,502,720 | Rate: 2404 docs/sec | RAM: 14.64GB
+[INDEXING] 73,601,024 | Rate: 2404 docs/sec | RAM: 14.65GB
+[INDEXING] 73,703,424 | Rate: 2404 docs/sec | RAM: 14.66GB
+[INDEXING] 73,801,728 | Rate: 2404 docs/sec | RAM: 14.64GB
+[INDEXING] 73,900,032 | Rate: 2403 docs/sec | RAM: 14.65GB
+[INDEXING] 74,002,432 | Rate: 2403 docs/sec | RAM: 14.85GB
+[INDEXING] 74,100,736 | Rate: 2403 docs/sec | RAM: 14.86GB
+[INDEXING] 74,203,136 | Rate: 2403 docs/sec | RAM: 14.93GB
+[INDEXING] 74,301,440 | Rate: 2402 docs/sec | RAM: 13.74GB
+[INDEXING] 74,403,840 | Rate: 2402 docs/sec | RAM: 13.75GB
+[INDEXING] 74,502,144 | Rate: 2402 docs/sec | RAM: 13.76GB
+[INDEXING] 74,600,448 | Rate: 2402 docs/sec | RAM: 14.02GB
+[INDEXING] 74,702,848 | Rate: 2401 docs/sec | RAM: 14.41GB
+[INDEXING] 74,801,152 | Rate: 2401 docs/sec | RAM: 14.39GB
+[INDEXING] 74,903,552 | Rate: 2401 docs/sec | RAM: 14.94GB
+[INDEXING] 75,001,856 | Rate: 2401 docs/sec | RAM: 14.95GB
+
+💾 Saving checkpoint: models/checkpoint_75001856.index
+✅ Checkpoint secured. RAM: 14.95GB
+
+[INDEXING] 75,100,160 | Rate: 2399 docs/sec | RAM: 14.96GB
+[INDEXING] 75,202,560 | Rate: 2399 docs/sec | RAM: 15.00GB
+[INDEXING] 75,300,864 | Rate: 2399 docs/sec | RAM: 13.62GB
+[INDEXING] 75,403,264 | Rate: 2398 docs/sec | RAM: 13.84GB
+[INDEXING] 75,501,568 | Rate: 2398 docs/sec | RAM: 13.90GB
+[INDEXING] 75,603,968 | Rate: 2398 docs/sec | RAM: 14.42GB
+[INDEXING] 75,702,272 | Rate: 2398 docs/sec | RAM: 14.44GB
+[INDEXING] 75,800,576 | Rate: 2397 docs/sec | RAM: 14.45GB
+[INDEXING] 75,902,976 | Rate: 2397 docs/sec | RAM: 15.05GB
+[INDEXING] 76,001,280 | Rate: 2397 docs/sec | RAM: 15.06GB
+[INDEXING] 76,103,680 | Rate: 2397 docs/sec | RAM: 15.10GB
+[INDEXING] 76,201,984 | Rate: 2396 docs/sec | RAM: 13.33GB
+[INDEXING] 76,300,288 | Rate: 2396 docs/sec | RAM: 13.96GB
+[INDEXING] 76,402,688 | Rate: 2396 docs/sec | RAM: 13.98GB
+[INDEXING] 76,500,992 | Rate: 2396 docs/sec | RAM: 14.14GB
+[INDEXING] 76,603,392 | Rate: 2395 docs/sec | RAM: 14.64GB
+[INDEXING] 76,701,696 | Rate: 2395 docs/sec | RAM: 14.59GB
+[INDEXING] 76,800,000 | Rate: 2395 docs/sec | RAM: 14.96GB
+[INDEXING] 76,902,400 | Rate: 2395 docs/sec | RAM: 15.25GB
+[INDEXING] 77,000,704 | Rate: 2394 docs/sec | RAM: 15.26GB
+[INDEXING] 77,103,104 | Rate: 2394 docs/sec | RAM: 15.27GB
+[INDEXING] 77,201,408 | Rate: 2394 docs/sec | RAM: 14.79GB
+[INDEXING] 77,303,808 | Rate: 2393 docs/sec | RAM: 14.77GB
+[INDEXING] 77,402,112 | Rate: 2393 docs/sec | RAM: 14.78GB
+[INDEXING] 77,500,416 | Rate: 2393 docs/sec | RAM: 14.83GB
+
+💾 Saving checkpoint: models/checkpoint_77500416.index
+✅ Checkpoint secured. RAM: 14.83GB
+
+[INDEXING] 77,602,816 | Rate: 2392 docs/sec | RAM: 14.84GB
+[INDEXING] 77,701,120 | Rate: 2391 docs/sec | RAM: 14.85GB
+[INDEXING] 77,803,520 | Rate: 2391 docs/sec | RAM: 15.31GB
+[INDEXING] 77,901,824 | Rate: 2391 docs/sec | RAM: 15.32GB
+[INDEXING] 78,000,128 | Rate: 2391 docs/sec | RAM: 15.36GB
+[INDEXING] 78,102,528 | Rate: 2390 docs/sec | RAM: 14.61GB
+[INDEXING] 78,200,832 | Rate: 2390 docs/sec | RAM: 14.62GB
+[INDEXING] 78,303,232 | Rate: 2390 docs/sec | RAM: 14.63GB
+[INDEXING] 78,401,536 | Rate: 2390 docs/sec | RAM: 14.65GB
+[INDEXING] 78,503,936 | Rate: 2389 docs/sec | RAM: 14.75GB
+[INDEXING] 78,602,240 | Rate: 2389 docs/sec | RAM: 14.77GB
+[INDEXING] 78,700,544 | Rate: 2389 docs/sec | RAM: 15.28GB
+[INDEXING] 78,802,944 | Rate: 2389 docs/sec | RAM: 15.31GB
+[INDEXING] 78,901,248 | Rate: 2388 docs/sec | RAM: 15.36GB
+[INDEXING] 79,003,648 | Rate: 2388 docs/sec | RAM: 15.34GB
+[INDEXING] 79,101,952 | Rate: 2388 docs/sec | RAM: 14.78GB
+[INDEXING] 79,200,256 | Rate: 2388 docs/sec | RAM: 14.79GB
+[INDEXING] 79,302,656 | Rate: 2387 docs/sec | RAM: 14.80GB
+[INDEXING] 79,400,960 | Rate: 2387 docs/sec | RAM: 14.81GB
+[INDEXING] 79,503,360 | Rate: 2387 docs/sec | RAM: 14.82GB
+[INDEXING] 79,601,664 | Rate: 2387 docs/sec | RAM: 15.04GB
+[INDEXING] 79,704,064 | Rate: 2386 docs/sec | RAM: 15.50GB
+[INDEXING] 79,802,368 | Rate: 2386 docs/sec | RAM: 15.51GB
+[INDEXING] 79,900,672 | Rate: 2386 docs/sec | RAM: 15.58GB
+[INDEXING] 80,003,072 | Rate: 2386 docs/sec | RAM: 14.57GB
+
+💾 Saving checkpoint: models/checkpoint_80003072.index
+✅ Checkpoint secured. RAM: 14.57GB
+
+[INDEXING] 80,101,376 | Rate: 2384 docs/sec | RAM: 14.58GB
+[INDEXING] 80,203,776 | Rate: 2384 docs/sec | RAM: 14.59GB
+[INDEXING] 80,302,080 | Rate: 2384 docs/sec | RAM: 14.96GB
+[INDEXING] 80,400,384 | Rate: 2383 docs/sec | RAM: 14.97GB
+[INDEXING] 80,502,784 | Rate: 2383 docs/sec | RAM: 15.01GB
+[INDEXING] 80,601,088 | Rate: 2383 docs/sec | RAM: 15.56GB
+[INDEXING] 80,703,488 | Rate: 2383 docs/sec | RAM: 15.59GB
+[INDEXING] 80,801,792 | Rate: 2383 docs/sec | RAM: 15.70GB
+[INDEXING] 80,900,096 | Rate: 2382 docs/sec | RAM: 15.71GB
+[INDEXING] 81,002,496 | Rate: 2382 docs/sec | RAM: 14.73GB
+[INDEXING] 81,100,800 | Rate: 2382 docs/sec | RAM: 14.74GB
+[INDEXING] 81,203,200 | Rate: 2382 docs/sec | RAM: 14.75GB
+[INDEXING] 81,301,504 | Rate: 2381 docs/sec | RAM: 14.97GB
+[INDEXING] 81,403,904 | Rate: 2381 docs/sec | RAM: 14.98GB
+[INDEXING] 81,502,208 | Rate: 2381 docs/sec | RAM: 15.27GB
+[INDEXING] 81,600,512 | Rate: 2381 docs/sec | RAM: 15.69GB
+[INDEXING] 81,702,912 | Rate: 2380 docs/sec | RAM: 15.65GB
+[INDEXING] 81,801,216 | Rate: 2380 docs/sec | RAM: 15.71GB
+[INDEXING] 81,903,616 | Rate: 2380 docs/sec | RAM: 14.83GB
+[INDEXING] 82,001,920 | Rate: 2380 docs/sec | RAM: 14.84GB
+[INDEXING] 82,100,224 | Rate: 2379 docs/sec | RAM: 14.85GB
+[INDEXING] 82,202,624 | Rate: 2379 docs/sec | RAM: 15.10GB
+[INDEXING] 82,300,928 | Rate: 2379 docs/sec | RAM: 15.11GB
+[INDEXING] 82,403,328 | Rate: 2379 docs/sec | RAM: 15.12GB
+[INDEXING] 82,501,632 | Rate: 2378 docs/sec | RAM: 15.79GB
+
+💾 Saving checkpoint: models/checkpoint_82501632.index
+✅ Checkpoint secured. RAM: 15.79GB
+
+[INDEXING] 82,604,032 | Rate: 2377 docs/sec | RAM: 15.80GB
+[INDEXING] 82,702,336 | Rate: 2377 docs/sec | RAM: 15.81GB
+[INDEXING] 82,800,640 | Rate: 2376 docs/sec | RAM: 14.59GB
+[INDEXING] 82,903,040 | Rate: 2376 docs/sec | RAM: 14.63GB
+[INDEXING] 83,001,344 | Rate: 2376 docs/sec | RAM: 14.68GB
+[INDEXING] 83,103,744 | Rate: 2376 docs/sec | RAM: 14.71GB
+[INDEXING] 83,202,048 | Rate: 2375 docs/sec | RAM: 15.26GB
+[INDEXING] 83,300,352 | Rate: 2375 docs/sec | RAM: 15.27GB
+[INDEXING] 83,402,752 | Rate: 2375 docs/sec | RAM: 15.40GB
+[INDEXING] 83,501,056 | Rate: 2375 docs/sec | RAM: 15.89GB
+[INDEXING] 83,603,456 | Rate: 2374 docs/sec | RAM: 15.85GB
+[INDEXING] 83,701,760 | Rate: 2374 docs/sec | RAM: 15.86GB
+[INDEXING] 83,800,064 | Rate: 2374 docs/sec | RAM: 14.51GB
+[INDEXING] 83,902,464 | Rate: 2373 docs/sec | RAM: 14.79GB
+[INDEXING] 84,000,768 | Rate: 2373 docs/sec | RAM: 14.80GB
+[INDEXING] 84,103,168 | Rate: 2373 docs/sec | RAM: 15.39GB
+[INDEXING] 84,201,472 | Rate: 2373 docs/sec | RAM: 15.37GB
+[INDEXING] 84,303,872 | Rate: 2373 docs/sec | RAM: 15.40GB
+[INDEXING] 84,402,176 | Rate: 2372 docs/sec | RAM: 15.98GB
+[INDEXING] 84,500,480 | Rate: 2372 docs/sec | RAM: 15.99GB
+[INDEXING] 84,602,880 | Rate: 2372 docs/sec | RAM: 16.01GB
+[INDEXING] 84,701,184 | Rate: 2372 docs/sec | RAM: 14.87GB
+[INDEXING] 84,803,584 | Rate: 2371 docs/sec | RAM: 14.88GB
+[INDEXING] 84,901,888 | Rate: 2371 docs/sec | RAM: 14.89GB
+[INDEXING] 85,000,192 | Rate: 2371 docs/sec | RAM: 15.08GB
+
+💾 Saving checkpoint: models/checkpoint_85000192.index
+✅ Checkpoint secured. RAM: 15.23GB
+
+[INDEXING] 85,102,592 | Rate: 2370 docs/sec | RAM: 15.45GB
+[INDEXING] 85,200,896 | Rate: 2369 docs/sec | RAM: 15.46GB
+[INDEXING] 85,303,296 | Rate: 2369 docs/sec | RAM: 16.05GB
+[INDEXING] 85,401,600 | Rate: 2369 docs/sec | RAM: 16.06GB
+[INDEXING] 85,504,000 | Rate: 2369 docs/sec | RAM: 16.07GB
+[INDEXING] 85,602,304 | Rate: 2368 docs/sec | RAM: 16.12GB
+[INDEXING] 85,700,608 | Rate: 2368 docs/sec | RAM: 15.04GB
+[INDEXING] 85,803,008 | Rate: 2368 docs/sec | RAM: 15.05GB
+[INDEXING] 85,901,312 | Rate: 2368 docs/sec | RAM: 15.11GB
+[INDEXING] 86,003,712 | Rate: 2367 docs/sec | RAM: 15.51GB
+[INDEXING] 86,102,016 | Rate: 2367 docs/sec | RAM: 15.52GB
+[INDEXING] 86,200,320 | Rate: 2367 docs/sec | RAM: 15.70GB
+[INDEXING] 86,302,720 | Rate: 2367 docs/sec | RAM: 16.25GB
+[INDEXING] 86,401,024 | Rate: 2367 docs/sec | RAM: 16.26GB
+[INDEXING] 86,503,424 | Rate: 2366 docs/sec | RAM: 16.28GB
+[INDEXING] 86,601,728 | Rate: 2366 docs/sec | RAM: 15.02GB
+[INDEXING] 86,700,032 | Rate: 2366 docs/sec | RAM: 15.06GB
+[INDEXING] 86,802,432 | Rate: 2365 docs/sec | RAM: 15.07GB
+[INDEXING] 86,900,736 | Rate: 2365 docs/sec | RAM: 15.43GB
+[INDEXING] 87,003,136 | Rate: 2365 docs/sec | RAM: 15.66GB
+[INDEXING] 87,101,440 | Rate: 2365 docs/sec | RAM: 15.70GB
+[INDEXING] 87,203,840 | Rate: 2364 docs/sec | RAM: 16.37GB
+[INDEXING] 87,302,144 | Rate: 2364 docs/sec | RAM: 16.38GB
+[INDEXING] 87,400,448 | Rate: 2364 docs/sec | RAM: 16.39GB
+[INDEXING] 87,502,848 | Rate: 2364 docs/sec | RAM: 16.19GB
+
+💾 Saving checkpoint: models/checkpoint_87502848.index
+✅ Checkpoint secured. RAM: 16.16GB
+
+[INDEXING] 87,601,152 | Rate: 2362 docs/sec | RAM: 15.27GB
+[INDEXING] 87,703,552 | Rate: 2362 docs/sec | RAM: 15.28GB
+[INDEXING] 87,801,856 | Rate: 2362 docs/sec | RAM: 15.41GB
+[INDEXING] 87,900,160 | Rate: 2362 docs/sec | RAM: 15.84GB
+[INDEXING] 88,002,560 | Rate: 2361 docs/sec | RAM: 15.85GB
+[INDEXING] 88,100,864 | Rate: 2361 docs/sec | RAM: 16.31GB
+[INDEXING] 88,203,264 | Rate: 2361 docs/sec | RAM: 16.38GB
+[INDEXING] 88,301,568 | Rate: 2361 docs/sec | RAM: 16.34GB
+[INDEXING] 88,403,968 | Rate: 2360 docs/sec | RAM: 16.47GB
+[INDEXING] 88,502,272 | Rate: 2360 docs/sec | RAM: 15.34GB
+[INDEXING] 88,600,576 | Rate: 2360 docs/sec | RAM: 15.37GB
+[INDEXING] 88,702,976 | Rate: 2360 docs/sec | RAM: 15.38GB
+[INDEXING] 88,801,280 | Rate: 2359 docs/sec | RAM: 15.80GB
+[INDEXING] 88,903,680 | Rate: 2359 docs/sec | RAM: 15.85GB
+[INDEXING] 89,001,984 | Rate: 2359 docs/sec | RAM: 15.86GB
+[INDEXING] 89,100,288 | Rate: 2359 docs/sec | RAM: 16.42GB
+[INDEXING] 89,202,688 | Rate: 2358 docs/sec | RAM: 16.43GB
+[INDEXING] 89,300,992 | Rate: 2358 docs/sec | RAM: 16.50GB
+[INDEXING] 89,403,392 | Rate: 2358 docs/sec | RAM: 15.37GB
+[INDEXING] 89,501,696 | Rate: 2357 docs/sec | RAM: 15.41GB
+[INDEXING] 89,600,000 | Rate: 2357 docs/sec | RAM: 15.42GB
+[INDEXING] 89,702,400 | Rate: 2357 docs/sec | RAM: 15.43GB
+[INDEXING] 89,800,704 | Rate: 2357 docs/sec | RAM: 16.04GB
+[INDEXING] 89,903,104 | Rate: 2356 docs/sec | RAM: 16.05GB
+[INDEXING] 90,001,408 | Rate: 2356 docs/sec | RAM: 16.39GB
+
+💾 Saving checkpoint: models/checkpoint_90001408.index
+✅ Checkpoint secured. RAM: 16.51GB
+
+[INDEXING] 90,103,808 | Rate: 2355 docs/sec | RAM: 16.53GB
+[INDEXING] 90,202,112 | Rate: 2354 docs/sec | RAM: 16.54GB
+[INDEXING] 90,300,416 | Rate: 2354 docs/sec | RAM: 16.67GB
+[INDEXING] 90,402,816 | Rate: 2354 docs/sec | RAM: 15.75GB
+[INDEXING] 90,501,120 | Rate: 2354 docs/sec | RAM: 15.76GB
+[INDEXING] 90,603,520 | Rate: 2353 docs/sec | RAM: 15.77GB
+[INDEXING] 90,701,824 | Rate: 2353 docs/sec | RAM: 16.10GB
+[INDEXING] 90,800,128 | Rate: 2353 docs/sec | RAM: 16.11GB
+[INDEXING] 90,902,528 | Rate: 2353 docs/sec | RAM: 16.12GB
+[INDEXING] 91,000,832 | Rate: 2353 docs/sec | RAM: 16.83GB
+[INDEXING] 91,103,232 | Rate: 2352 docs/sec | RAM: 16.84GB
+[INDEXING] 91,201,536 | Rate: 2352 docs/sec | RAM: 16.79GB
+[INDEXING] 91,303,936 | Rate: 2352 docs/sec | RAM: 16.59GB
+[INDEXING] 91,402,240 | Rate: 2352 docs/sec | RAM: 16.66GB
+[INDEXING] 91,500,544 | Rate: 2351 docs/sec | RAM: 16.67GB
+[INDEXING] 91,602,944 | Rate: 2351 docs/sec | RAM: 16.65GB
+[INDEXING] 91,701,248 | Rate: 2351 docs/sec | RAM: 16.70GB
+[INDEXING] 91,803,648 | Rate: 2351 docs/sec | RAM: 16.72GB
+[INDEXING] 91,901,952 | Rate: 2350 docs/sec | RAM: 16.73GB
+[INDEXING] 92,000,256 | Rate: 2350 docs/sec | RAM: 16.83GB
+[INDEXING] 92,102,656 | Rate: 2350 docs/sec | RAM: 16.84GB
+[INDEXING] 92,200,960 | Rate: 2350 docs/sec | RAM: 16.88GB
+[INDEXING] 92,303,360 | Rate: 2349 docs/sec | RAM: 16.54GB
+[INDEXING] 92,401,664 | Rate: 2349 docs/sec | RAM: 16.61GB
+[INDEXING] 92,504,064 | Rate: 2349 docs/sec | RAM: 16.59GB
+
+💾 Saving checkpoint: models/checkpoint_92504064.index
+✅ Checkpoint secured. RAM: 16.59GB
+
+[INDEXING] 92,602,368 | Rate: 2347 docs/sec | RAM: 16.60GB
+[INDEXING] 92,700,672 | Rate: 2347 docs/sec | RAM: 16.61GB
+[INDEXING] 92,803,072 | Rate: 2347 docs/sec | RAM: 16.62GB
+[INDEXING] 92,901,376 | Rate: 2347 docs/sec | RAM: 16.86GB
+[INDEXING] 93,003,776 | Rate: 2346 docs/sec | RAM: 16.89GB
+[INDEXING] 93,102,080 | Rate: 2346 docs/sec | RAM: 16.86GB
+[INDEXING] 93,200,384 | Rate: 2346 docs/sec | RAM: 16.63GB
+[INDEXING] 93,302,784 | Rate: 2345 docs/sec | RAM: 16.64GB
+[INDEXING] 93,401,088 | Rate: 2345 docs/sec | RAM: 16.65GB
+[INDEXING] 93,503,488 | Rate: 2345 docs/sec | RAM: 16.66GB
+[INDEXING] 93,601,792 | Rate: 2345 docs/sec | RAM: 16.73GB
+[INDEXING] 93,700,096 | Rate: 2344 docs/sec | RAM: 16.74GB
+[INDEXING] 93,802,496 | Rate: 2344 docs/sec | RAM: 16.91GB
+[INDEXING] 93,900,800 | Rate: 2344 docs/sec | RAM: 17.07GB
+[INDEXING] 94,003,200 | Rate: 2344 docs/sec | RAM: 17.08GB
+[INDEXING] 94,101,504 | Rate: 2344 docs/sec | RAM: 17.09GB
+[INDEXING] 94,203,904 | Rate: 2343 docs/sec | RAM: 16.24GB
+[INDEXING] 94,302,208 | Rate: 2343 docs/sec | RAM: 16.25GB
+[INDEXING] 94,400,512 | Rate: 2343 docs/sec | RAM: 16.26GB
+[INDEXING] 94,502,912 | Rate: 2343 docs/sec | RAM: 16.48GB
+[INDEXING] 94,601,216 | Rate: 2342 docs/sec | RAM: 16.49GB
+[INDEXING] 94,703,616 | Rate: 2342 docs/sec | RAM: 16.71GB
+[INDEXING] 94,801,920 | Rate: 2342 docs/sec | RAM: 17.08GB
+[INDEXING] 94,900,224 | Rate: 2341 docs/sec | RAM: 17.09GB
+[INDEXING] 95,002,624 | Rate: 2341 docs/sec | RAM: 17.10GB
+
+💾 Saving checkpoint: models/checkpoint_95002624.index
+✅ Checkpoint secured. RAM: 17.10GB
+
+[INDEXING] 95,100,928 | Rate: 2340 docs/sec | RAM: 16.18GB
+[INDEXING] 95,203,328 | Rate: 2339 docs/sec | RAM: 16.19GB
+[INDEXING] 95,301,632 | Rate: 2339 docs/sec | RAM: 16.20GB
+[INDEXING] 95,404,032 | Rate: 2339 docs/sec | RAM: 16.57GB
+[INDEXING] 95,502,336 | Rate: 2339 docs/sec | RAM: 16.64GB
+[INDEXING] 95,600,640 | Rate: 2338 docs/sec | RAM: 16.65GB
+[INDEXING] 95,703,040 | Rate: 2338 docs/sec | RAM: 17.17GB
+[INDEXING] 95,801,344 | Rate: 2338 docs/sec | RAM: 17.18GB
+[INDEXING] 95,903,744 | Rate: 2338 docs/sec | RAM: 17.22GB
+[INDEXING] 96,002,048 | Rate: 2337 docs/sec | RAM: 16.30GB
+[INDEXING] 96,100,352 | Rate: 2337 docs/sec | RAM: 16.31GB
+[INDEXING] 96,202,752 | Rate: 2337 docs/sec | RAM: 16.32GB
+[INDEXING] 96,301,056 | Rate: 2337 docs/sec | RAM: 16.52GB
+[INDEXING] 96,403,456 | Rate: 2336 docs/sec | RAM: 16.74GB
+[INDEXING] 96,501,760 | Rate: 2336 docs/sec | RAM: 16.75GB
+[INDEXING] 96,600,064 | Rate: 2336 docs/sec | RAM: 17.19GB
+[INDEXING] 96,702,464 | Rate: 2336 docs/sec | RAM: 17.31GB
+[INDEXING] 96,800,768 | Rate: 2335 docs/sec | RAM: 17.33GB
+[INDEXING] 96,903,168 | Rate: 2335 docs/sec | RAM: 17.37GB
+[INDEXING] 97,001,472 | Rate: 2335 docs/sec | RAM: 16.41GB
+[INDEXING] 97,103,872 | Rate: 2335 docs/sec | RAM: 16.42GB
+[INDEXING] 97,202,176 | Rate: 2335 docs/sec | RAM: 16.43GB
+[INDEXING] 97,300,480 | Rate: 2334 docs/sec | RAM: 16.68GB
+[INDEXING] 97,402,880 | Rate: 2334 docs/sec | RAM: 16.63GB
+[INDEXING] 97,501,184 | Rate: 2334 docs/sec | RAM: 17.12GB
+
+💾 Saving checkpoint: models/checkpoint_97501184.index
+✅ Checkpoint secured. RAM: 17.12GB
+
+[INDEXING] 97,603,584 | Rate: 2332 docs/sec | RAM: 17.13GB
+[INDEXING] 97,701,888 | Rate: 2332 docs/sec | RAM: 17.23GB
+[INDEXING] 97,800,192 | Rate: 2332 docs/sec | RAM: 17.42GB
+[INDEXING] 97,902,592 | Rate: 2332 docs/sec | RAM: 16.41GB
+[INDEXING] 98,000,896 | Rate: 2331 docs/sec | RAM: 16.47GB
+[INDEXING] 98,103,296 | Rate: 2331 docs/sec | RAM: 16.50GB
+[INDEXING] 98,201,600 | Rate: 2331 docs/sec | RAM: 16.47GB
+[INDEXING] 98,304,000 | Rate: 2331 docs/sec | RAM: 16.84GB
+[INDEXING] 98,402,304 | Rate: 2331 docs/sec | RAM: 16.85GB
+[INDEXING] 98,500,608 | Rate: 2330 docs/sec | RAM: 17.37GB
+[INDEXING] 98,603,008 | Rate: 2330 docs/sec | RAM: 17.38GB
+[INDEXING] 98,701,312 | Rate: 2330 docs/sec | RAM: 17.40GB
+[INDEXING] 98,803,712 | Rate: 2330 docs/sec | RAM: 17.47GB
+[INDEXING] 98,902,016 | Rate: 2329 docs/sec | RAM: 16.58GB
+[INDEXING] 99,000,320 | Rate: 2329 docs/sec | RAM: 16.59GB
+[INDEXING] 99,102,720 | Rate: 2329 docs/sec | RAM: 16.61GB
+[INDEXING] 99,201,024 | Rate: 2329 docs/sec | RAM: 17.01GB
+[INDEXING] 99,303,424 | Rate: 2328 docs/sec | RAM: 17.02GB
+[INDEXING] 99,401,728 | Rate: 2328 docs/sec | RAM: 17.03GB
+[INDEXING] 99,500,032 | Rate: 2328 docs/sec | RAM: 17.62GB
+[INDEXING] 99,602,432 | Rate: 2328 docs/sec | RAM: 17.63GB
+[INDEXING] 99,700,736 | Rate: 2327 docs/sec | RAM: 17.64GB
+[INDEXING] 99,803,136 | Rate: 2327 docs/sec | RAM: 16.90GB
+[INDEXING] 99,901,440 | Rate: 2327 docs/sec | RAM: 16.86GB
+[INDEXING] 100,003,840 | Rate: 2327 docs/sec | RAM: 16.87GB
+
+💾 Saving checkpoint: models/checkpoint_100003840.index
+✅ Checkpoint secured. RAM: 16.87GB
+
+[INDEXING] 100,102,144 | Rate: 2325 docs/sec | RAM: 16.88GB
+[INDEXING] 100,200,448 | Rate: 2325 docs/sec | RAM: 17.01GB
+[INDEXING] 100,302,848 | Rate: 2325 docs/sec | RAM: 17.07GB
+[INDEXING] 100,401,152 | Rate: 2324 docs/sec | RAM: 17.63GB
+[INDEXING] 100,503,552 | Rate: 2324 docs/sec | RAM: 17.70GB
+[INDEXING] 100,601,856 | Rate: 2324 docs/sec | RAM: 17.71GB
+[INDEXING] 100,700,160 | Rate: 2324 docs/sec | RAM: 17.72GB
+[INDEXING] 100,802,560 | Rate: 2323 docs/sec | RAM: 17.58GB
+[INDEXING] 100,900,864 | Rate: 2323 docs/sec | RAM: 17.59GB
+[INDEXING] 101,003,264 | Rate: 2323 docs/sec | RAM: 17.60GB
+[INDEXING] 101,101,568 | Rate: 2323 docs/sec | RAM: 17.61GB
+[INDEXING] 101,203,968 | Rate: 2323 docs/sec | RAM: 17.62GB
+[INDEXING] 101,302,272 | Rate: 2322 docs/sec | RAM: 17.63GB
+[INDEXING] 101,400,576 | Rate: 2322 docs/sec | RAM: 17.77GB
+[INDEXING] 101,502,976 | Rate: 2322 docs/sec | RAM: 17.78GB
+[INDEXING] 101,601,280 | Rate: 2322 docs/sec | RAM: 17.79GB
+[INDEXING] 101,703,680 | Rate: 2321 docs/sec | RAM: 17.64GB
+[INDEXING] 101,801,984 | Rate: 2321 docs/sec | RAM: 17.63GB
+[INDEXING] 101,900,288 | Rate: 2321 docs/sec | RAM: 17.64GB
+[INDEXING] 102,002,688 | Rate: 2321 docs/sec | RAM: 17.68GB
+[INDEXING] 102,100,992 | Rate: 2320 docs/sec | RAM: 17.71GB
+[INDEXING] 102,203,392 | Rate: 2320 docs/sec | RAM: 17.72GB
+[INDEXING] 102,301,696 | Rate: 2320 docs/sec | RAM: 17.90GB
+[INDEXING] 102,400,000 | Rate: 2320 docs/sec | RAM: 17.91GB
+[INDEXING] 102,502,400 | Rate: 2319 docs/sec | RAM: 17.93GB
+
+💾 Saving checkpoint: models/checkpoint_102502400.index
+✅ Checkpoint secured. RAM: 17.93GB
+
+[INDEXING] 102,600,704 | Rate: 2318 docs/sec | RAM: 17.19GB
+[INDEXING] 102,703,104 | Rate: 2318 docs/sec | RAM: 17.17GB
+[INDEXING] 102,801,408 | Rate: 2317 docs/sec | RAM: 17.19GB
+[INDEXING] 102,903,808 | Rate: 2317 docs/sec | RAM: 17.17GB
+[INDEXING] 103,002,112 | Rate: 2317 docs/sec | RAM: 17.24GB
+[INDEXING] 103,100,416 | Rate: 2317 docs/sec | RAM: 17.27GB
+[INDEXING] 103,202,816 | Rate: 2317 docs/sec | RAM: 17.86GB
+[INDEXING] 103,301,120 | Rate: 2316 docs/sec | RAM: 17.88GB
+[INDEXING] 103,403,520 | Rate: 2316 docs/sec | RAM: 17.93GB
+[INDEXING] 103,501,824 | Rate: 2316 docs/sec | RAM: 18.01GB
+[INDEXING] 103,600,128 | Rate: 2316 docs/sec | RAM: 17.51GB
+[INDEXING] 103,702,528 | Rate: 2315 docs/sec | RAM: 17.47GB
+[INDEXING] 103,800,832 | Rate: 2315 docs/sec | RAM: 17.48GB
+[INDEXING] 103,903,232 | Rate: 2315 docs/sec | RAM: 17.49GB
+[INDEXING] 104,001,536 | Rate: 2315 docs/sec | RAM: 17.50GB
+[INDEXING] 104,103,936 | Rate: 2314 docs/sec | RAM: 17.54GB
+[INDEXING] 104,202,240 | Rate: 2314 docs/sec | RAM: 18.00GB
+[INDEXING] 104,300,544 | Rate: 2314 docs/sec | RAM: 18.01GB
+[INDEXING] 104,402,944 | Rate: 2314 docs/sec | RAM: 18.03GB
+[INDEXING] 104,501,248 | Rate: 2313 docs/sec | RAM: 17.39GB
+[INDEXING] 104,603,648 | Rate: 2313 docs/sec | RAM: 17.40GB
+[INDEXING] 104,701,952 | Rate: 2313 docs/sec | RAM: 17.41GB
+[INDEXING] 104,800,256 | Rate: 2313 docs/sec | RAM: 17.45GB
+[INDEXING] 104,902,656 | Rate: 2312 docs/sec | RAM: 17.58GB
+[INDEXING] 105,000,960 | Rate: 2312 docs/sec | RAM: 17.59GB
+
+💾 Saving checkpoint: models/checkpoint_105000960.index
+✅ Checkpoint secured. RAM: 17.59GB
+
+[INDEXING] 105,103,360 | Rate: 2311 docs/sec | RAM: 18.20GB
+[INDEXING] 105,201,664 | Rate: 2311 docs/sec | RAM: 18.21GB
+[INDEXING] 105,304,064 | Rate: 2310 docs/sec | RAM: 18.25GB
+[INDEXING] 105,402,368 | Rate: 2310 docs/sec | RAM: 18.26GB
+[INDEXING] 105,500,672 | Rate: 2310 docs/sec | RAM: 17.61GB
+[INDEXING] 105,603,072 | Rate: 2309 docs/sec | RAM: 17.62GB
+[INDEXING] 105,701,376 | Rate: 2309 docs/sec | RAM: 17.58GB
+[INDEXING] 105,803,776 | Rate: 2309 docs/sec | RAM: 17.63GB
+[INDEXING] 105,902,080 | Rate: 2309 docs/sec | RAM: 17.65GB
+[INDEXING] 106,000,384 | Rate: 2309 docs/sec | RAM: 17.74GB
+[INDEXING] 106,102,784 | Rate: 2308 docs/sec | RAM: 18.26GB
+[INDEXING] 106,201,088 | Rate: 2308 docs/sec | RAM: 18.32GB
+[INDEXING] 106,303,488 | Rate: 2308 docs/sec | RAM: 18.28GB
+[INDEXING] 106,401,792 | Rate: 2308 docs/sec | RAM: 17.67GB
+[INDEXING] 106,500,096 | Rate: 2307 docs/sec | RAM: 17.67GB
+[INDEXING] 106,602,496 | Rate: 2307 docs/sec | RAM: 17.68GB
+[INDEXING] 106,700,800 | Rate: 2307 docs/sec | RAM: 17.69GB
+[INDEXING] 106,803,200 | Rate: 2307 docs/sec | RAM: 17.73GB
+[INDEXING] 106,901,504 | Rate: 2306 docs/sec | RAM: 17.74GB
+[INDEXING] 107,003,904 | Rate: 2306 docs/sec | RAM: 18.35GB
+[INDEXING] 107,102,208 | Rate: 2306 docs/sec | RAM: 18.36GB
+[INDEXING] 107,200,512 | Rate: 2306 docs/sec | RAM: 18.38GB
+[INDEXING] 107,302,912 | Rate: 2305 docs/sec | RAM: 17.90GB
+[INDEXING] 107,401,216 | Rate: 2305 docs/sec | RAM: 17.96GB
+[INDEXING] 107,503,616 | Rate: 2305 docs/sec | RAM: 17.97GB
+
+💾 Saving checkpoint: models/checkpoint_107503616.index
+✅ Checkpoint secured. RAM: 17.97GB
+
+[INDEXING] 107,601,920 | Rate: 2303 docs/sec | RAM: 17.98GB
+[INDEXING] 107,700,224 | Rate: 2303 docs/sec | RAM: 17.95GB
+[INDEXING] 107,802,624 | Rate: 2303 docs/sec | RAM: 17.96GB
+[INDEXING] 107,900,928 | Rate: 2303 docs/sec | RAM: 18.36GB
+[INDEXING] 108,003,328 | Rate: 2303 docs/sec | RAM: 18.37GB
+[INDEXING] 108,101,632 | Rate: 2302 docs/sec | RAM: 18.35GB
+[INDEXING] 108,204,032 | Rate: 2302 docs/sec | RAM: 18.44GB
+[INDEXING] 108,302,336 | Rate: 2302 docs/sec | RAM: 17.86GB
+[INDEXING] 108,400,640 | Rate: 2302 docs/sec | RAM: 17.90GB
+[INDEXING] 108,503,040 | Rate: 2301 docs/sec | RAM: 17.92GB
+[INDEXING] 108,601,344 | Rate: 2301 docs/sec | RAM: 17.96GB
+[INDEXING] 108,703,744 | Rate: 2301 docs/sec | RAM: 17.99GB
+[INDEXING] 108,802,048 | Rate: 2301 docs/sec | RAM: 18.09GB
+[INDEXING] 108,900,352 | Rate: 2301 docs/sec | RAM: 18.58GB
+[INDEXING] 109,002,752 | Rate: 2300 docs/sec | RAM: 18.59GB
+[INDEXING] 109,101,056 | Rate: 2300 docs/sec | RAM: 18.60GB
+[INDEXING] 109,203,456 | Rate: 2300 docs/sec | RAM: 18.28GB
+[INDEXING] 109,301,760 | Rate: 2300 docs/sec | RAM: 18.33GB
+[INDEXING] 109,400,064 | Rate: 2299 docs/sec | RAM: 18.38GB
+[INDEXING] 109,502,464 | Rate: 2299 docs/sec | RAM: 18.39GB
+[INDEXING] 109,600,768 | Rate: 2299 docs/sec | RAM: 18.40GB
+[INDEXING] 109,703,168 | Rate: 2299 docs/sec | RAM: 18.41GB
+[INDEXING] 109,801,472 | Rate: 2298 docs/sec | RAM: 18.64GB
+[INDEXING] 109,903,872 | Rate: 2298 docs/sec | RAM: 18.65GB
+[INDEXING] 110,002,176 | Rate: 2298 docs/sec | RAM: 18.72GB
+
+💾 Saving checkpoint: models/checkpoint_110002176.index
+✅ Checkpoint secured. RAM: 18.72GB
+
+[INDEXING] 110,100,480 | Rate: 2297 docs/sec | RAM: 18.70GB
+[INDEXING] 110,202,880 | Rate: 2296 docs/sec | RAM: 18.26GB
+[INDEXING] 110,301,184 | Rate: 2296 docs/sec | RAM: 18.27GB
+[INDEXING] 110,403,584 | Rate: 2296 docs/sec | RAM: 18.33GB
+[INDEXING] 110,501,888 | Rate: 2296 docs/sec | RAM: 18.34GB
+[INDEXING] 110,600,192 | Rate: 2295 docs/sec | RAM: 18.35GB
+[INDEXING] 110,702,592 | Rate: 2295 docs/sec | RAM: 18.64GB
+[INDEXING] 110,800,896 | Rate: 2295 docs/sec | RAM: 18.71GB
+[INDEXING] 110,903,296 | Rate: 2295 docs/sec | RAM: 18.69GB
+[INDEXING] 111,001,600 | Rate: 2294 docs/sec | RAM: 18.78GB
+[INDEXING] 111,104,000 | Rate: 2294 docs/sec | RAM: 18.35GB
+[INDEXING] 111,202,304 | Rate: 2294 docs/sec | RAM: 18.36GB
+[INDEXING] 111,300,608 | Rate: 2294 docs/sec | RAM: 18.37GB
+[INDEXING] 111,403,008 | Rate: 2293 docs/sec | RAM: 18.38GB
+[INDEXING] 111,501,312 | Rate: 2293 docs/sec | RAM: 18.39GB
+[INDEXING] 111,603,712 | Rate: 2293 docs/sec | RAM: 18.43GB
+[INDEXING] 111,702,016 | Rate: 2293 docs/sec | RAM: 18.80GB
+[INDEXING] 111,800,320 | Rate: 2293 docs/sec | RAM: 18.81GB
+[INDEXING] 111,902,720 | Rate: 2292 docs/sec | RAM: 18.82GB
+[INDEXING] 112,001,024 | Rate: 2292 docs/sec | RAM: 18.83GB
+[INDEXING] 112,103,424 | Rate: 2292 docs/sec | RAM: 18.88GB
+[INDEXING] 112,201,728 | Rate: 2292 docs/sec | RAM: 18.89GB
+[INDEXING] 112,300,032 | Rate: 2291 docs/sec | RAM: 18.92GB
+[INDEXING] 112,402,432 | Rate: 2291 docs/sec | RAM: 18.88GB
+[INDEXING] 112,500,736 | Rate: 2291 docs/sec | RAM: 18.89GB
+
+💾 Saving checkpoint: models/checkpoint_112500736.index
+✅ Checkpoint secured. RAM: 18.89GB
+
+[INDEXING] 112,603,136 | Rate: 2289 docs/sec | RAM: 18.95GB
+[INDEXING] 112,701,440 | Rate: 2289 docs/sec | RAM: 18.96GB
+[INDEXING] 112,803,840 | Rate: 2289 docs/sec | RAM: 18.97GB
+[INDEXING] 112,902,144 | Rate: 2289 docs/sec | RAM: 19.01GB
+[INDEXING] 113,000,448 | Rate: 2288 docs/sec | RAM: 18.40GB
+[INDEXING] 113,102,848 | Rate: 2288 docs/sec | RAM: 18.36GB
+[INDEXING] 113,201,152 | Rate: 2288 docs/sec | RAM: 18.37GB
+[INDEXING] 113,303,552 | Rate: 2288 docs/sec | RAM: 18.56GB
+[INDEXING] 113,401,856 | Rate: 2288 docs/sec | RAM: 18.57GB
+[INDEXING] 113,500,160 | Rate: 2287 docs/sec | RAM: 18.61GB
+[INDEXING] 113,602,560 | Rate: 2287 docs/sec | RAM: 19.19GB
+[INDEXING] 113,700,864 | Rate: 2287 docs/sec | RAM: 19.18GB
+[INDEXING] 113,803,264 | Rate: 2287 docs/sec | RAM: 19.22GB
+[INDEXING] 113,901,568 | Rate: 2286 docs/sec | RAM: 18.30GB
+[INDEXING] 114,003,968 | Rate: 2286 docs/sec | RAM: 18.31GB
+[INDEXING] 114,102,272 | Rate: 2286 docs/sec | RAM: 18.29GB
+[INDEXING] 114,200,576 | Rate: 2286 docs/sec | RAM: 18.30GB
+[INDEXING] 114,302,976 | Rate: 2285 docs/sec | RAM: 18.55GB
+[INDEXING] 114,401,280 | Rate: 2285 docs/sec | RAM: 18.56GB
+[INDEXING] 114,503,680 | Rate: 2285 docs/sec | RAM: 19.02GB
+[INDEXING] 114,601,984 | Rate: 2285 docs/sec | RAM: 19.03GB
+[INDEXING] 114,700,288 | Rate: 2285 docs/sec | RAM: 19.04GB
+[INDEXING] 114,802,688 | Rate: 2284 docs/sec | RAM: 19.09GB
+[INDEXING] 114,900,992 | Rate: 2284 docs/sec | RAM: 18.73GB
+[INDEXING] 115,003,392 | Rate: 2284 docs/sec | RAM: 18.74GB
+
+💾 Saving checkpoint: models/checkpoint_115003392.index
+✅ Checkpoint secured. RAM: 18.74GB
+
+[INDEXING] 115,101,696 | Rate: 2282 docs/sec | RAM: 18.76GB
+[INDEXING] 115,200,000 | Rate: 2282 docs/sec | RAM: 18.76GB
+[INDEXING] 115,302,400 | Rate: 2282 docs/sec | RAM: 18.77GB
+[INDEXING] 115,400,704 | Rate: 2282 docs/sec | RAM: 18.85GB
+[INDEXING] 115,503,104 | Rate: 2281 docs/sec | RAM: 19.24GB
+[INDEXING] 115,601,408 | Rate: 2281 docs/sec | RAM: 19.25GB
+[INDEXING] 115,703,808 | Rate: 2281 docs/sec | RAM: 19.26GB
+[INDEXING] 115,802,112 | Rate: 2281 docs/sec | RAM: 18.51GB
+[INDEXING] 115,900,416 | Rate: 2280 docs/sec | RAM: 18.52GB
+[INDEXING] 116,002,816 | Rate: 2280 docs/sec | RAM: 18.53GB
+[INDEXING] 116,101,120 | Rate: 2280 docs/sec | RAM: 18.72GB
+[INDEXING] 116,203,520 | Rate: 2280 docs/sec | RAM: 18.73GB
+[INDEXING] 116,301,824 | Rate: 2280 docs/sec | RAM: 18.83GB
+[INDEXING] 116,400,128 | Rate: 2280 docs/sec | RAM: 19.42GB
+[INDEXING] 116,502,528 | Rate: 2279 docs/sec | RAM: 19.43GB
+[INDEXING] 116,600,832 | Rate: 2279 docs/sec | RAM: 19.56GB
+[INDEXING] 116,703,232 | Rate: 2279 docs/sec | RAM: 18.50GB
+[INDEXING] 116,801,536 | Rate: 2278 docs/sec | RAM: 18.51GB
+[INDEXING] 116,903,936 | Rate: 2278 docs/sec | RAM: 18.52GB
+[INDEXING] 117,002,240 | Rate: 2278 docs/sec | RAM: 18.62GB
+[INDEXING] 117,100,544 | Rate: 2278 docs/sec | RAM: 18.76GB
+[INDEXING] 117,202,944 | Rate: 2278 docs/sec | RAM: 18.78GB
+[INDEXING] 117,301,248 | Rate: 2277 docs/sec | RAM: 19.36GB
+[INDEXING] 117,403,648 | Rate: 2277 docs/sec | RAM: 19.38GB
+[INDEXING] 117,501,952 | Rate: 2277 docs/sec | RAM: 19.48GB
+
+💾 Saving checkpoint: models/checkpoint_117501952.index
+✅ Checkpoint secured. RAM: 19.48GB
+
+[INDEXING] 117,600,256 | Rate: 2275 docs/sec | RAM: 19.44GB
+[INDEXING] 117,702,656 | Rate: 2275 docs/sec | RAM: 18.55GB
+[INDEXING] 117,800,960 | Rate: 2275 docs/sec | RAM: 18.56GB
+[INDEXING] 117,903,360 | Rate: 2275 docs/sec | RAM: 18.57GB
+[INDEXING] 118,001,664 | Rate: 2275 docs/sec | RAM: 18.79GB
+[INDEXING] 118,104,064 | Rate: 2274 docs/sec | RAM: 18.80GB
+[INDEXING] 118,202,368 | Rate: 2274 docs/sec | RAM: 19.17GB
+[INDEXING] 118,300,672 | Rate: 2274 docs/sec | RAM: 19.45GB
+[INDEXING] 118,403,072 | Rate: 2274 docs/sec | RAM: 19.46GB
+[INDEXING] 118,501,376 | Rate: 2274 docs/sec | RAM: 19.47GB
+[INDEXING] 118,603,776 | Rate: 2273 docs/sec | RAM: 19.18GB
+[INDEXING] 118,702,080 | Rate: 2273 docs/sec | RAM: 19.19GB
+[INDEXING] 118,800,384 | Rate: 2273 docs/sec | RAM: 19.25GB
+[INDEXING] 118,902,784 | Rate: 2273 docs/sec | RAM: 19.26GB
+[INDEXING] 119,001,088 | Rate: 2272 docs/sec | RAM: 19.27GB
+[INDEXING] 119,103,488 | Rate: 2272 docs/sec | RAM: 19.28GB
+[INDEXING] 119,201,792 | Rate: 2272 docs/sec | RAM: 19.60GB
+[INDEXING] 119,300,096 | Rate: 2272 docs/sec | RAM: 19.61GB
+[INDEXING] 119,402,496 | Rate: 2272 docs/sec | RAM: 19.68GB
+[INDEXING] 119,500,800 | Rate: 2271 docs/sec | RAM: 19.28GB
+[INDEXING] 119,603,200 | Rate: 2271 docs/sec | RAM: 19.29GB
+[INDEXING] 119,701,504 | Rate: 2271 docs/sec | RAM: 19.30GB
+[INDEXING] 119,803,904 | Rate: 2271 docs/sec | RAM: 19.31GB
+[INDEXING] 119,902,208 | Rate: 2270 docs/sec | RAM: 19.35GB
+[INDEXING] 120,000,512 | Rate: 2270 docs/sec | RAM: 19.39GB
+
+💾 Saving checkpoint: models/checkpoint_120000512.index
+✅ Checkpoint secured. RAM: 19.39GB
+
+[INDEXING] 120,102,912 | Rate: 2269 docs/sec | RAM: 19.52GB
+[INDEXING] 120,201,216 | Rate: 2269 docs/sec | RAM: 19.74GB
+[INDEXING] 120,303,616 | Rate: 2268 docs/sec | RAM: 19.78GB
+[INDEXING] 120,401,920 | Rate: 2268 docs/sec | RAM: 19.85GB
+[INDEXING] 120,500,224 | Rate: 2268 docs/sec | RAM: 18.90GB
+[INDEXING] 120,602,624 | Rate: 2268 docs/sec | RAM: 18.93GB
+[INDEXING] 120,700,928 | Rate: 2268 docs/sec | RAM: 18.94GB
+[INDEXING] 120,803,328 | Rate: 2267 docs/sec | RAM: 19.11GB
+[INDEXING] 120,901,632 | Rate: 2267 docs/sec | RAM: 19.21GB
+[INDEXING] 121,004,032 | Rate: 2267 docs/sec | RAM: 19.22GB
+[INDEXING] 121,102,336 | Rate: 2267 docs/sec | RAM: 19.80GB
+[INDEXING] 121,200,640 | Rate: 2267 docs/sec | RAM: 19.84GB
+[INDEXING] 121,303,040 | Rate: 2266 docs/sec | RAM: 19.83GB
+[INDEXING] 121,401,344 | Rate: 2266 docs/sec | RAM: 18.94GB
+[INDEXING] 121,503,744 | Rate: 2266 docs/sec | RAM: 18.95GB
+[INDEXING] 121,602,048 | Rate: 2266 docs/sec | RAM: 19.00GB
+[INDEXING] 121,700,352 | Rate: 2265 docs/sec | RAM: 18.97GB
+[INDEXING] 121,802,752 | Rate: 2265 docs/sec | RAM: 19.31GB
+[INDEXING] 121,901,056 | Rate: 2265 docs/sec | RAM: 19.32GB
+[INDEXING] 122,003,456 | Rate: 2265 docs/sec | RAM: 19.70GB
+[INDEXING] 122,101,760 | Rate: 2265 docs/sec | RAM: 19.95GB
+[INDEXING] 122,200,064 | Rate: 2264 docs/sec | RAM: 19.96GB
+[INDEXING] 122,302,464 | Rate: 2264 docs/sec | RAM: 19.97GB
+[INDEXING] 122,400,768 | Rate: 2264 docs/sec | RAM: 19.36GB
+[INDEXING] 122,503,168 | Rate: 2264 docs/sec | RAM: 19.35GB
+
+💾 Saving checkpoint: models/checkpoint_122503168.index
+✅ Checkpoint secured. RAM: 19.35GB
+
+[INDEXING] 122,601,472 | Rate: 2262 docs/sec | RAM: 19.39GB
+[INDEXING] 122,703,872 | Rate: 2262 docs/sec | RAM: 19.47GB
+[INDEXING] 122,802,176 | Rate: 2262 docs/sec | RAM: 19.48GB
+[INDEXING] 122,900,480 | Rate: 2262 docs/sec | RAM: 19.58GB
+[INDEXING] 123,002,880 | Rate: 2262 docs/sec | RAM: 20.06GB
+[INDEXING] 123,101,184 | Rate: 2261 docs/sec | RAM: 20.07GB
+[INDEXING] 123,203,584 | Rate: 2261 docs/sec | RAM: 20.08GB
+[INDEXING] 123,301,888 | Rate: 2261 docs/sec | RAM: 19.21GB
+[INDEXING] 123,400,192 | Rate: 2261 docs/sec | RAM: 19.18GB
+[INDEXING] 123,502,592 | Rate: 2260 docs/sec | RAM: 19.19GB
+[INDEXING] 123,600,896 | Rate: 2260 docs/sec | RAM: 19.42GB
+[INDEXING] 123,703,296 | Rate: 2260 docs/sec | RAM: 19.46GB
+[INDEXING] 123,801,600 | Rate: 2260 docs/sec | RAM: 19.47GB
+[INDEXING] 123,904,000 | Rate: 2260 docs/sec | RAM: 20.18GB
+[INDEXING] 124,002,304 | Rate: 2259 docs/sec | RAM: 20.20GB
+[INDEXING] 124,100,608 | Rate: 2259 docs/sec | RAM: 20.23GB
+[INDEXING] 124,203,008 | Rate: 2259 docs/sec | RAM: 19.31GB
+[INDEXING] 124,301,312 | Rate: 2259 docs/sec | RAM: 19.32GB
+[INDEXING] 124,403,712 | Rate: 2259 docs/sec | RAM: 19.33GB
+[INDEXING] 124,502,016 | Rate: 2258 docs/sec | RAM: 19.34GB
+[INDEXING] 124,600,320 | Rate: 2258 docs/sec | RAM: 19.59GB
+[INDEXING] 124,702,720 | Rate: 2258 docs/sec | RAM: 19.60GB
+[INDEXING] 124,801,024 | Rate: 2258 docs/sec | RAM: 20.12GB
+[INDEXING] 124,903,424 | Rate: 2257 docs/sec | RAM: 20.20GB
+[INDEXING] 125,001,728 | Rate: 2257 docs/sec | RAM: 20.21GB
+
+💾 Saving checkpoint: models/checkpoint_125001728.index
+✅ Checkpoint secured. RAM: 20.21GB
+
+[INDEXING] 125,100,032 | Rate: 2256 docs/sec | RAM: 20.22GB
+[INDEXING] 125,202,432 | Rate: 2256 docs/sec | RAM: 19.42GB
+[INDEXING] 125,300,736 | Rate: 2255 docs/sec | RAM: 19.43GB
+[INDEXING] 125,403,136 | Rate: 2255 docs/sec | RAM: 19.39GB
+[INDEXING] 125,501,440 | Rate: 2255 docs/sec | RAM: 19.58GB
+[INDEXING] 125,603,840 | Rate: 2255 docs/sec | RAM: 19.59GB
+[INDEXING] 125,702,144 | Rate: 2255 docs/sec | RAM: 19.70GB
+[INDEXING] 125,800,448 | Rate: 2254 docs/sec | RAM: 20.33GB
+[INDEXING] 125,902,848 | Rate: 2254 docs/sec | RAM: 20.34GB
+[INDEXING] 126,001,152 | Rate: 2254 docs/sec | RAM: 20.38GB
+[INDEXING] 126,103,552 | Rate: 2254 docs/sec | RAM: 19.64GB
+[INDEXING] 126,201,856 | Rate: 2254 docs/sec | RAM: 19.67GB
+[INDEXING] 126,300,160 | Rate: 2253 docs/sec | RAM: 19.68GB
+[INDEXING] 126,402,560 | Rate: 2253 docs/sec | RAM: 19.69GB
+[INDEXING] 126,500,864 | Rate: 2253 docs/sec | RAM: 19.76GB
+[INDEXING] 126,603,264 | Rate: 2253 docs/sec | RAM: 19.72GB
+[INDEXING] 126,701,568 | Rate: 2252 docs/sec | RAM: 20.46GB
+[INDEXING] 126,803,968 | Rate: 2252 docs/sec | RAM: 20.49GB
+[INDEXING] 126,902,272 | Rate: 2252 docs/sec | RAM: 20.50GB
+[INDEXING] 127,000,576 | Rate: 2252 docs/sec | RAM: 20.47GB
+[INDEXING] 127,102,976 | Rate: 2252 docs/sec | RAM: 20.13GB
+[INDEXING] 127,201,280 | Rate: 2251 docs/sec | RAM: 20.14GB
+[INDEXING] 127,303,680 | Rate: 2251 docs/sec | RAM: 20.16GB
+[INDEXING] 127,401,984 | Rate: 2251 docs/sec | RAM: 20.17GB
+[INDEXING] 127,500,288 | Rate: 2251 docs/sec | RAM: 20.19GB
+
+💾 Saving checkpoint: models/checkpoint_127500288.index
+✅ Checkpoint secured. RAM: 20.19GB
+
+[INDEXING] 127,602,688 | Rate: 2249 docs/sec | RAM: 20.49GB
+[INDEXING] 127,700,992 | Rate: 2249 docs/sec | RAM: 20.50GB
+[INDEXING] 127,803,392 | Rate: 2249 docs/sec | RAM: 20.57GB
+[INDEXING] 127,901,696 | Rate: 2249 docs/sec | RAM: 20.58GB
+[INDEXING] 128,000,000 | Rate: 2249 docs/sec | RAM: 20.23GB
+[INDEXING] 128,102,400 | Rate: 2248 docs/sec | RAM: 20.24GB
+[INDEXING] 128,200,704 | Rate: 2248 docs/sec | RAM: 20.25GB
+[INDEXING] 128,303,104 | Rate: 2248 docs/sec | RAM: 20.26GB
+[INDEXING] 128,401,408 | Rate: 2248 docs/sec | RAM: 20.27GB
+[INDEXING] 128,503,808 | Rate: 2248 docs/sec | RAM: 20.28GB
+[INDEXING] 128,602,112 | Rate: 2247 docs/sec | RAM: 20.59GB
+[INDEXING] 128,700,416 | Rate: 2247 docs/sec | RAM: 20.62GB
+[INDEXING] 128,802,816 | Rate: 2247 docs/sec | RAM: 20.63GB
+[INDEXING] 128,901,120 | Rate: 2247 docs/sec | RAM: 20.37GB
+[INDEXING] 129,003,520 | Rate: 2246 docs/sec | RAM: 20.45GB
+[INDEXING] 129,101,824 | Rate: 2246 docs/sec | RAM: 20.46GB
+[INDEXING] 129,200,128 | Rate: 2246 docs/sec | RAM: 20.47GB
+[INDEXING] 129,302,528 | Rate: 2246 docs/sec | RAM: 20.44GB
+[INDEXING] 129,400,832 | Rate: 2245 docs/sec | RAM: 20.47GB
+[INDEXING] 129,503,232 | Rate: 2245 docs/sec | RAM: 20.48GB
+[INDEXING] 129,601,536 | Rate: 2245 docs/sec | RAM: 20.73GB
+[INDEXING] 129,703,936 | Rate: 2245 docs/sec | RAM: 20.78GB
+[INDEXING] 129,802,240 | Rate: 2245 docs/sec | RAM: 20.83GB
+[INDEXING] 129,900,544 | Rate: 2244 docs/sec | RAM: 20.56GB
+[INDEXING] 130,002,944 | Rate: 2244 docs/sec | RAM: 20.57GB
+
+💾 Saving checkpoint: models/checkpoint_130002944.index
+✅ Checkpoint secured. RAM: 20.57GB
+
+[INDEXING] 130,101,248 | Rate: 2243 docs/sec | RAM: 20.54GB
+[INDEXING] 130,203,648 | Rate: 2243 docs/sec | RAM: 20.55GB
+[INDEXING] 130,301,952 | Rate: 2243 docs/sec | RAM: 20.56GB
+[INDEXING] 130,400,256 | Rate: 2242 docs/sec | RAM: 20.57GB
+[INDEXING] 130,502,656 | Rate: 2242 docs/sec | RAM: 20.76GB
+[INDEXING] 130,600,960 | Rate: 2242 docs/sec | RAM: 20.77GB
+[INDEXING] 130,703,360 | Rate: 2242 docs/sec | RAM: 20.81GB
+[INDEXING] 130,801,664 | Rate: 2241 docs/sec | RAM: 20.66GB
+[INDEXING] 130,904,064 | Rate: 2241 docs/sec | RAM: 20.67GB
+[INDEXING] 131,002,368 | Rate: 2241 docs/sec | RAM: 20.68GB
+[INDEXING] 131,100,672 | Rate: 2241 docs/sec | RAM: 20.70GB
+[INDEXING] 131,203,072 | Rate: 2241 docs/sec | RAM: 20.74GB
+[INDEXING] 131,301,376 | Rate: 2240 docs/sec | RAM: 20.75GB
+[INDEXING] 131,403,776 | Rate: 2240 docs/sec | RAM: 20.88GB
+[INDEXING] 131,502,080 | Rate: 2240 docs/sec | RAM: 20.89GB
+[INDEXING] 131,600,384 | Rate: 2240 docs/sec | RAM: 20.90GB
+[INDEXING] 131,702,784 | Rate: 2239 docs/sec | RAM: 20.91GB
+[INDEXING] 131,801,088 | Rate: 2239 docs/sec | RAM: 20.20GB
+[INDEXING] 131,903,488 | Rate: 2239 docs/sec | RAM: 20.22GB
+[INDEXING] 132,001,792 | Rate: 2239 docs/sec | RAM: 20.23GB
+[INDEXING] 132,100,096 | Rate: 2238 docs/sec | RAM: 20.33GB
+[INDEXING] 132,202,496 | Rate: 2238 docs/sec | RAM: 20.34GB
+[INDEXING] 132,300,800 | Rate: 2238 docs/sec | RAM: 20.80GB
+[INDEXING] 132,403,200 | Rate: 2238 docs/sec | RAM: 20.93GB
+[INDEXING] 132,501,504 | Rate: 2238 docs/sec | RAM: 20.94GB
+
+💾 Saving checkpoint: models/checkpoint_132501504.index
+✅ Checkpoint secured. RAM: 20.94GB
+
+[INDEXING] 132,603,904 | Rate: 2236 docs/sec | RAM: 21.05GB
+[INDEXING] 132,702,208 | Rate: 2236 docs/sec | RAM: 20.72GB
+[INDEXING] 132,800,512 | Rate: 2236 docs/sec | RAM: 20.73GB
+[INDEXING] 132,902,912 | Rate: 2236 docs/sec | RAM: 20.74GB
+[INDEXING] 133,001,216 | Rate: 2235 docs/sec | RAM: 20.75GB
+[INDEXING] 133,103,616 | Rate: 2235 docs/sec | RAM: 20.70GB
+[INDEXING] 133,201,920 | Rate: 2235 docs/sec | RAM: 20.72GB
+[INDEXING] 133,300,224 | Rate: 2235 docs/sec | RAM: 21.11GB
+[INDEXING] 133,402,624 | Rate: 2235 docs/sec | RAM: 21.13GB
+[INDEXING] 133,500,928 | Rate: 2234 docs/sec | RAM: 21.20GB
+[INDEXING] 133,603,328 | Rate: 2234 docs/sec | RAM: 20.60GB
+[INDEXING] 133,701,632 | Rate: 2234 docs/sec | RAM: 20.61GB
+[INDEXING] 133,804,032 | Rate: 2234 docs/sec | RAM: 20.63GB
+[INDEXING] 133,902,336 | Rate: 2233 docs/sec | RAM: 20.64GB
+[INDEXING] 134,000,640 | Rate: 2233 docs/sec | RAM: 20.66GB
+[INDEXING] 134,103,040 | Rate: 2233 docs/sec | RAM: 20.66GB
+[INDEXING] 134,201,344 | Rate: 2233 docs/sec | RAM: 20.85GB
+[INDEXING] 134,303,744 | Rate: 2233 docs/sec | RAM: 21.10GB
+[INDEXING] 134,402,048 | Rate: 2232 docs/sec | RAM: 21.11GB
+[INDEXING] 134,500,352 | Rate: 2232 docs/sec | RAM: 21.12GB
+[INDEXING] 134,602,752 | Rate: 2232 docs/sec | RAM: 20.38GB
+[INDEXING] 134,701,056 | Rate: 2232 docs/sec | RAM: 20.39GB
+[INDEXING] 134,803,456 | Rate: 2232 docs/sec | RAM: 20.40GB
+[INDEXING] 134,901,760 | Rate: 2231 docs/sec | RAM: 20.73GB
+[INDEXING] 135,000,064 | Rate: 2231 docs/sec | RAM: 20.81GB
+
+💾 Saving checkpoint: models/checkpoint_135000064.index
+✅ Checkpoint secured. RAM: 20.81GB
+
+[INDEXING] 135,102,464 | Rate: 2230 docs/sec | RAM: 20.82GB
+[INDEXING] 135,200,768 | Rate: 2230 docs/sec | RAM: 21.36GB
+[INDEXING] 135,303,168 | Rate: 2229 docs/sec | RAM: 21.38GB
+[INDEXING] 135,401,472 | Rate: 2229 docs/sec | RAM: 21.39GB
+[INDEXING] 135,503,872 | Rate: 2229 docs/sec | RAM: 20.53GB
+[INDEXING] 135,602,176 | Rate: 2229 docs/sec | RAM: 20.54GB
+[INDEXING] 135,700,480 | Rate: 2228 docs/sec | RAM: 20.55GB
+[INDEXING] 135,802,880 | Rate: 2228 docs/sec | RAM: 20.58GB
+[INDEXING] 135,901,184 | Rate: 2228 docs/sec | RAM: 20.93GB
+[INDEXING] 136,003,584 | Rate: 2228 docs/sec | RAM: 20.95GB
+[INDEXING] 136,101,888 | Rate: 2228 docs/sec | RAM: 21.32GB
+[INDEXING] 136,200,192 | Rate: 2227 docs/sec | RAM: 21.47GB
+[INDEXING] 136,302,592 | Rate: 2227 docs/sec | RAM: 21.48GB
+[INDEXING] 136,400,896 | Rate: 2227 docs/sec | RAM: 21.50GB
+[INDEXING] 136,503,296 | Rate: 2227 docs/sec | RAM: 20.63GB
+[INDEXING] 136,601,600 | Rate: 2226 docs/sec | RAM: 20.64GB
+[INDEXING] 136,704,000 | Rate: 2226 docs/sec | RAM: 20.65GB
+[INDEXING] 136,802,304 | Rate: 2226 docs/sec | RAM: 20.96GB
+[INDEXING] 136,900,608 | Rate: 2226 docs/sec | RAM: 20.97GB
+[INDEXING] 137,003,008 | Rate: 2226 docs/sec | RAM: 20.98GB
+[INDEXING] 137,101,312 | Rate: 2225 docs/sec | RAM: 21.57GB
+[INDEXING] 137,203,712 | Rate: 2225 docs/sec | RAM: 21.58GB
+[INDEXING] 137,302,016 | Rate: 2225 docs/sec | RAM: 21.54GB
+[INDEXING] 137,400,320 | Rate: 2225 docs/sec | RAM: 20.70GB
+[INDEXING] 137,502,720 | Rate: 2224 docs/sec | RAM: 20.73GB
+
+💾 Saving checkpoint: models/checkpoint_137502720.index
+✅ Checkpoint secured. RAM: 20.73GB
+
+[INDEXING] 137,601,024 | Rate: 2223 docs/sec | RAM: 20.74GB
+[INDEXING] 137,703,424 | Rate: 2223 docs/sec | RAM: 20.89GB
+[INDEXING] 137,801,728 | Rate: 2223 docs/sec | RAM: 21.00GB
+[INDEXING] 137,900,032 | Rate: 2223 docs/sec | RAM: 21.01GB
+[INDEXING] 138,002,432 | Rate: 2222 docs/sec | RAM: 21.63GB
+[INDEXING] 138,100,736 | Rate: 2222 docs/sec | RAM: 21.64GB
+[INDEXING] 138,203,136 | Rate: 2222 docs/sec | RAM: 21.65GB
+[INDEXING] 138,301,440 | Rate: 2222 docs/sec | RAM: 20.79GB
+[INDEXING] 138,403,840 | Rate: 2221 docs/sec | RAM: 20.75GB
+[INDEXING] 138,502,144 | Rate: 2221 docs/sec | RAM: 20.76GB
+[INDEXING] 138,600,448 | Rate: 2221 docs/sec | RAM: 20.77GB
+[INDEXING] 138,702,848 | Rate: 2221 docs/sec | RAM: 21.11GB
+[INDEXING] 138,801,152 | Rate: 2221 docs/sec | RAM: 21.12GB
+[INDEXING] 138,903,552 | Rate: 2220 docs/sec | RAM: 21.34GB
+[INDEXING] 139,001,856 | Rate: 2220 docs/sec | RAM: 21.71GB
+[INDEXING] 139,100,160 | Rate: 2220 docs/sec | RAM: 21.72GB
+[INDEXING] 139,202,560 | Rate: 2220 docs/sec | RAM: 21.73GB
+[INDEXING] 139,300,864 | Rate: 2219 docs/sec | RAM: 21.54GB
+[INDEXING] 139,403,264 | Rate: 2219 docs/sec | RAM: 21.56GB
+[INDEXING] 139,501,568 | Rate: 2219 docs/sec | RAM: 21.57GB
+[INDEXING] 139,603,968 | Rate: 2219 docs/sec | RAM: 21.58GB
+[INDEXING] 139,702,272 | Rate: 2219 docs/sec | RAM: 21.59GB
+[INDEXING] 139,800,576 | Rate: 2218 docs/sec | RAM: 21.60GB
+[INDEXING] 139,902,976 | Rate: 2218 docs/sec | RAM: 21.86GB
+[INDEXING] 140,001,280 | Rate: 2218 docs/sec | RAM: 21.87GB
+
+💾 Saving checkpoint: models/checkpoint_140001280.index
+✅ Checkpoint secured. RAM: 21.87GB
+
+[INDEXING] 140,103,680 | Rate: 2217 docs/sec | RAM: 21.91GB
+[INDEXING] 140,201,984 | Rate: 2216 docs/sec | RAM: 21.65GB
+[INDEXING] 140,300,288 | Rate: 2216 docs/sec | RAM: 21.69GB
+[INDEXING] 140,402,688 | Rate: 2216 docs/sec | RAM: 21.70GB
+[INDEXING] 140,500,992 | Rate: 2216 docs/sec | RAM: 21.66GB
+[INDEXING] 140,603,392 | Rate: 2216 docs/sec | RAM: 21.72GB
+[INDEXING] 140,701,696 | Rate: 2215 docs/sec | RAM: 21.73GB
+[INDEXING] 140,800,000 | Rate: 2215 docs/sec | RAM: 21.77GB
+[INDEXING] 140,902,400 | Rate: 2215 docs/sec | RAM: 21.90GB
+[INDEXING] 141,000,704 | Rate: 2215 docs/sec | RAM: 21.86GB
+[INDEXING] 141,103,104 | Rate: 2214 docs/sec | RAM: 21.61GB
+[INDEXING] 141,201,408 | Rate: 2214 docs/sec | RAM: 21.65GB
+[INDEXING] 141,303,808 | Rate: 2214 docs/sec | RAM: 21.67GB
+[INDEXING] 141,402,112 | Rate: 2214 docs/sec | RAM: 21.68GB
+[INDEXING] 141,500,416 | Rate: 2214 docs/sec | RAM: 21.64GB
+[INDEXING] 141,602,816 | Rate: 2214 docs/sec | RAM: 21.65GB
+[INDEXING] 141,701,120 | Rate: 2213 docs/sec | RAM: 21.66GB
+[INDEXING] 141,803,520 | Rate: 2213 docs/sec | RAM: 22.01GB
+[INDEXING] 141,901,824 | Rate: 2213 docs/sec | RAM: 22.02GB
+[INDEXING] 142,000,128 | Rate: 2213 docs/sec | RAM: 22.03GB
+[INDEXING] 142,102,528 | Rate: 2212 docs/sec | RAM: 21.61GB
+[INDEXING] 142,200,832 | Rate: 2212 docs/sec | RAM: 21.62GB
+[INDEXING] 142,303,232 | Rate: 2212 docs/sec | RAM: 21.63GB
+[INDEXING] 142,401,536 | Rate: 2212 docs/sec | RAM: 21.67GB
+[INDEXING] 142,503,936 | Rate: 2212 docs/sec | RAM: 21.66GB
+
+💾 Saving checkpoint: models/checkpoint_142503936.index
+✅ Checkpoint secured. RAM: 21.66GB
+
+[INDEXING] 142,602,240 | Rate: 2210 docs/sec | RAM: 21.68GB
+[INDEXING] 142,700,544 | Rate: 2210 docs/sec | RAM: 22.13GB
+[INDEXING] 142,802,944 | Rate: 2210 docs/sec | RAM: 22.14GB
+[INDEXING] 142,901,248 | Rate: 2210 docs/sec | RAM: 22.15GB
+[INDEXING] 143,003,648 | Rate: 2209 docs/sec | RAM: 21.75GB
+[INDEXING] 143,101,952 | Rate: 2209 docs/sec | RAM: 21.76GB
+[INDEXING] 143,200,256 | Rate: 2209 docs/sec | RAM: 21.77GB
+[INDEXING] 143,302,656 | Rate: 2209 docs/sec | RAM: 21.79GB
+[INDEXING] 143,400,960 | Rate: 2209 docs/sec | RAM: 21.80GB
+[INDEXING] 143,503,360 | Rate: 2208 docs/sec | RAM: 21.81GB
+[INDEXING] 143,601,664 | Rate: 2208 docs/sec | RAM: 21.86GB
+[INDEXING] 143,704,064 | Rate: 2208 docs/sec | RAM: 22.22GB
+[INDEXING] 143,802,368 | Rate: 2208 docs/sec | RAM: 22.23GB
+[INDEXING] 143,900,672 | Rate: 2208 docs/sec | RAM: 22.24GB
+[INDEXING] 144,003,072 | Rate: 2207 docs/sec | RAM: 21.87GB
+[INDEXING] 144,101,376 | Rate: 2207 docs/sec | RAM: 21.88GB
+[INDEXING] 144,203,776 | Rate: 2207 docs/sec | RAM: 21.89GB
+[INDEXING] 144,302,080 | Rate: 2207 docs/sec | RAM: 21.90GB
+[INDEXING] 144,400,384 | Rate: 2206 docs/sec | RAM: 21.91GB
+[INDEXING] 144,502,784 | Rate: 2206 docs/sec | RAM: 21.92GB
+[INDEXING] 144,601,088 | Rate: 2206 docs/sec | RAM: 22.29GB
+[INDEXING] 144,703,488 | Rate: 2206 docs/sec | RAM: 22.25GB
+[INDEXING] 144,801,792 | Rate: 2206 docs/sec | RAM: 22.29GB
+[INDEXING] 144,900,096 | Rate: 2205 docs/sec | RAM: 22.31GB
+[INDEXING] 145,002,496 | Rate: 2205 docs/sec | RAM: 22.32GB
+
+💾 Saving checkpoint: models/checkpoint_145002496.index
+✅ Checkpoint secured. RAM: 22.32GB
+
+[INDEXING] 145,100,800 | Rate: 2204 docs/sec | RAM: 22.33GB
+[INDEXING] 145,203,200 | Rate: 2204 docs/sec | RAM: 21.69GB
+[INDEXING] 145,301,504 | Rate: 2204 docs/sec | RAM: 21.88GB
+[INDEXING] 145,403,904 | Rate: 2203 docs/sec | RAM: 21.89GB
+[INDEXING] 145,502,208 | Rate: 2203 docs/sec | RAM: 22.39GB
+[INDEXING] 145,600,512 | Rate: 2203 docs/sec | RAM: 22.40GB
+[INDEXING] 145,702,912 | Rate: 2203 docs/sec | RAM: 22.41GB
+[INDEXING] 145,801,216 | Rate: 2202 docs/sec | RAM: 21.57GB
+[INDEXING] 145,903,616 | Rate: 2202 docs/sec | RAM: 21.53GB
+[INDEXING] 146,001,920 | Rate: 2202 docs/sec | RAM: 21.54GB
+[INDEXING] 146,100,224 | Rate: 2202 docs/sec | RAM: 21.57GB
+[INDEXING] 146,202,624 | Rate: 2202 docs/sec | RAM: 21.84GB
+[INDEXING] 146,300,928 | Rate: 2202 docs/sec | RAM: 21.85GB
+[INDEXING] 146,403,328 | Rate: 2201 docs/sec | RAM: 22.29GB
+[INDEXING] 146,501,632 | Rate: 2201 docs/sec | RAM: 22.43GB
+[INDEXING] 146,604,032 | Rate: 2201 docs/sec | RAM: 22.44GB
+[INDEXING] 146,702,336 | Rate: 2201 docs/sec | RAM: 22.51GB
+[INDEXING] 146,800,640 | Rate: 2200 docs/sec | RAM: 21.68GB
+[INDEXING] 146,903,040 | Rate: 2200 docs/sec | RAM: 21.69GB
+[INDEXING] 147,001,344 | Rate: 2200 docs/sec | RAM: 21.70GB
+[INDEXING] 147,103,744 | Rate: 2200 docs/sec | RAM: 21.98GB
+[INDEXING] 147,202,048 | Rate: 2200 docs/sec | RAM: 21.94GB
+[INDEXING] 147,300,352 | Rate: 2199 docs/sec | RAM: 21.98GB
+[INDEXING] 147,402,752 | Rate: 2199 docs/sec | RAM: 22.67GB
+[INDEXING] 147,501,056 | Rate: 2199 docs/sec | RAM: 22.68GB
+
+💾 Saving checkpoint: models/checkpoint_147501056.index
+✅ Checkpoint secured. RAM: 22.68GB
+
+[INDEXING] 147,603,456 | Rate: 2198 docs/sec | RAM: 22.69GB
+[INDEXING] 147,701,760 | Rate: 2197 docs/sec | RAM: 21.77GB
+[INDEXING] 147,800,064 | Rate: 2197 docs/sec | RAM: 21.78GB
+[INDEXING] 147,902,464 | Rate: 2197 docs/sec | RAM: 21.79GB
+[INDEXING] 148,000,768 | Rate: 2197 docs/sec | RAM: 21.83GB
+[INDEXING] 148,103,168 | Rate: 2197 docs/sec | RAM: 22.06GB
+[INDEXING] 148,201,472 | Rate: 2196 docs/sec | RAM: 22.07GB
+[INDEXING] 148,303,872 | Rate: 2196 docs/sec | RAM: 22.48GB
+[INDEXING] 148,402,176 | Rate: 2196 docs/sec | RAM: 22.71GB
+[INDEXING] 148,500,480 | Rate: 2196 docs/sec | RAM: 22.68GB
+[INDEXING] 148,602,880 | Rate: 2196 docs/sec | RAM: 21.97GB
+[INDEXING] 148,701,184 | Rate: 2195 docs/sec | RAM: 21.98GB
+[INDEXING] 148,803,584 | Rate: 2195 docs/sec | RAM: 21.99GB
+[INDEXING] 148,901,888 | Rate: 2195 docs/sec | RAM: 22.00GB
+[INDEXING] 149,000,192 | Rate: 2195 docs/sec | RAM: 22.16GB
+[INDEXING] 149,102,592 | Rate: 2195 docs/sec | RAM: 22.19GB
+[INDEXING] 149,200,896 | Rate: 2194 docs/sec | RAM: 22.47GB
+[INDEXING] 149,303,296 | Rate: 2194 docs/sec | RAM: 22.83GB
+[INDEXING] 149,401,600 | Rate: 2194 docs/sec | RAM: 22.81GB
+[INDEXING] 149,504,000 | Rate: 2194 docs/sec | RAM: 22.82GB
+[INDEXING] 149,602,304 | Rate: 2193 docs/sec | RAM: 22.07GB
+[INDEXING] 149,700,608 | Rate: 2193 docs/sec | RAM: 22.08GB
+[INDEXING] 149,803,008 | Rate: 2193 docs/sec | RAM: 22.09GB
+[INDEXING] 149,901,312 | Rate: 2193 docs/sec | RAM: 22.19GB
+[INDEXING] 150,003,712 | Rate: 2193 docs/sec | RAM: 22.28GB
+
+💾 Saving checkpoint: models/checkpoint_150003712.index
+✅ Checkpoint secured. RAM: 22.28GB
+
+[INDEXING] 150,102,016 | Rate: 2191 docs/sec | RAM: 22.29GB
+[INDEXING] 150,200,320 | Rate: 2191 docs/sec | RAM: 22.85GB
+[INDEXING] 150,302,720 | Rate: 2191 docs/sec | RAM: 22.86GB
+[INDEXING] 150,401,024 | Rate: 2191 docs/sec | RAM: 22.87GB
+[INDEXING] 150,503,424 | Rate: 2191 docs/sec | RAM: 22.04GB
+[INDEXING] 150,601,728 | Rate: 2190 docs/sec | RAM: 22.10GB
+[INDEXING] 150,700,032 | Rate: 2190 docs/sec | RAM: 22.06GB
+[INDEXING] 150,802,432 | Rate: 2190 docs/sec | RAM: 22.14GB
+[INDEXING] 150,900,736 | Rate: 2190 docs/sec | RAM: 22.39GB
+[INDEXING] 151,003,136 | Rate: 2190 docs/sec | RAM: 22.40GB
+[INDEXING] 151,101,440 | Rate: 2189 docs/sec | RAM: 22.90GB
+[INDEXING] 151,203,840 | Rate: 2189 docs/sec | RAM: 23.06GB
+[INDEXING] 151,302,144 | Rate: 2189 docs/sec | RAM: 23.07GB
+[INDEXING] 151,400,448 | Rate: 2189 docs/sec | RAM: 23.04GB
+[INDEXING] 151,502,848 | Rate: 2188 docs/sec | RAM: 22.76GB
+[INDEXING] 151,601,152 | Rate: 2188 docs/sec | RAM: 22.77GB
+[INDEXING] 151,703,552 | Rate: 2188 docs/sec | RAM: 22.78GB
+[INDEXING] 151,801,856 | Rate: 2188 docs/sec | RAM: 22.79GB
+[INDEXING] 151,900,160 | Rate: 2188 docs/sec | RAM: 22.80GB
+[INDEXING] 152,002,560 | Rate: 2187 docs/sec | RAM: 22.81GB
+[INDEXING] 152,100,864 | Rate: 2187 docs/sec | RAM: 23.12GB
+[INDEXING] 152,203,264 | Rate: 2187 docs/sec | RAM: 23.13GB
+[INDEXING] 152,301,568 | Rate: 2187 docs/sec | RAM: 23.14GB
+[INDEXING] 152,403,968 | Rate: 2187 docs/sec | RAM: 22.86GB
+[INDEXING] 152,502,272 | Rate: 2186 docs/sec | RAM: 22.83GB
+
+💾 Saving checkpoint: models/checkpoint_152502272.index
+✅ Checkpoint secured. RAM: 22.83GB
+
+[INDEXING] 152,600,576 | Rate: 2185 docs/sec | RAM: 22.84GB
+[INDEXING] 152,702,976 | Rate: 2185 docs/sec | RAM: 22.85GB
+[INDEXING] 152,801,280 | Rate: 2185 docs/sec | RAM: 22.88GB
+[INDEXING] 152,903,680 | Rate: 2184 docs/sec | RAM: 22.91GB
+[INDEXING] 153,001,984 | Rate: 2184 docs/sec | RAM: 23.16GB
+[INDEXING] 153,100,288 | Rate: 2184 docs/sec | RAM: 23.18GB
+[INDEXING] 153,202,688 | Rate: 2184 docs/sec | RAM: 23.19GB
+[INDEXING] 153,300,992 | Rate: 2184 docs/sec | RAM: 22.96GB
+[INDEXING] 153,403,392 | Rate: 2183 docs/sec | RAM: 22.97GB
+[INDEXING] 153,501,696 | Rate: 2183 docs/sec | RAM: 22.98GB
+[INDEXING] 153,600,000 | Rate: 2183 docs/sec | RAM: 22.99GB
+[INDEXING] 153,702,400 | Rate: 2183 docs/sec | RAM: 23.00GB
+[INDEXING] 153,800,704 | Rate: 2183 docs/sec | RAM: 23.01GB
+[INDEXING] 153,903,104 | Rate: 2182 docs/sec | RAM: 23.30GB
+[INDEXING] 154,001,408 | Rate: 2182 docs/sec | RAM: 23.31GB
+[INDEXING] 154,103,808 | Rate: 2182 docs/sec | RAM: 23.41GB
+[INDEXING] 154,202,112 | Rate: 2182 docs/sec | RAM: 23.42GB
+[INDEXING] 154,300,416 | Rate: 2182 docs/sec | RAM: 23.07GB
+[INDEXING] 154,402,816 | Rate: 2181 docs/sec | RAM: 23.08GB
+[INDEXING] 154,501,120 | Rate: 2181 docs/sec | RAM: 23.04GB
+[INDEXING] 154,603,520 | Rate: 2181 docs/sec | RAM: 23.05GB
+[INDEXING] 154,701,824 | Rate: 2181 docs/sec | RAM: 23.06GB
+[INDEXING] 154,800,128 | Rate: 2181 docs/sec | RAM: 23.07GB
+[INDEXING] 154,902,528 | Rate: 2180 docs/sec | RAM: 23.38GB
+[INDEXING] 155,000,832 | Rate: 2180 docs/sec | RAM: 23.44GB
+
+💾 Saving checkpoint: models/checkpoint_155000832.index
+✅ Checkpoint secured. RAM: 23.44GB
+
+[INDEXING] 155,103,232 | Rate: 2179 docs/sec | RAM: 23.45GB
+[INDEXING] 155,201,536 | Rate: 2179 docs/sec | RAM: 23.16GB
+[INDEXING] 155,303,936 | Rate: 2178 docs/sec | RAM: 23.17GB
+[INDEXING] 155,402,240 | Rate: 2178 docs/sec | RAM: 23.18GB
+[INDEXING] 155,500,544 | Rate: 2178 docs/sec | RAM: 23.19GB
+[INDEXING] 155,602,944 | Rate: 2178 docs/sec | RAM: 23.20GB
+[INDEXING] 155,701,248 | Rate: 2178 docs/sec | RAM: 23.16GB
+[INDEXING] 155,803,648 | Rate: 2177 docs/sec | RAM: 23.33GB
+[INDEXING] 155,901,952 | Rate: 2177 docs/sec | RAM: 23.49GB
+[INDEXING] 156,000,256 | Rate: 2177 docs/sec | RAM: 23.50GB
+[INDEXING] 156,102,656 | Rate: 2177 docs/sec | RAM: 23.21GB
+[INDEXING] 156,200,960 | Rate: 2177 docs/sec | RAM: 23.22GB
+[INDEXING] 156,303,360 | Rate: 2176 docs/sec | RAM: 23.23GB
+[INDEXING] 156,401,664 | Rate: 2176 docs/sec | RAM: 23.24GB
+[INDEXING] 156,504,064 | Rate: 2176 docs/sec | RAM: 23.27GB
+[INDEXING] 156,602,368 | Rate: 2176 docs/sec | RAM: 23.32GB
+[INDEXING] 156,700,672 | Rate: 2176 docs/sec | RAM: 23.45GB
+[INDEXING] 156,803,072 | Rate: 2175 docs/sec | RAM: 23.46GB
+[INDEXING] 156,901,376 | Rate: 2175 docs/sec | RAM: 23.62GB
+[INDEXING] 157,003,776 | Rate: 2175 docs/sec | RAM: 23.63GB
+[INDEXING] 157,102,080 | Rate: 2175 docs/sec | RAM: 23.43GB
+[INDEXING] 157,200,384 | Rate: 2175 docs/sec | RAM: 23.44GB
+[INDEXING] 157,302,784 | Rate: 2174 docs/sec | RAM: 23.45GB
+[INDEXING] 157,401,088 | Rate: 2174 docs/sec | RAM: 23.46GB
+[INDEXING] 157,503,488 | Rate: 2174 docs/sec | RAM: 23.47GB
+
+💾 Saving checkpoint: models/checkpoint_157503488.index
+✅ Checkpoint secured. RAM: 23.47GB
+
+[INDEXING] 157,601,792 | Rate: 2173 docs/sec | RAM: 23.48GB
+[INDEXING] 157,700,096 | Rate: 2173 docs/sec | RAM: 23.74GB
+[INDEXING] 157,802,496 | Rate: 2172 docs/sec | RAM: 23.75GB
+[INDEXING] 157,900,800 | Rate: 2172 docs/sec | RAM: 23.76GB
+[INDEXING] 158,003,200 | Rate: 2172 docs/sec | RAM: 23.31GB
+[INDEXING] 158,101,504 | Rate: 2172 docs/sec | RAM: 23.32GB
+[INDEXING] 158,203,904 | Rate: 2171 docs/sec | RAM: 23.33GB
+[INDEXING] 158,302,208 | Rate: 2171 docs/sec | RAM: 23.34GB
+[INDEXING] 158,400,512 | Rate: 2171 docs/sec | RAM: 23.35GB
+[INDEXING] 158,502,912 | Rate: 2171 docs/sec | RAM: 23.36GB
+[INDEXING] 158,601,216 | Rate: 2171 docs/sec | RAM: 23.89GB
+[INDEXING] 158,703,616 | Rate: 2170 docs/sec | RAM: 23.90GB
+[INDEXING] 158,801,920 | Rate: 2170 docs/sec | RAM: 23.91GB
+[INDEXING] 158,900,224 | Rate: 2170 docs/sec | RAM: 22.96GB
+[INDEXING] 159,002,624 | Rate: 2170 docs/sec | RAM: 22.97GB
+[INDEXING] 159,100,928 | Rate: 2170 docs/sec | RAM: 22.98GB
+[INDEXING] 159,203,328 | Rate: 2169 docs/sec | RAM: 22.99GB
+[INDEXING] 159,301,632 | Rate: 2169 docs/sec | RAM: 23.33GB
+[INDEXING] 159,404,032 | Rate: 2169 docs/sec | RAM: 23.34GB
+[INDEXING] 159,502,336 | Rate: 2169 docs/sec | RAM: 23.78GB
+[INDEXING] 159,600,640 | Rate: 2168 docs/sec | RAM: 23.87GB
+[INDEXING] 159,703,040 | Rate: 2168 docs/sec | RAM: 23.90GB
+[INDEXING] 159,801,344 | Rate: 2168 docs/sec | RAM: 23.87GB
+[INDEXING] 159,903,744 | Rate: 2168 docs/sec | RAM: 23.00GB
+[INDEXING] 160,002,048 | Rate: 2168 docs/sec | RAM: 23.04GB
+
+💾 Saving checkpoint: models/checkpoint_160002048.index
+✅ Checkpoint secured. RAM: 23.04GB
+
+[INDEXING] 160,100,352 | Rate: 2166 docs/sec | RAM: 23.05GB
+[INDEXING] 160,202,752 | Rate: 2166 docs/sec | RAM: 23.31GB
+[INDEXING] 160,301,056 | Rate: 2166 docs/sec | RAM: 23.32GB
+[INDEXING] 160,403,456 | Rate: 2166 docs/sec | RAM: 23.39GB
+[INDEXING] 160,501,760 | Rate: 2166 docs/sec | RAM: 24.02GB
+[INDEXING] 160,600,064 | Rate: 2165 docs/sec | RAM: 24.03GB
+[INDEXING] 160,702,464 | Rate: 2165 docs/sec | RAM: 23.99GB
+[INDEXING] 160,800,768 | Rate: 2165 docs/sec | RAM: 23.08GB
+[INDEXING] 160,903,168 | Rate: 2165 docs/sec | RAM: 23.09GB
+[INDEXING] 161,001,472 | Rate: 2165 docs/sec | RAM: 23.13GB
+[INDEXING] 161,103,872 | Rate: 2164 docs/sec | RAM: 23.29GB
+[INDEXING] 161,202,176 | Rate: 2164 docs/sec | RAM: 23.48GB
+[INDEXING] 161,300,480 | Rate: 2164 docs/sec | RAM: 23.49GB
+[INDEXING] 161,402,880 | Rate: 2164 docs/sec | RAM: 24.17GB
+[INDEXING] 161,501,184 | Rate: 2164 docs/sec | RAM: 24.18GB
+[INDEXING] 161,603,584 | Rate: 2163 docs/sec | RAM: 24.19GB
+[INDEXING] 161,701,888 | Rate: 2163 docs/sec | RAM: 23.21GB
+[INDEXING] 161,800,192 | Rate: 2163 docs/sec | RAM: 23.22GB
+[INDEXING] 161,902,592 | Rate: 2163 docs/sec | RAM: 23.23GB
+[INDEXING] 162,000,896 | Rate: 2163 docs/sec | RAM: 23.24GB
+[INDEXING] 162,103,296 | Rate: 2162 docs/sec | RAM: 23.50GB
+[INDEXING] 162,201,600 | Rate: 2162 docs/sec | RAM: 23.51GB
+[INDEXING] 162,304,000 | Rate: 2162 docs/sec | RAM: 23.67GB
+[INDEXING] 162,402,304 | Rate: 2162 docs/sec | RAM: 24.16GB
+[INDEXING] 162,500,608 | Rate: 2162 docs/sec | RAM: 24.17GB
+
+💾 Saving checkpoint: models/checkpoint_162500608.index
+✅ Checkpoint secured. RAM: 24.17GB
+
+[INDEXING] 162,603,008 | Rate: 2161 docs/sec | RAM: 24.18GB
+[INDEXING] 162,701,312 | Rate: 2160 docs/sec | RAM: 23.65GB
+[INDEXING] 162,803,712 | Rate: 2160 docs/sec | RAM: 23.66GB
+[INDEXING] 162,902,016 | Rate: 2160 docs/sec | RAM: 23.70GB
+[INDEXING] 163,000,320 | Rate: 2160 docs/sec | RAM: 23.73GB
+[INDEXING] 163,102,720 | Rate: 2159 docs/sec | RAM: 23.74GB
+[INDEXING] 163,201,024 | Rate: 2159 docs/sec | RAM: 23.75GB
+[INDEXING] 163,303,424 | Rate: 2159 docs/sec | RAM: 24.37GB
+[INDEXING] 163,401,728 | Rate: 2159 docs/sec | RAM: 24.38GB
+[INDEXING] 163,500,032 | Rate: 2159 docs/sec | RAM: 24.39GB
+[INDEXING] 163,602,432 | Rate: 2158 docs/sec | RAM: 24.04GB
+[INDEXING] 163,700,736 | Rate: 2158 docs/sec | RAM: 24.05GB
+[INDEXING] 163,803,136 | Rate: 2158 docs/sec | RAM: 24.06GB
+[INDEXING] 163,901,440 | Rate: 2158 docs/sec | RAM: 24.07GB
+[INDEXING] 164,003,840 | Rate: 2158 docs/sec | RAM: 24.08GB
+[INDEXING] 164,102,144 | Rate: 2157 docs/sec | RAM: 24.09GB
+[INDEXING] 164,200,448 | Rate: 2157 docs/sec | RAM: 24.40GB
+[INDEXING] 164,302,848 | Rate: 2157 docs/sec | RAM: 24.41GB
+[INDEXING] 164,401,152 | Rate: 2157 docs/sec | RAM: 24.42GB
+[INDEXING] 164,503,552 | Rate: 2157 docs/sec | RAM: 23.50GB
+[INDEXING] 164,601,856 | Rate: 2157 docs/sec | RAM: 23.51GB
+[INDEXING] 164,700,160 | Rate: 2156 docs/sec | RAM: 23.52GB
+[INDEXING] 164,802,560 | Rate: 2156 docs/sec | RAM: 23.80GB
+[INDEXING] 164,900,864 | Rate: 2156 docs/sec | RAM: 23.90GB
+[INDEXING] 165,003,264 | Rate: 2156 docs/sec | RAM: 23.95GB
+
+💾 Saving checkpoint: models/checkpoint_165003264.index
+✅ Checkpoint secured. RAM: 23.95GB
+
+[INDEXING] 165,101,568 | Rate: 2155 docs/sec | RAM: 24.50GB
+[INDEXING] 165,203,968 | Rate: 2154 docs/sec | RAM: 24.51GB
+[INDEXING] 165,302,272 | Rate: 2154 docs/sec | RAM: 24.64GB
+[INDEXING] 165,400,576 | Rate: 2154 docs/sec | RAM: 24.66GB
+[INDEXING] 165,502,976 | Rate: 2154 docs/sec | RAM: 23.55GB
+[INDEXING] 165,601,280 | Rate: 2153 docs/sec | RAM: 23.56GB
+[INDEXING] 165,703,680 | Rate: 2153 docs/sec | RAM: 23.58GB
+[INDEXING] 165,801,984 | Rate: 2153 docs/sec | RAM: 23.98GB
+[INDEXING] 165,900,288 | Rate: 2153 docs/sec | RAM: 23.99GB
+[INDEXING] 166,002,688 | Rate: 2153 docs/sec | RAM: 24.00GB
+[INDEXING] 166,100,992 | Rate: 2153 docs/sec | RAM: 24.56GB
+[INDEXING] 166,203,392 | Rate: 2152 docs/sec | RAM: 24.58GB
+[INDEXING] 166,301,696 | Rate: 2152 docs/sec | RAM: 24.63GB
+[INDEXING] 166,400,000 | Rate: 2152 docs/sec | RAM: 23.46GB
+[INDEXING] 166,502,400 | Rate: 2152 docs/sec | RAM: 23.47GB
+[INDEXING] 166,600,704 | Rate: 2151 docs/sec | RAM: 23.48GB
+[INDEXING] 166,703,104 | Rate: 2151 docs/sec | RAM: 23.84GB
+[INDEXING] 166,801,408 | Rate: 2151 docs/sec | RAM: 24.04GB
+[INDEXING] 166,903,808 | Rate: 2151 docs/sec | RAM: 24.04GB
+[INDEXING] 167,002,112 | Rate: 2151 docs/sec | RAM: 24.70GB
+[INDEXING] 167,100,416 | Rate: 2150 docs/sec | RAM: 24.70GB
+[INDEXING] 167,202,816 | Rate: 2150 docs/sec | RAM: 24.71GB
+[INDEXING] 167,301,120 | Rate: 2150 docs/sec | RAM: 24.76GB
+[INDEXING] 167,403,520 | Rate: 2150 docs/sec | RAM: 23.56GB
+[INDEXING] 167,501,824 | Rate: 2150 docs/sec | RAM: 23.57GB
+
+💾 Saving checkpoint: models/checkpoint_167501824.index
+✅ Checkpoint secured. RAM: 23.57GB
+
+[INDEXING] 167,600,128 | Rate: 2148 docs/sec | RAM: 23.54GB
+[INDEXING] 167,702,528 | Rate: 2148 docs/sec | RAM: 24.06GB
+[INDEXING] 167,800,832 | Rate: 2148 docs/sec | RAM: 24.08GB
+[INDEXING] 167,903,232 | Rate: 2148 docs/sec | RAM: 24.11GB
+[INDEXING] 168,001,536 | Rate: 2148 docs/sec | RAM: 24.72GB
+[INDEXING] 168,103,936 | Rate: 2147 docs/sec | RAM: 24.76GB
+[INDEXING] 168,202,240 | Rate: 2147 docs/sec | RAM: 24.76GB
+[INDEXING] 168,300,544 | Rate: 2147 docs/sec | RAM: 23.65GB
+[INDEXING] 168,402,944 | Rate: 2147 docs/sec | RAM: 23.68GB
+[INDEXING] 168,501,248 | Rate: 2147 docs/sec | RAM: 23.69GB
+[INDEXING] 168,603,648 | Rate: 2146 docs/sec | RAM: 24.19GBGot disconnected from remote data host. Retrying in 5sec [1/20]
+'The read operation timed out' thrown while requesting GET https://huggingface.co/datasets/HuggingFaceFW/fineweb/resolve/9bb295ddab0e05d785b879661af7260fed5140fc/data/CC-MAIN-2025-26/003_00026.parquet
+Retrying in 1s [Retry 1/5].
+
+[INDEXING] 168,701,952 | Rate: 2146 docs/sec | RAM: 24.23GB
+[INDEXING] 168,800,256 | Rate: 2146 docs/sec | RAM: 24.24GB
+[INDEXING] 168,902,656 | Rate: 2146 docs/sec | RAM: 24.91GB
+[INDEXING] 169,000,960 | Rate: 2146 docs/sec | RAM: 24.92GB
+[INDEXING] 169,103,360 | Rate: 2145 docs/sec | RAM: 24.93GB
+[INDEXING] 169,201,664 | Rate: 2145 docs/sec | RAM: 24.04GB
+[INDEXING] 169,304,064 | Rate: 2145 docs/sec | RAM: 24.05GB
+[INDEXING] 169,402,368 | Rate: 2145 docs/sec | RAM: 24.06GB
+[INDEXING] 169,500,672 | Rate: 2145 docs/sec | RAM: 24.28GB
+[INDEXING] 169,603,072 | Rate: 2144 docs/sec | RAM: 24.29GB
+[INDEXING] 169,701,376 | Rate: 2144 docs/sec | RAM: 24.54GB
+[INDEXING] 169,803,776 | Rate: 2144 docs/sec | RAM: 24.85GB
+[INDEXING] 169,902,080 | Rate: 2144 docs/sec | RAM: 24.86GB
+[INDEXING] 170,000,384 | Rate: 2144 docs/sec | RAM: 24.96GB
+
+💾 Saving checkpoint: models/checkpoint_170000384.index
+✅ Checkpoint secured. RAM: 24.96GB
+
+[INDEXING] 170,102,784 | Rate: 2142 docs/sec | RAM: 24.97GB
+[INDEXING] 170,201,088 | Rate: 2142 docs/sec | RAM: 23.81GB
+[INDEXING] 170,303,488 | Rate: 2142 docs/sec | RAM: 23.83GB
+[INDEXING] 170,401,792 | Rate: 2142 docs/sec | RAM: 23.87GB
+[INDEXING] 170,500,096 | Rate: 2142 docs/sec | RAM: 24.40GB
+[INDEXING] 170,602,496 | Rate: 2142 docs/sec | RAM: 24.50GB
+[INDEXING] 170,700,800 | Rate: 2141 docs/sec | RAM: 24.51GB
+[INDEXING] 170,803,200 | Rate: 2141 docs/sec | RAM: 25.09GB
+[INDEXING] 170,901,504 | Rate: 2141 docs/sec | RAM: 25.10GB
+[INDEXING] 171,003,904 | Rate: 2141 docs/sec | RAM: 25.11GB
+[INDEXING] 171,102,208 | Rate: 2141 docs/sec | RAM: 25.13GB
+[INDEXING] 171,200,512 | Rate: 2140 docs/sec | RAM: 25.14GB
+[INDEXING] 171,302,912 | Rate: 2140 docs/sec | RAM: 25.10GB
+[INDEXING] 171,401,216 | Rate: 2140 docs/sec | RAM: 25.11GB
+[INDEXING] 171,503,616 | Rate: 2140 docs/sec | RAM: 25.12GB
+[INDEXING] 171,601,920 | Rate: 2140 docs/sec | RAM: 25.15GB
+[INDEXING] 171,700,224 | Rate: 2139 docs/sec | RAM: 25.14GB
+[INDEXING] 171,802,624 | Rate: 2139 docs/sec | RAM: 25.15GB
+[INDEXING] 171,900,928 | Rate: 2139 docs/sec | RAM: 25.17GB
+[INDEXING] 172,003,328 | Rate: 2139 docs/sec | RAM: 24.81GB
+[INDEXING] 172,101,632 | Rate: 2138 docs/sec | RAM: 24.83GB
+[INDEXING] 172,204,032 | Rate: 2138 docs/sec | RAM: 24.85GB
+[INDEXING] 172,302,336 | Rate: 2138 docs/sec | RAM: 24.86GB
+[INDEXING] 172,400,640 | Rate: 2138 docs/sec | RAM: 24.87GB
+[INDEXING] 172,503,040 | Rate: 2138 docs/sec | RAM: 24.88GB
+
+💾 Saving checkpoint: models/checkpoint_172503040.index
+✅ Checkpoint secured. RAM: 24.88GB
+
+[INDEXING] 172,601,344 | Rate: 2137 docs/sec | RAM: 24.95GB
+[INDEXING] 172,703,744 | Rate: 2136 docs/sec | RAM: 25.24GB
+[INDEXING] 172,802,048 | Rate: 2136 docs/sec | RAM: 25.19GB
+[INDEXING] 172,900,352 | Rate: 2136 docs/sec | RAM: 25.25GB
+[INDEXING] 173,002,752 | Rate: 2136 docs/sec | RAM: 24.42GB
+[INDEXING] 173,101,056 | Rate: 2136 docs/sec | RAM: 24.43GB
+[INDEXING] 173,203,456 | Rate: 2135 docs/sec | RAM: 24.44GB
+[INDEXING] 173,301,760 | Rate: 2135 docs/sec | RAM: 24.70GB
+[INDEXING] 173,400,064 | Rate: 2135 docs/sec | RAM: 24.72GB
+[INDEXING] 173,502,464 | Rate: 2135 docs/sec | RAM: 24.73GB
+[INDEXING] 173,600,768 | Rate: 2135 docs/sec | RAM: 25.28GB
+[INDEXING] 173,703,168 | Rate: 2134 docs/sec | RAM: 25.29GB
+[INDEXING] 173,801,472 | Rate: 2134 docs/sec | RAM: 25.30GB
+[INDEXING] 173,903,872 | Rate: 2134 docs/sec | RAM: 24.52GB
+[INDEXING] 174,002,176 | Rate: 2134 docs/sec | RAM: 24.53GB
+[INDEXING] 174,100,480 | Rate: 2134 docs/sec | RAM: 24.54GB
+[INDEXING] 174,202,880 | Rate: 2133 docs/sec | RAM: 24.61GB
+[INDEXING] 174,301,184 | Rate: 2133 docs/sec | RAM: 24.83GB
+[INDEXING] 174,403,584 | Rate: 2133 docs/sec | RAM: 24.84GB
+[INDEXING] 174,501,888 | Rate: 2133 docs/sec | RAM: 25.43GB
+[INDEXING] 174,600,192 | Rate: 2133 docs/sec | RAM: 25.38GB
+[INDEXING] 174,702,592 | Rate: 2133 docs/sec | RAM: 25.39GB
+[INDEXING] 174,800,896 | Rate: 2132 docs/sec | RAM: 24.01GB
+[INDEXING] 174,903,296 | Rate: 2132 docs/sec | RAM: 24.26GB
+[INDEXING] 175,001,600 | Rate: 2132 docs/sec | RAM: 24.30GB
+
+💾 Saving checkpoint: models/checkpoint_175001600.index
+✅ Checkpoint secured. RAM: 24.30GB
+
+[INDEXING] 175,104,000 | Rate: 2131 docs/sec | RAM: 24.31GB
+[INDEXING] 175,202,304 | Rate: 2131 docs/sec | RAM: 24.99GB
+[INDEXING] 175,300,608 | Rate: 2130 docs/sec | RAM: 25.00GB
+[INDEXING] 175,403,008 | Rate: 2130 docs/sec | RAM: 25.28GB
+[INDEXING] 175,501,312 | Rate: 2130 docs/sec | RAM: 25.57GB
+[INDEXING] 175,603,712 | Rate: 2130 docs/sec | RAM: 25.58GB
+[INDEXING] 175,702,016 | Rate: 2130 docs/sec | RAM: 25.64GB
+[INDEXING] 175,800,320 | Rate: 2129 docs/sec | RAM: 24.20GB
+[INDEXING] 175,902,720 | Rate: 2129 docs/sec | RAM: 24.36GB
+[INDEXING] 176,001,024 | Rate: 2129 docs/sec | RAM: 24.37GB
+[INDEXING] 176,103,424 | Rate: 2129 docs/sec | RAM: 24.96GB
+[INDEXING] 176,201,728 | Rate: 2129 docs/sec | RAM: 24.97GB
+[INDEXING] 176,300,032 | Rate: 2128 docs/sec | RAM: 24.98GB
+[INDEXING] 176,402,432 | Rate: 2128 docs/sec | RAM: 25.71GB
+[INDEXING] 176,500,736 | Rate: 2128 docs/sec | RAM: 25.72GB
+[INDEXING] 176,603,136 | Rate: 2128 docs/sec | RAM: 25.73GB
+[INDEXING] 176,701,440 | Rate: 2128 docs/sec | RAM: 24.32GB
+[INDEXING] 176,803,840 | Rate: 2127 docs/sec | RAM: 24.51GB
+[INDEXING] 176,902,144 | Rate: 2127 docs/sec | RAM: 24.52GB
+[INDEXING] 177,000,448 | Rate: 2127 docs/sec | RAM: 24.90GB
+[INDEXING] 177,102,848 | Rate: 2127 docs/sec | RAM: 25.10GB
+[INDEXING] 177,201,152 | Rate: 2127 docs/sec | RAM: 25.11GB
+[INDEXING] 177,303,552 | Rate: 2126 docs/sec | RAM: 25.72GB
+[INDEXING] 177,401,856 | Rate: 2126 docs/sec | RAM: 25.80GB
+[INDEXING] 177,500,160 | Rate: 2126 docs/sec | RAM: 25.81GB
+
+💾 Saving checkpoint: models/checkpoint_177500160.index
+✅ Checkpoint secured. RAM: 25.81GB
+
+[INDEXING] 177,602,560 | Rate: 2125 docs/sec | RAM: 25.86GB
+[INDEXING] 177,700,864 | Rate: 2125 docs/sec | RAM: 24.83GB
+[INDEXING] 177,803,264 | Rate: 2125 docs/sec | RAM: 24.86GB
+[INDEXING] 177,901,568 | Rate: 2124 docs/sec | RAM: 24.90GB
+[INDEXING] 178,003,968 | Rate: 2124 docs/sec | RAM: 25.10GB
+[INDEXING] 178,102,272 | Rate: 2124 docs/sec | RAM: 25.11GB
+[INDEXING] 178,200,576 | Rate: 2124 docs/sec | RAM: 25.48GB
+[INDEXING] 178,302,976 | Rate: 2123 docs/sec | RAM: 25.89GB
+[INDEXING] 178,401,280 | Rate: 2123 docs/sec | RAM: 25.91GB
+[INDEXING] 178,503,680 | Rate: 2123 docs/sec | RAM: 25.92GB
+[INDEXING] 178,601,984 | Rate: 2123 docs/sec | RAM: 24.84GB
+[INDEXING] 178,700,288 | Rate: 2123 docs/sec | RAM: 24.85GB
+[INDEXING] 178,802,688 | Rate: 2122 docs/sec | RAM: 24.86GB
+[INDEXING] 178,900,992 | Rate: 2122 docs/sec | RAM: 25.26GB
+[INDEXING] 179,003,392 | Rate: 2122 docs/sec | RAM: 25.27GB
+[INDEXING] 179,101,696 | Rate: 2122 docs/sec | RAM: 25.28GB
+[INDEXING] 179,200,000 | Rate: 2122 docs/sec | RAM: 25.97GB
+[INDEXING] 179,302,400 | Rate: 2122 docs/sec | RAM: 25.98GB
+[INDEXING] 179,400,704 | Rate: 2121 docs/sec | RAM: 25.99GB
+[INDEXING] 179,503,104 | Rate: 2121 docs/sec | RAM: 24.29GB
+[INDEXING] 179,601,408 | Rate: 2121 docs/sec | RAM: 24.75GB
+[INDEXING] 179,703,808 | Rate: 2121 docs/sec | RAM: 24.76GB
+[INDEXING] 179,802,112 | Rate: 2121 docs/sec | RAM: 25.17GB
+[INDEXING] 179,900,416 | Rate: 2120 docs/sec | RAM: 25.36GB
+[INDEXING] 180,002,816 | Rate: 2120 docs/sec | RAM: 25.37GB
+
+💾 Saving checkpoint: models/checkpoint_180002816.index
+✅ Checkpoint secured. RAM: 25.37GB
+
+[INDEXING] 180,101,120 | Rate: 2119 docs/sec | RAM: 25.95GB
+[INDEXING] 180,203,520 | Rate: 2119 docs/sec | RAM: 25.97GB
+[INDEXING] 180,301,824 | Rate: 2119 docs/sec | RAM: 25.98GB
+[INDEXING] 180,400,128 | Rate: 2118 docs/sec | RAM: 26.02GB
+[INDEXING] 180,502,528 | Rate: 2118 docs/sec | RAM: 25.94GB
+[INDEXING] 180,600,832 | Rate: 2118 docs/sec | RAM: 25.95GB
+[INDEXING] 180,703,232 | Rate: 2118 docs/sec | RAM: 25.96GB
+[INDEXING] 180,801,536 | Rate: 2117 docs/sec | RAM: 25.97GB
+[INDEXING] 180,903,936 | Rate: 2117 docs/sec | RAM: 25.98GB
+[INDEXING] 181,002,240 | Rate: 2117 docs/sec | RAM: 25.99GB
+[INDEXING] 181,100,544 | Rate: 2117 docs/sec | RAM: 26.18GB
+[INDEXING] 181,202,944 | Rate: 2117 docs/sec | RAM: 26.19GB
+[INDEXING] 181,301,248 | Rate: 2117 docs/sec | RAM: 26.20GB
+[INDEXING] 181,403,648 | Rate: 2116 docs/sec | RAM: 26.21GB
+[INDEXING] 181,501,952 | Rate: 2116 docs/sec | RAM: 26.22GB
+[INDEXING] 181,600,256 | Rate: 2116 docs/sec | RAM: 26.23GB
+[INDEXING] 181,702,656 | Rate: 2116 docs/sec | RAM: 26.24GB
+[INDEXING] 181,800,960 | Rate: 2116 docs/sec | RAM: 26.25GB
+[INDEXING] 181,903,360 | Rate: 2115 docs/sec | RAM: 26.27GB
+[INDEXING] 182,001,664 | Rate: 2115 docs/sec | RAM: 26.28GB
+[INDEXING] 182,104,064 | Rate: 2115 docs/sec | RAM: 26.29GB
+[INDEXING] 182,202,368 | Rate: 2115 docs/sec | RAM: 26.30GB
+[INDEXING] 182,300,672 | Rate: 2115 docs/sec | RAM: 24.56GB
+[INDEXING] 182,403,072 | Rate: 2114 docs/sec | RAM: 25.02GB
+[INDEXING] 182,501,376 | Rate: 2114 docs/sec | RAM: 25.03GB
+
+💾 Saving checkpoint: models/checkpoint_182501376.index
+✅ Checkpoint secured. RAM: 25.03GB
+
+[INDEXING] 182,603,776 | Rate: 2113 docs/sec | RAM: 25.40GB
+[INDEXING] 182,702,080 | Rate: 2113 docs/sec | RAM: 25.86GB
+[INDEXING] 182,800,384 | Rate: 2113 docs/sec | RAM: 25.87GB
+[INDEXING] 182,902,784 | Rate: 2112 docs/sec | RAM: 26.19GB
+[INDEXING] 183,001,088 | Rate: 2112 docs/sec | RAM: 26.32GB
+[INDEXING] 183,103,488 | Rate: 2112 docs/sec | RAM: 26.33GB
+[INDEXING] 183,201,792 | Rate: 2112 docs/sec | RAM: 26.28GB
+[INDEXING] 183,300,096 | Rate: 2112 docs/sec | RAM: 26.14GB
+[INDEXING] 183,402,496 | Rate: 2111 docs/sec | RAM: 26.18GB
+[INDEXING] 183,500,800 | Rate: 2111 docs/sec | RAM: 26.19GB
+[INDEXING] 183,603,200 | Rate: 2111 docs/sec | RAM: 26.25GB
+[INDEXING] 183,701,504 | Rate: 2111 docs/sec | RAM: 26.26GB
+[INDEXING] 183,803,904 | Rate: 2111 docs/sec | RAM: 26.23GB
+[INDEXING] 183,902,208 | Rate: 2110 docs/sec | RAM: 26.39GB
+[INDEXING] 184,000,512 | Rate: 2110 docs/sec | RAM: 26.40GB
+[INDEXING] 184,102,912 | Rate: 2110 docs/sec | RAM: 26.44GB
+[INDEXING] 184,201,216 | Rate: 2110 docs/sec | RAM: 26.24GB
+[INDEXING] 184,303,616 | Rate: 2110 docs/sec | RAM: 26.27GB
+[INDEXING] 184,401,920 | Rate: 2110 docs/sec | RAM: 26.28GB
+[INDEXING] 184,500,224 | Rate: 2109 docs/sec | RAM: 26.33GB
+[INDEXING] 184,602,624 | Rate: 2109 docs/sec | RAM: 26.34GB
+[INDEXING] 184,700,928 | Rate: 2109 docs/sec | RAM: 26.35GB
+[INDEXING] 184,803,328 | Rate: 2109 docs/sec | RAM: 26.57GB
+[INDEXING] 184,901,632 | Rate: 2109 docs/sec | RAM: 26.58GB
+[INDEXING] 185,004,032 | Rate: 2108 docs/sec | RAM: 26.53GB
+
+💾 Saving checkpoint: models/checkpoint_185004032.index
+✅ Checkpoint secured. RAM: 26.53GB
+
+[INDEXING] 185,102,336 | Rate: 2107 docs/sec | RAM: 26.09GB
+[INDEXING] 185,200,640 | Rate: 2107 docs/sec | RAM: 26.10GB
+[INDEXING] 185,303,040 | Rate: 2107 docs/sec | RAM: 26.11GB
+[INDEXING] 185,401,344 | Rate: 2107 docs/sec | RAM: 26.13GB
+[INDEXING] 185,503,744 | Rate: 2106 docs/sec | RAM: 26.18GB
+[INDEXING] 185,602,048 | Rate: 2106 docs/sec | RAM: 26.19GB
+[INDEXING] 185,700,352 | Rate: 2106 docs/sec | RAM: 26.61GB
+[INDEXING] 185,802,752 | Rate: 2106 docs/sec | RAM: 26.68GB
+[INDEXING] 185,901,056 | Rate: 2106 docs/sec | RAM: 26.68GB
+[INDEXING] 186,003,456 | Rate: 2106 docs/sec | RAM: 26.72GB
+[INDEXING] 186,101,760 | Rate: 2105 docs/sec | RAM: 26.25GB
+[INDEXING] 186,200,064 | Rate: 2105 docs/sec | RAM: 26.26GB
+[INDEXING] 186,302,464 | Rate: 2105 docs/sec | RAM: 26.27GB
+[INDEXING] 186,400,768 | Rate: 2105 docs/sec | RAM: 26.28GB
+[INDEXING] 186,503,168 | Rate: 2105 docs/sec | RAM: 26.30GB
+[INDEXING] 186,601,472 | Rate: 2104 docs/sec | RAM: 26.33GB
+[INDEXING] 186,703,872 | Rate: 2104 docs/sec | RAM: 26.62GB
+[INDEXING] 186,802,176 | Rate: 2104 docs/sec | RAM: 26.63GB
+[INDEXING] 186,900,480 | Rate: 2104 docs/sec | RAM: 26.61GB
+[INDEXING] 187,002,880 | Rate: 2103 docs/sec | RAM: 26.35GB
+[INDEXING] 187,101,184 | Rate: 2103 docs/sec | RAM: 26.40GB
+[INDEXING] 187,203,584 | Rate: 2103 docs/sec | RAM: 26.37GB
+[INDEXING] 187,301,888 | Rate: 2103 docs/sec | RAM: 26.38GB
+[INDEXING] 187,400,192 | Rate: 2103 docs/sec | RAM: 26.39GB
+[INDEXING] 187,502,592 | Rate: 2103 docs/sec | RAM: 26.41GB
+
+💾 Saving checkpoint: models/checkpoint_187502592.index
+✅ Checkpoint secured. RAM: 26.41GB
+
+[INDEXING] 187,600,896 | Rate: 2101 docs/sec | RAM: 26.80GB
+[INDEXING] 187,703,296 | Rate: 2101 docs/sec | RAM: 26.82GB
+[INDEXING] 187,801,600 | Rate: 2101 docs/sec | RAM: 26.89GB
+[INDEXING] 187,904,000 | Rate: 2101 docs/sec | RAM: 26.38GB
+[INDEXING] 188,002,304 | Rate: 2101 docs/sec | RAM: 26.39GB
+[INDEXING] 188,100,608 | Rate: 2100 docs/sec | RAM: 26.43GB
+[INDEXING] 188,203,008 | Rate: 2100 docs/sec | RAM: 26.44GB
+[INDEXING] 188,301,312 | Rate: 2100 docs/sec | RAM: 26.50GB
+[INDEXING] 188,403,712 | Rate: 2100 docs/sec | RAM: 26.51GB
+[INDEXING] 188,502,016 | Rate: 2100 docs/sec | RAM: 26.83GB
+[INDEXING] 188,600,320 | Rate: 2099 docs/sec | RAM: 26.94GB
+[INDEXING] 188,702,720 | Rate: 2099 docs/sec | RAM: 26.95GB
+[INDEXING] 188,801,024 | Rate: 2099 docs/sec | RAM: 27.04GB
+[INDEXING] 188,903,424 | Rate: 2099 docs/sec | RAM: 26.51GB
+[INDEXING] 189,001,728 | Rate: 2099 docs/sec | RAM: 26.50GB
+[INDEXING] 189,100,032 | Rate: 2098 docs/sec | RAM: 26.53GB
+[INDEXING] 189,202,432 | Rate: 2098 docs/sec | RAM: 26.57GB
+[INDEXING] 189,300,736 | Rate: 2098 docs/sec | RAM: 26.53GB
+[INDEXING] 189,403,136 | Rate: 2098 docs/sec | RAM: 26.54GB
+[INDEXING] 189,501,440 | Rate: 2098 docs/sec | RAM: 26.97GB
+[INDEXING] 189,603,840 | Rate: 2097 docs/sec | RAM: 26.98GB
+[INDEXING] 189,702,144 | Rate: 2097 docs/sec | RAM: 27.04GB
+[INDEXING] 189,800,448 | Rate: 2097 docs/sec | RAM: 26.62GB
+[INDEXING] 189,902,848 | Rate: 2097 docs/sec | RAM: 26.63GB
+[INDEXING] 190,001,152 | Rate: 2097 docs/sec | RAM: 26.60GB
+
+💾 Saving checkpoint: models/checkpoint_190001152.index
+✅ Checkpoint secured. RAM: 26.60GB
+
+[INDEXING] 190,103,552 | Rate: 2095 docs/sec | RAM: 26.63GB
+[INDEXING] 190,201,856 | Rate: 2095 docs/sec | RAM: 26.62GB
+[INDEXING] 190,300,160 | Rate: 2095 docs/sec | RAM: 26.68GB
+[INDEXING] 190,402,560 | Rate: 2095 docs/sec | RAM: 27.11GB
+[INDEXING] 190,500,864 | Rate: 2095 docs/sec | RAM: 27.12GB
+[INDEXING] 190,603,264 | Rate: 2094 docs/sec | RAM: 27.11GB
+[INDEXING] 190,701,568 | Rate: 2094 docs/sec | RAM: 26.69GB
+[INDEXING] 190,803,968 | Rate: 2094 docs/sec | RAM: 26.71GB
+[INDEXING] 190,902,272 | Rate: 2094 docs/sec | RAM: 26.75GB
+[INDEXING] 191,000,576 | Rate: 2094 docs/sec | RAM: 26.76GB
+[INDEXING] 191,102,976 | Rate: 2093 docs/sec | RAM: 26.77GB
+[INDEXING] 191,201,280 | Rate: 2093 docs/sec | RAM: 26.78GB
+[INDEXING] 191,303,680 | Rate: 2093 docs/sec | RAM: 27.01GB
+[INDEXING] 191,401,984 | Rate: 2093 docs/sec | RAM: 27.23GB
+[INDEXING] 191,500,288 | Rate: 2093 docs/sec | RAM: 27.24GB
+[INDEXING] 191,602,688 | Rate: 2093 docs/sec | RAM: 27.25GB
+[INDEXING] 191,700,992 | Rate: 2092 docs/sec | RAM: 26.83GB
+[INDEXING] 191,803,392 | Rate: 2092 docs/sec | RAM: 26.84GB
+[INDEXING] 191,901,696 | Rate: 2092 docs/sec | RAM: 26.80GB
+[INDEXING] 192,000,000 | Rate: 2092 docs/sec | RAM: 26.81GB
+[INDEXING] 192,102,400 | Rate: 2092 docs/sec | RAM: 26.82GB
+[INDEXING] 192,200,704 | Rate: 2091 docs/sec | RAM: 26.83GB
+[INDEXING] 192,303,104 | Rate: 2091 docs/sec | RAM: 27.23GB
+[INDEXING] 192,401,408 | Rate: 2091 docs/sec | RAM: 27.25GB
+[INDEXING] 192,503,808 | Rate: 2091 docs/sec | RAM: 27.39GB
+
+💾 Saving checkpoint: models/checkpoint_192503808.index
+✅ Checkpoint secured. RAM: 27.39GB
+
+[INDEXING] 192,602,112 | Rate: 2090 docs/sec | RAM: 26.92GB
+[INDEXING] 192,700,416 | Rate: 2089 docs/sec | RAM: 26.93GB
+[INDEXING] 192,802,816 | Rate: 2089 docs/sec | RAM: 26.94GB
+[INDEXING] 192,901,120 | Rate: 2089 docs/sec | RAM: 26.95GB
+[INDEXING] 193,003,520 | Rate: 2089 docs/sec | RAM: 26.96GB
+[INDEXING] 193,101,824 | Rate: 2089 docs/sec | RAM: 26.97GB
+[INDEXING] 193,200,128 | Rate: 2088 docs/sec | RAM: 27.39GB
+[INDEXING] 193,302,528 | Rate: 2088 docs/sec | RAM: 27.40GB
+[INDEXING] 193,400,832 | Rate: 2088 docs/sec | RAM: 27.41GB
+[INDEXING] 193,503,232 | Rate: 2088 docs/sec | RAM: 27.00GB
+[INDEXING] 193,601,536 | Rate: 2088 docs/sec | RAM: 27.01GB
+[INDEXING] 193,703,936 | Rate: 2087 docs/sec | RAM: 27.02GB
+[INDEXING] 193,802,240 | Rate: 2087 docs/sec | RAM: 27.07GB
+[INDEXING] 193,900,544 | Rate: 2087 docs/sec | RAM: 27.08GB
+[INDEXING] 194,002,944 | Rate: 2087 docs/sec | RAM: 27.05GB
+[INDEXING] 194,101,248 | Rate: 2087 docs/sec | RAM: 27.27GB
+[INDEXING] 194,203,648 | Rate: 2087 docs/sec | RAM: 27.37GB
+[INDEXING] 194,301,952 | Rate: 2086 docs/sec | RAM: 27.38GB
+[INDEXING] 194,400,256 | Rate: 2086 docs/sec | RAM: 27.45GB
+[INDEXING] 194,502,656 | Rate: 2086 docs/sec | RAM: 27.10GB
+[INDEXING] 194,600,960 | Rate: 2086 docs/sec | RAM: 27.11GB
+[INDEXING] 194,703,360 | Rate: 2086 docs/sec | RAM: 27.15GB
+[INDEXING] 194,801,664 | Rate: 2085 docs/sec | RAM: 27.16GB
+[INDEXING] 194,904,064 | Rate: 2085 docs/sec | RAM: 27.14GB
+[INDEXING] 195,002,368 | Rate: 2085 docs/sec | RAM: 27.18GB
+
+💾 Saving checkpoint: models/checkpoint_195002368.index
+✅ Checkpoint secured. RAM: 27.18GB
+
+[INDEXING] 195,100,672 | Rate: 2084 docs/sec | RAM: 27.21GB
+[INDEXING] 195,203,072 | Rate: 2084 docs/sec | RAM: 27.22GB
+[INDEXING] 195,301,376 | Rate: 2083 docs/sec | RAM: 27.23GB
+[INDEXING] 195,403,776 | Rate: 2083 docs/sec | RAM: 27.24GB
+[INDEXING] 195,502,080 | Rate: 2083 docs/sec | RAM: 27.25GB
+[INDEXING] 195,600,384 | Rate: 2083 docs/sec | RAM: 27.27GB
+[INDEXING] 195,702,784 | Rate: 2082 docs/sec | RAM: 27.28GB
+[INDEXING] 195,801,088 | Rate: 2082 docs/sec | RAM: 27.29GB
+[INDEXING] 195,903,488 | Rate: 2082 docs/sec | RAM: 27.25GB
+[INDEXING] 196,001,792 | Rate: 2082 docs/sec | RAM: 27.26GB
+[INDEXING] 196,100,096 | Rate: 2082 docs/sec | RAM: 27.27GB
+[INDEXING] 196,202,496 | Rate: 2082 docs/sec | RAM: 27.28GB
+[INDEXING] 196,300,800 | Rate: 2081 docs/sec | RAM: 26.00GB
+[INDEXING] 196,403,200 | Rate: 2081 docs/sec | RAM: 26.01GB
+[INDEXING] 196,501,504 | Rate: 2081 docs/sec | RAM: 26.07GB
+[INDEXING] 196,603,904 | Rate: 2081 docs/sec | RAM: 25.74GB
+[INDEXING] 196,702,208 | Rate: 2081 docs/sec | RAM: 26.22GB
+[INDEXING] 196,800,512 | Rate: 2080 docs/sec | RAM: 25.81GB
+[INDEXING] 196,902,912 | Rate: 2080 docs/sec | RAM: 26.09GB
+[INDEXING] 197,001,216 | Rate: 2080 docs/sec | RAM: 25.99GB
+[INDEXING] 197,103,616 | Rate: 2080 docs/sec | RAM: 26.16GB
+[INDEXING] 197,201,920 | Rate: 2080 docs/sec | RAM: 26.16GB
+[INDEXING] 197,300,224 | Rate: 2079 docs/sec | RAM: 26.17GB
+[INDEXING] 197,402,624 | Rate: 2079 docs/sec | RAM: 26.28GB
+[INDEXING] 197,500,928 | Rate: 2079 docs/sec | RAM: 26.29GB
+
+💾 Saving checkpoint: models/checkpoint_197500928.index
+✅ Checkpoint secured. RAM: 26.29GB
+
+[INDEXING] 197,603,328 | Rate: 2078 docs/sec | RAM: 26.22GB
+[INDEXING] 197,701,632 | Rate: 2077 docs/sec | RAM: 25.93GB
+[INDEXING] 197,804,032 | Rate: 2077 docs/sec | RAM: 26.30GB
+[INDEXING] 197,902,336 | Rate: 2077 docs/sec | RAM: 26.16GB
+[INDEXING] 198,000,640 | Rate: 2077 docs/sec | RAM: 26.35GB
+[INDEXING] 198,103,040 | Rate: 2077 docs/sec | RAM: 26.25GB
+[INDEXING] 198,201,344 | Rate: 2076 docs/sec | RAM: 26.26GB
+[INDEXING] 198,303,744 | Rate: 2076 docs/sec | RAM: 26.24GB
+[INDEXING] 198,402,048 | Rate: 2076 docs/sec | RAM: 25.89GB
+[INDEXING] 198,500,352 | Rate: 2076 docs/sec | RAM: 26.33GB
+[INDEXING] 198,602,752 | Rate: 2076 docs/sec | RAM: 26.20GB
+[INDEXING] 198,701,056 | Rate: 2076 docs/sec | RAM: 26.22GB
+[INDEXING] 198,803,456 | Rate: 2075 docs/sec | RAM: 26.25GB
+[INDEXING] 198,901,760 | Rate: 2075 docs/sec | RAM: 26.27GB
+[INDEXING] 199,000,064 | Rate: 2075 docs/sec | RAM: 26.27GB
+[INDEXING] 199,102,464 | Rate: 2075 docs/sec | RAM: 26.12GB
+[INDEXING] 199,200,768 | Rate: 2074 docs/sec | RAM: 26.35GB
+[INDEXING] 199,303,168 | Rate: 2074 docs/sec | RAM: 26.37GB
+[INDEXING] 199,401,472 | Rate: 2074 docs/sec | RAM: 26.40GB
+[INDEXING] 199,503,872 | Rate: 2074 docs/sec | RAM: 26.43GB
+[INDEXING] 199,602,176 | Rate: 2074 docs/sec | RAM: 26.40GB
+[INDEXING] 199,700,480 | Rate: 2073 docs/sec | RAM: 26.35GB
+[INDEXING] 199,802,880 | Rate: 2073 docs/sec | RAM: 26.30GB
+[INDEXING] 199,901,184 | Rate: 2073 docs/sec | RAM: 26.40GB
+[INDEXING] 200,003,584 | Rate: 2073 docs/sec | RAM: 26.35GB
+
+💾 Saving checkpoint: models/checkpoint_200003584.index
+✅ Checkpoint secured. RAM: 26.35GB
+
+[INDEXING] 200,101,888 | Rate: 2072 docs/sec | RAM: 26.36GB
+[INDEXING] 200,200,192 | Rate: 2071 docs/sec | RAM: 26.46GB
+[INDEXING] 200,302,592 | Rate: 2071 docs/sec | RAM: 26.15GB
+[INDEXING] 200,400,896 | Rate: 2071 docs/sec | RAM: 26.50GB
+[INDEXING] 200,503,296 | Rate: 2071 docs/sec | RAM: 26.41GB
+[INDEXING] 200,601,600 | Rate: 2070 docs/sec | RAM: 26.44GB
+[INDEXING] 200,704,000 | Rate: 2070 docs/sec | RAM: 26.50GB
+[INDEXING] 200,802,304 | Rate: 2070 docs/sec | RAM: 26.28GB
+[INDEXING] 200,900,608 | Rate: 2070 docs/sec | RAM: 26.56GB
+[INDEXING] 201,003,008 | Rate: 2070 docs/sec | RAM: 26.45GB
+[INDEXING] 201,101,312 | Rate: 2070 docs/sec | RAM: 26.46GB
+[INDEXING] 201,203,712 | Rate: 2069 docs/sec | RAM: 26.54GB
+[INDEXING] 201,302,016 | Rate: 2069 docs/sec | RAM: 26.49GB
+[INDEXING] 201,400,320 | Rate: 2069 docs/sec | RAM: 26.50GB
+[INDEXING] 201,502,720 | Rate: 2069 docs/sec | RAM: 26.54GB
+[INDEXING] 201,601,024 | Rate: 2068 docs/sec | RAM: 26.55GB
+[INDEXING] 201,703,424 | Rate: 2068 docs/sec | RAM: 26.52GB
+[INDEXING] 201,801,728 | Rate: 2068 docs/sec | RAM: 26.69GB
+[INDEXING] 201,900,032 | Rate: 2068 docs/sec | RAM: 26.74GB
+[INDEXING] 202,002,432 | Rate: 2068 docs/sec | RAM: 26.56GB
+[INDEXING] 202,100,736 | Rate: 2067 docs/sec | RAM: 26.63GB
+[INDEXING] 202,203,136 | Rate: 2067 docs/sec | RAM: 26.67GB
+[INDEXING] 202,301,440 | Rate: 2067 docs/sec | RAM: 26.64GB
+[INDEXING] 202,403,840 | Rate: 2067 docs/sec | RAM: 26.34GB
+[INDEXING] 202,502,144 | Rate: 2067 docs/sec | RAM: 26.68GB
+
+💾 Saving checkpoint: models/checkpoint_202502144.index
+✅ Checkpoint secured. RAM: 26.68GB
+
+[INDEXING] 202,600,448 | Rate: 2065 docs/sec | RAM: 26.64GB
+[INDEXING] 202,702,848 | Rate: 2065 docs/sec | RAM: 26.65GB
+[INDEXING] 202,801,152 | Rate: 2065 docs/sec | RAM: 26.71GB
+[INDEXING] 202,903,552 | Rate: 2065 docs/sec | RAM: 26.68GB
+[INDEXING] 203,001,856 | Rate: 2065 docs/sec | RAM: 26.69GB
+[INDEXING] 203,100,160 | Rate: 2065 docs/sec | RAM: 26.70GB
+
+💾 Saving final index to models/fineweb_full_final.index...
+✅ Saved mapping with 203169792 entries to models/fineweb_mapping_full.pkl
+
+============================================================
+✅ TRAINING COMPLETE!
+============================================================
+Time elapsed: 27.35 hours
+Documents indexed: 203,169,792
+Index vectors: 203,169,792
+Mapping entries: 203,169,792
+Final memory usage: 26.44GB
+
+Saved files:
+  - models/pca_model_64.pkl
+  - models/fineweb_mapping_full.pkl
+  - models/fineweb_full_final.index
+============================================================
+

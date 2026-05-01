@@ -1,0 +1,24 @@
+# Core dependencies for llmindex
+faiss>=1.7.0
+sentence-transformers>=2.2.0
+torch>=1.9.0
+numpy>=1.21.0
+scikit-learn>=0.24.0
+requests>=2.25.0
+
+# For streaming datasets
+datasets>=2.0.0
+
+# For training script
+tqdm>=4.60.0
+
+# For Streamlit demo (optional)
+streamlit>=1.0.0
+
+# For uploading to HuggingFace (optional)
+huggingface-hub>=0.10.0
+
+# Development dependencies
+pytest>=6.0
+black>=21.0
+flake8>=3.9
