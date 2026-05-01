@@ -31,11 +31,10 @@ async def run_test(query: str, top_k: int):
         print("❌ No results found.")
     else:
         for i, res in enumerate(results, 1):
-            source = res.get('source', 'unknown')
             url = res.get('url', 'No URL')
             text = res.get('text', '')[:200].replace('\n', ' ')
             
-            print(f"\n[{i}] {source.upper()} | {url}")
+            print(f"\n[{i}] | {url}")
             print(f"    Snippet: {text}...")
 
     # --- 4. Latency Breakdown ---
