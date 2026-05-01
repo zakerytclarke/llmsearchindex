@@ -16,6 +16,11 @@ pip install llmsearchindex
 ```
 PyPI: [https://pypi.org/project/llmsearchindex/](https://pypi.org/project/llmsearchindex/)
 
+Model: https://huggingface.co/zakerytclarke/llmindex
+
+Github: https://github.com/zakerytclarke/llmsearchindex
+
+
 ## Example Usage:
 ```
 from llmsearchindex import LLMIndex
