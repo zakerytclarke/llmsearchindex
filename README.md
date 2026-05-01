@@ -61,8 +61,12 @@ flowchart LR
 
 ## Resources
 Embeddings: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
+
 FAISS Vector search: https://github.com/facebookresearch/faiss
+
 Wikipedia: https://huggingface.co/datasets/wikimedia/wikipedia
+
 FineWeb: https://huggingface.co/datasets/HuggingFaceFW/fineweb
+
 
 ## License- MIT License
