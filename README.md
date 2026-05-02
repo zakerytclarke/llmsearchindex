@@ -1,18 +1,12 @@
 # llmsearchindex
 
-**LLMSearchIndex** is a Python library for internet-scale retrieval in LLM RAG applications using a fully local search index.
+**LLMSearchIndex** LLMSearchIndex is a library and search index that provides fully local, internet-scale web search for LLM RAG applications, trained on 203,169,792 web pages.
 
 We trained a search index on **203,169,792 web pages** sourced from:
 - [Wikipedia dataset](https://huggingface.co/datasets/wikimedia/wikipedia)
 - [FineWeb dataset](https://huggingface.co/datasets/HuggingFaceFW/fineweb)
 
 This index can be used as external context to significantly improve LLM responses without requiring external API calls at query time.
-
-
-## Demo
-Try out the demo at: https://zakerytclarke-llmsearchindex.hf.space/
-![Demo Image](https://zclarke.dev/assets/llmsearchindex.png)
-
 
 
 ## Installation
