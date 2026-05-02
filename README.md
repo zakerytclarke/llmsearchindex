@@ -6,6 +6,10 @@
 
 This index can be used as external context to significantly improve LLM responses without requiring external API calls at query time.
 
+## Demo
+You can try out the search at: https://huggingface.co/spaces/zakerytclarke/llmsearchindex
+![demo picture](https://zclarke.dev/assets/llmsearchindex.png)
+
 
 ## Installation
 
