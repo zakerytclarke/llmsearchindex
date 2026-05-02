@@ -1,8 +1,6 @@
 # llmsearchindex
 
-**LLMSearchIndex** LLMSearchIndex is a library and search index that provides fully local, internet-scale web search for LLM RAG applications, trained on 203,169,792 web pages.
-
-We trained a search index on **203,169,792 web pages** sourced from:
+**LLMSearchIndex** LLMSearchIndex is a library and search index that provides fully local, internet-scale web search for LLM RAG applications, trained on 203,169,792 web pages sourced from:
 - [Wikipedia dataset](https://huggingface.co/datasets/wikimedia/wikipedia)
 - [FineWeb dataset](https://huggingface.co/datasets/HuggingFaceFW/fineweb)
 
