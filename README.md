@@ -9,6 +9,12 @@ We trained a search index on **203,169,792 web pages** sourced from:
 This index can be used as external context to significantly improve LLM responses without requiring external API calls at query time.
 
 
+## Demo
+Try out the demo at: https://zakerytclarke-llmsearchindex.hf.space/
+![Demo Image](https://zclarke.dev/assets/llmsearchindex.png)
+
+
+
 ## Installation
 
 ```bash
