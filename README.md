@@ -37,8 +37,9 @@ results = index.search("who invented sliced bread", top_k=5)
 results = index.search("who invented sliced bread", top_k=5, rerank=True)
 
 for result in results:
-  print(result.get('text'))
   print(result.get('url'))
+  print(result.get('text'))
+  print(result.get('snippet'))
   print("==="*100)
 ```
 

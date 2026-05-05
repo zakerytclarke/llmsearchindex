@@ -171,19 +171,95 @@ class LLMIndex:
         query_reduced = self.pca.transform(query_emb)
         query_binary = np.packbits(query_reduced > 0, axis=-1)
         return query_emb, query_binary
+    
+    def _get_snippet(self, text:str, min_num_words:int=50) -> str:
+        """Extracts a concise snippet from the text for display purposes."""
+        paragraphs = text.split("\n")
+
+        snippet = ""
+        total_words = 0
+        while total_words < min_num_words and paragraphs:
+            paragraph = paragraphs.pop(0)
+            snippet += paragraph + "\n"
+            total_words += len(paragraph.split())
+
+        return snippet.strip()
+    
 
     def _rerank_results(self, query_emb: np.ndarray, results: List[Dict]) -> List[Dict]:
-        """Reorders fetched results using cosine similarity of full embeddings."""
-        if not results:
-            return []
+        """
+        Reranks search results by scoring individual paragraphs against the query.
         
-        texts = [r.get("text", "") for r in results]
-        with torch.no_grad():
-            doc_embs = self.model.encode(texts, convert_to_numpy=True)
+        Splits result text into paragraphs, scores them via cosine similarity, 
+        and updates result snippets. If no paragraphs meet the length threshold, 
+        the original snippet is preserved.
         
-        scores = np.dot(doc_embs, query_emb.T).flatten()
-        scored_results = sorted(zip(scores, results), key=lambda x: x[0], reverse=True)
-        return [r for score, r in scored_results]
+        Args:
+            query_emb (np.ndarray): Query embedding vector.
+            results (List[Dict]): List of result dictionaries to process.
+            
+        Returns:
+            List[Dict]: The processed and reranked results.
+        """
+        paragraphs = []
+        paragraphs_indices = []
+
+        # 1. Extract paragraphs
+        for i, result in enumerate(results):
+            text = result.get("text", "")
+            # Initialize keys to ensure the dictionary structure is consistent
+            result["paragraphs"] = []
+            result["best_score"] = -1.0
+            
+            for paragraph in text.split("\n"):
+                # Ensure we only process paragraphs that have a reasonable length to avoid noise
+                if len(paragraph.split()) >= 30:
+                    paragraphs.append(paragraph)
+                    paragraphs_indices.append(i)
+
+        # 2. Score paragraphs only if we found any that match the criteria
+        if paragraphs:
+            with torch.no_grad():
+                para_embs = self.model.encode(paragraphs, convert_to_numpy=True)
+
+            # Calculate scores
+            query_vec = query_emb.flatten()
+            scores = np.dot(para_embs, query_vec) / (
+                np.linalg.norm(para_embs, axis=1) * np.linalg.norm(query_vec) + 1e-8
+            )
+
+            # Store sorted paragraphs and scores for debug/mapping
+            sorted_paragraphs = sorted(zip(paragraphs, scores, paragraphs_indices), key=lambda x: x[1], reverse=True)
+
+            # 3. Aggregate scores back into the original result objects
+            for para_text, score, result_idx in sorted_paragraphs:
+                res = results[result_idx]
+                res["paragraphs"].append(para_text.strip())
+                # Update best_score if this paragraph is the best one for this doc
+                if score > res["best_score"]:
+                    res["best_score"] = score
+
+        # 4. Final output assembly
+        # Sort results by the best paragraph score (results with no matches stay at the bottom)
+        reranked_results = sorted(results, key=lambda x: x.get("best_score", -1.0), reverse=True)
+
+        output_results = []
+        for result in reranked_results:
+            # LOGIC FIX: Check if we actually found paragraphs to make a new snippet
+            if result.get("paragraphs"):
+                new_snippet = self._get_snippet("\n".join(result["paragraphs"]))
+            else:
+                # RETAIN original snippet if no qualifying paragraphs were found
+                new_snippet = result.get("snippet", "")
+
+            output_results.append({
+                "url": result.get("url", ""),
+                "text": result.get("text", ""),
+                "snippet": new_snippet
+            })
+        
+        return output_results
+
 
     def search(self, query: str, top_k: int = 5, rerank: bool = False) -> List[Dict]:
         """Synchronous search using thread-parallelized surgical fetching."""
@@ -198,25 +274,6 @@ class LLMIndex:
         with ThreadPoolExecutor(max_workers=top_k) as executor:
             results = [r for r in executor.map(fetch_sync, indices[0]) if r is not None]
             
-        return self._rerank_results(query_emb, results) if rerank else results
+        results = [dict(r, snippet=self._get_snippet(r.get("text", ""))) for r in results]
 
-    async def search_async(self, query: str, top_k: int = 5, rerank: bool = False) -> List[Dict]:
-        """Asynchronous search wrapping blocking Parquet I/O to prevent loop blocking."""
-        query_emb, query_binary = self._prepare_query(query)
-        _, indices = self.index.search(query_binary, top_k)
-        
-        async def fetch_async(idx):
-            if idx == -1: return None
-            d_id, r_id = self.mapping[int(idx)]
-            return await asyncio.to_thread(self._fetch_surgical, int(d_id), int(r_id))
-        
-        tasks = [fetch_async(idx) for idx in indices[0] if idx != -1]
-        responses = await asyncio.gather(*tasks, return_exceptions=True)
-        
-        results = [r for r in responses if r is not None and not isinstance(r, Exception)]
-        
         return self._rerank_results(query_emb, results) if rerank else results
-
-    async def close(self):
-        """Gracefully closes the persistent asynchronous HTTP client."""
-        await self.async_client.aclose()
